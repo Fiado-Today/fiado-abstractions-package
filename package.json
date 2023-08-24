@@ -1,0 +1,26 @@
+{
+  "name": "@fiado/bank-accounts",
+  "version": "1.0.6",
+  "description": "",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

@@ -1,0 +1,6 @@
+export declare enum TypeOfDocument {
+    MX_NATIONAL_ID = "MX_NATIONAL_ID",
+    MX_PASSPORT = "MX_PASSPORT",
+    US_DRIVER_LICENSE = "US_DRIVER_LICENSE",
+    US_PASSPORT = "US_PASSPORT"
+}
