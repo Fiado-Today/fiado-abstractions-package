@@ -1,7 +1,6 @@
 .env
 .gitignore
 __test__
-bin/
 .gitattributes
 tsconfig.json
 .vscode
