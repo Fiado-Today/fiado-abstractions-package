@@ -20,4 +20,9 @@ export interface GetBankAccountUserOutput {
     documentNumber:string,
     typeOfDocumentId:TypeOfDocument,
     countryId:Country,
+    userAccountIds?: string[],
+    createdDate?: string,
+    updatedDate?: string,
+    deletedDate?: string,
+    updatedBy?: string,
 }
