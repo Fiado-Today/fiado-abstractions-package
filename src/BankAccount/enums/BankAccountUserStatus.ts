@@ -1,4 +1,5 @@
 export  enum BankAccountUserStatus {
     ACTIVE = "ACTIVE",
-    BLOCKED = "BLOCKED"
+    BLOCKED = "BLOCKED",
+    INACTIVE = "INACTIVE"
 }
