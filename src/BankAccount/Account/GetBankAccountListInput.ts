@@ -1,5 +1,5 @@
 export interface GetBankAccountListInput {
-    externalUserId?: number,
+    externalUserId?: string,
     name?: string,
     lastName?: string,
     phoneNumber?: string,
