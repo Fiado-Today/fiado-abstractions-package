@@ -1,11 +1,11 @@
-import { BankAccountStatus } from "../enums/BankAccountStatus";
-import { BankAccountType } from "../types/BankAccountType";
+import {BankAccountStatus} from "../enums/BankAccountStatus";
+import {BankAccountTypeEnum} from "../enums/BankAccountTypeEnum";
 
-export interface UpdateAccountInput {
+export interface UpdateBankAccountInput {
     externalAccountId: string,
     name: string,
     lastName:string
-    accountType?: BankAccountType,
+    accountType?: BankAccountTypeEnum,
     status?: BankAccountStatus,
     isPrimary?: boolean,
 }

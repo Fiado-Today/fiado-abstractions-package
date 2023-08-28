@@ -1,6 +1,6 @@
-import { BankAccountProviders } from "../enums/BankAccountProviders";
+import {BankAccountProviders} from "../enums/BankAccountProviders";
 
 export interface CreateBankAccountOutput {
-    externalAccountId:string,
-    provider:BankAccountProviders,
+    externalAccountId: string,
+    provider: BankAccountProviders,
 }

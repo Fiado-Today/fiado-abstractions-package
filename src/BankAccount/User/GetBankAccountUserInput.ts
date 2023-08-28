@@ -1,4 +1,3 @@
-
 export interface GetBankAccountUserInput {
-    externalUserId:string
+    externalUserId: string
 }
