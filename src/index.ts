@@ -46,6 +46,8 @@ import { GetBankAccountListOutput } from "./BankAccount/Account/GetBankAccountLi
 import { GetBankAccountListInput } from "./BankAccount/Account/GetBankAccountListInput";
 import { GetBankAccountOutput } from "./BankAccount/Account/GetBankAccountOutput";
 import { BankAccountTypeEnum } from "./BankAccount/enums/BankAccountTypeEnum";
+import { GetBankAccountTransactionListOutput } from "./BankAccount/Account/GetBankAccountTransactionListOutput";
+import { GetBankAccountTransactionListInput } from "./BankAccount/Account/GetBankAccountTransactionListInput";
 
 
 export{
@@ -57,6 +59,8 @@ export{
     GetBankAccountListOutput,
     UpdateBankAccountOutput,
     UpdateBankAccountInput,
+    GetBankAccountTransactionListInput,
+    GetBankAccountTransactionListOutput,
     ActivateBankAccountCardInput,
     ActivateBankAccountCardOutput,
     CreateBankAccountCardInput,
