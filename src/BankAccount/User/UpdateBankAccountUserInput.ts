@@ -19,5 +19,9 @@ export interface UpdateBankAccountUserInput {
     taxType?: TaxType,
     address?: Address,
     dob?:string,
-    nationality?:Country
+    nationality?:Country,
+    createdDate?: string,
+    updatedDate?: string,
+    deletedDate?: string,
+    updatedBy?: string,
 }
