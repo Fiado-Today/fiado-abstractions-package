@@ -1,7 +1,7 @@
-import { GetBankAccountCardInput } from "./GetBankAccountCardInput";
+import {GetBankAccountCardOutput} from "./GetBankAccountCardOutput";
 
 export interface GetBankAccountCardListOutput {
-    cards: GetBankAccountCardInput[],
+    cards: GetBankAccountCardOutput[],
     total: number
     pagination: {
         page: number,
