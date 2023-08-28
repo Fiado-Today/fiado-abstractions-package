@@ -41,16 +41,18 @@ import {BankAccountUserStatus} from "./BankAccount/enums/BankAccountUserStatus";
 import {BankAccountCardType} from "./BankAccount/types/BankAccountCardType";
 import {BankAccountCardShippingType} from "./BankAccount/types/BankAccountCardShippingType";
 import {BankAccountUserType} from "./BankAccount/types/BankAccountUserType";
-import { GetBankAccountInput } from "./BankAccount/Account/GetBankAccountInput";
-import { GetBankAccountListOutput } from "./BankAccount/Account/GetBankAccountListOutput";
-import { GetBankAccountListInput } from "./BankAccount/Account/GetBankAccountListInput";
-import { GetBankAccountOutput } from "./BankAccount/Account/GetBankAccountOutput";
-import { BankAccountTypeEnum } from "./BankAccount/enums/BankAccountTypeEnum";
-import { GetBankAccountTransactionListOutput } from "./BankAccount/Account/GetBankAccountTransactionListOutput";
-import { GetBankAccountTransactionListInput } from "./BankAccount/Account/GetBankAccountTransactionListInput";
+import {GetBankAccountInput} from "./BankAccount/Account/GetBankAccountInput";
+import {GetBankAccountListOutput} from "./BankAccount/Account/GetBankAccountListOutput";
+import {GetBankAccountListInput} from "./BankAccount/Account/GetBankAccountListInput";
+import {GetBankAccountOutput} from "./BankAccount/Account/GetBankAccountOutput";
+import {BankAccountTypeEnum} from "./BankAccount/enums/BankAccountTypeEnum";
+import {GetBankAccountTransactionListOutput} from "./BankAccount/Account/GetBankAccountTransactionListOutput";
+import {GetBankAccountTransactionListInput} from "./BankAccount/Account/GetBankAccountTransactionListInput";
+import {ReplaceBankAccountCardInput} from "./BankAccount/Card/ReplaceBankAccountCardInput";
+import {ReplaceBankAccountCardOutput} from "./BankAccount/Card/ReplaceBankAccountCardOutput";
 
 
-export{
+export {
     CreateBankAccountInput,
     CreateBankAccountOutput,
     GetBankAccountInput,
@@ -65,6 +67,8 @@ export{
     ActivateBankAccountCardOutput,
     CreateBankAccountCardInput,
     CreateBankAccountCardOutput,
+    ReplaceBankAccountCardInput,
+    ReplaceBankAccountCardOutput,
     CreateBankAccountCardShippingInput,
     CreateBankAccountCardShippingOutput,
     GetBankAccountCardInput,
@@ -100,5 +104,5 @@ export{
     BankAccountCardType,
     BankAccountCardShippingType,
     BankAccountTypeEnum,
-    BankAccountUserType  
+    BankAccountUserType
 };
