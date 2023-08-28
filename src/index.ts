@@ -50,6 +50,8 @@ import {GetBankAccountTransactionListOutput} from "./BankAccount/Account/GetBank
 import {GetBankAccountTransactionListInput} from "./BankAccount/Account/GetBankAccountTransactionListInput";
 import {ReplaceBankAccountCardInput} from "./BankAccount/Card/ReplaceBankAccountCardInput";
 import {ReplaceBankAccountCardOutput} from "./BankAccount/Card/ReplaceBankAccountCardOutput";
+import { GetBankAccountCardTransactionListInput } from "./BankAccount/Card/GetBankAccountCardTransactionListInput";
+import { GetBankAccountCardTransactionListOutput } from "./BankAccount/Card/GetBankAccountCardTransactionListOutput";
 
 
 export {
@@ -69,6 +71,8 @@ export {
     CreateBankAccountCardOutput,
     ReplaceBankAccountCardInput,
     ReplaceBankAccountCardOutput,
+    GetBankAccountCardTransactionListOutput,
+    GetBankAccountCardTransactionListInput,
     CreateBankAccountCardShippingInput,
     CreateBankAccountCardShippingOutput,
     GetBankAccountCardInput,
