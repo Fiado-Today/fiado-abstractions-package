@@ -4,6 +4,7 @@ import { BankAccountCardShippingStatusDetail } from "../enums/BankAccountCardShi
 import { BankAccountCardShippingType } from "../types/BankAccountCardShippingType"
 
 export interface CreateBankAccountCardShippingOutput {
+    externalShippingId:string,
     type:BankAccountCardShippingType
     status:BankAccountCardShippingStatus,
     statusDetail:BankAccountCardShippingStatusDetail,
