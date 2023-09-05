@@ -9,4 +9,6 @@ export interface CreateBankAccountCardShippingInput {
     firstName:string,
     lastName:string,
     address:Address,
+    nominated:boolean,
+    email?: string;
 }
