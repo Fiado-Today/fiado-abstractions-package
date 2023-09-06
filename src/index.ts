@@ -52,6 +52,14 @@ import {ReplaceBankAccountCardInput} from "./BankAccount/Card/ReplaceBankAccount
 import {ReplaceBankAccountCardOutput} from "./BankAccount/Card/ReplaceBankAccountCardOutput";
 import { GetBankAccountCardTransactionListInput } from "./BankAccount/Card/GetBankAccountCardTransactionListInput";
 import { GetBankAccountCardTransactionListOutput } from "./BankAccount/Card/GetBankAccountCardTransactionListOutput";
+import { CreateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryInput";
+import { DeleteBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryOutput";
+import { DeleteBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryInput";
+import { GetBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryOutput";
+import { GetBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryInput";
+import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryOutput";
+import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
+import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
 
 
 export {
@@ -108,5 +116,13 @@ export {
     BankAccountCardType,
     BankAccountCardShippingType,
     BankAccountTypeEnum,
-    BankAccountUserType
+    BankAccountUserType,
+    CreateBeneficiaryInput,
+    CreateBeneficiaryOutput,
+    UpdateBeneficiaryInput,
+    UpdateBeneficiaryOutput,
+    GetBeneficiaryInput,
+    GetBeneficiaryOutput,
+    DeleteBeneficiaryInput,
+    DeleteBeneficiaryOutput
 };
