@@ -1,6 +1,6 @@
 {
   "name": "@fiado/fiado-abstractions",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
@@ -16,9 +16,6 @@
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
-  },
-  "dependencies": {
-    
   },
   "publishConfig": {
     "access": "restricted"
