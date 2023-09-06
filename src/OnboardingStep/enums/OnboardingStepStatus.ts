@@ -1,0 +1,1 @@
+export type OnboardingStepStatus = "PENDING" | "COMPLETED" | "REJECTED";
