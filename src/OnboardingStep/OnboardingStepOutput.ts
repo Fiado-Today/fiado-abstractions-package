@@ -1,8 +1,12 @@
 import { Country } from "../General/enum/Country";
+import { OnboardingStatusEnum } from "./enums/OnboardingStatusEnum";
+import { OnboardingStepKeyEnum } from "./enums/OnboardingStepKeyEnum";
+import { OnboardingStepStatusEnum } from "./enums/OnboardingStepStatusEnum";
+import { OnboardingStatus } from "./types/OnboardingStatus";
 import { OnboardingStep } from "./types/OnboardingStep";
 
 export interface OnboardingStepOutput {
-    status: string;
+    status: OnboardingStatus;
     observations: string;
     countryId: Country,
     onboardingStep: OnboardingStep[];
@@ -12,11 +16,11 @@ export interface OnboardingStepOutput {
 
 
 const d:OnboardingStepOutput = {
-    status: "",
+    status: OnboardingStatusEnum.COMPLETED,
     observations: "",
     countryId: Country.MEX,
     onboardingStep: [{
-        key: "",
-        status: ""
+        key: OnboardingStepKeyEnum.ACCOUNT_USD,
+        status: OnboardingStepStatusEnum.COMPLETED
     }]
 }

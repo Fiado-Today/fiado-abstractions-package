@@ -1,4 +1,7 @@
+import { OnboardingStepKey } from "./OnboardingStepKey";
+import { OnboardingStepStatus } from "./OnboardingStepStatus";
+
 export type OnboardingStep = {
-    key: string;
-    status: string;
+    key: OnboardingStepKey;
+    status: OnboardingStepStatus;
 }
