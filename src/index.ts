@@ -60,6 +60,16 @@ import { GetBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/GetBenefici
 import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryOutput";
 import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
 import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
+import { GetOnboardingStepInput } from "./OnboardingStep/GetOnboardingStepInput";
+import { GetOnboardingStepOutput } from "./OnboardingStep/GetOnboardingStepOutput";
+import { OnboardingStatus } from "./OnboardingStep/types/OnboardingStatus";
+import { OnboardingStepKey } from "./OnboardingStep/types/OnboardingStepKey";
+import { OnboardingStepStatus } from "./OnboardingStep/types/OnboardingStepStatus";
+import { OnboardingStep } from "./OnboardingStep/types/OnboardingStep";
+import { OnboardingStepStatusEnum } from "./OnboardingStep/enums/OnboardingStepStatusEnum";
+import { OnboardingStepKeyEnum } from "./OnboardingStep/enums/OnboardingStepKeyEnum";
+import { OnboardingStatusEnum } from "./OnboardingStep/enums/OnboardingStatusEnum";
+
 
 
 export {
@@ -124,5 +134,15 @@ export {
     GetBeneficiaryInput,
     GetBeneficiaryOutput,
     DeleteBeneficiaryInput,
-    DeleteBeneficiaryOutput
+    DeleteBeneficiaryOutput,
+    GetOnboardingStepInput,
+    GetOnboardingStepOutput,
+    OnboardingStatus,
+    OnboardingStepKey,
+    OnboardingStepStatus,
+    OnboardingStep,
+    OnboardingStepStatusEnum,
+    OnboardingStepKeyEnum,
+    OnboardingStatusEnum
+    
 };
