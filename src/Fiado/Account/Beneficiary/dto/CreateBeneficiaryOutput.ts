@@ -1,3 +1,5 @@
+import {Beneficiary} from "../types/Beneficiary";
+
 export interface CreateBeneficiaryOutput {
-    createDate: string
+    beneficiary: Beneficiary
 }
