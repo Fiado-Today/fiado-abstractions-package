@@ -3,11 +3,11 @@ import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdE
 
 export type Beneficiary = {
     id: string,
-    address: Address,
+    address?: Address,
     percentage: number,
     typeOfRelationshipId: string,
     fullName: string,
-    directoryId: string,
-    typeOfDirectoryId: TypeOfDirectoryIdEnum,
-    createDate: string,
+    directoryId?: string,
+    typeOfDirectoryId?: TypeOfDirectoryIdEnum,
+    createDate?: string,
 }
