@@ -1,5 +1,11 @@
-import {Beneficiary} from "../types/Beneficiary";
+import {Address} from "../../../../KYC/types/Address";
+import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
 
 export interface CreateBeneficiaryInput {
-    beneficiary: Beneficiary
+    fullName: string;
+    typeOfRelationshipId: string;
+    percentage: number;
+    address: Address;
+    directoryId?: string;
+    typeOfDirectoryId?: TypeOfDirectoryIdEnum;
 }

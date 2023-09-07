@@ -1,5 +1,8 @@
-import {Beneficiary} from "../types/Beneficiary";
+import {Address} from "../../../../KYC/types/Address";
 
 export interface UpdateBeneficiaryInput {
-    beneficiary?: Beneficiary
+    fullName?: string;
+    typeOfRelationshipId?: string;
+    percentage?: number;
+    address?: Address;
 }

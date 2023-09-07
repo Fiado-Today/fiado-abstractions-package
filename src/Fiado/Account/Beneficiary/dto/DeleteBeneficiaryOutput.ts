@@ -1,3 +1,4 @@
 export interface DeleteBeneficiaryOutput {
-    deleteDate: string,
+    beneficiaryId: string;
+    deleteDate: string;
 }
