@@ -60,6 +60,7 @@ import { GetBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/GetBenefici
 import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryOutput";
 import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
 import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
+import { GetPocketInput } from "./Fiado/Pocket/dto/GetPocketInput";
 import { GetOnboardingStepInput } from "./OnboardingStep/GetOnboardingStepInput";
 import { GetOnboardingStepOutput } from "./OnboardingStep/GetOnboardingStepOutput";
 import { OnboardingStatus } from "./OnboardingStep/types/OnboardingStatus";
@@ -143,6 +144,7 @@ export {
     OnboardingStep,
     OnboardingStepStatusEnum,
     OnboardingStepKeyEnum,
-    OnboardingStatusEnum
+    OnboardingStatusEnum,
+    GetPocketInput,
     
 };
