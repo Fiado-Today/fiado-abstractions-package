@@ -1,5 +1,5 @@
 
-import { Address } from "../../KYC/types/Address";
+import { Address } from "../../Fiado/Address/Address";
 import { BankAccountCardIssuing } from "../enums/BankAccountCardIssuing";
 import { BankAccountCardType } from "../types/BankAccountCardType";
 

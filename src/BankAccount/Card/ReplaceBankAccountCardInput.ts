@@ -1,4 +1,4 @@
-import {Address} from "../../KYC/types/Address";
+import {Address} from "../../Fiado/Address/Address";
 
 export interface ReplaceBankAccountCardInput {
     externalCardId: string,

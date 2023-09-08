@@ -1,4 +1,4 @@
-import {Address} from "../../../../KYC/types/Address";
+import {Address} from "../../../Address/Address";
 import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
 
 export type Beneficiary = {

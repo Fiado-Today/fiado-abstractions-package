@@ -1,4 +1,4 @@
-import { Address } from "../../KYC/types/Address";
+import { Address } from "../../Fiado/Address/Address";
 import { Country } from "../../General/enum/Country";
 import { Sex } from "../../KYC/enums/Sex";
 import { TaxType } from "../../KYC/types/TaxType";

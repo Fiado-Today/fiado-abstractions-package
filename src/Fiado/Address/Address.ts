@@ -1,9 +1,5 @@
-
-
 export type Geometry = {
-
     point: [number, number];
-
 }
 
 export type Place = {
@@ -27,4 +23,4 @@ export type Address = {
     place: Place;
     tag: null | string;
     typeOfAddressId: string;
-  }
+}

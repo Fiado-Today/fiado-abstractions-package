@@ -2,7 +2,7 @@
 import { BankAccountCardShippingStatus } from "../enums/BankAccountCardShippingStatus";
 import { BankAccountCardShippingStatusDetail } from "../enums/BankAccountCardShippingStatusDetail";
 import { BankAccountCardShippingType } from "../types/BankAccountCardShippingType";
-import { Address } from "../../KYC/types/Address";
+import { Address } from "../../Fiado/Address/Address";
 import { Courier } from "../../General/enum/Courier";
 
 export interface GetBankAccountShippingOutput {

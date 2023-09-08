@@ -5,7 +5,7 @@ import {BankAccountCardStatusDetail} from "../enums/BankAccountCardStatusDetail"
 import {BankAccountCardType} from "../types/BankAccountCardType"
 import {Country} from "../../General/enum/Country"
 import {BankAccountCreditOrDebit} from "../enums/BankAccountCreditOrDebit"
-import {Address} from "../../KYC/types/Address";
+import {Address} from "../../Fiado/Address/Address";
 
 export interface GetBankAccountCardOutput {
     countryId: Country,

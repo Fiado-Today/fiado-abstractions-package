@@ -1,6 +1,6 @@
-import {Address} from "../../../KYC/types/Address";
-import {TenantEnum} from "../../../General/enum/TenantEnum";
-import {TypeOfDirectoryIdEnum} from "../../../General/enum/TypeOfDirectoryIdEnum";
+import {Address} from "../Address/Address";
+import {TenantEnum} from "../../General/enum/TenantEnum";
+import {TypeOfDirectoryIdEnum} from "../../General/enum/TypeOfDirectoryIdEnum";
 
 export interface AccountBeneficiary {
     id: string,
