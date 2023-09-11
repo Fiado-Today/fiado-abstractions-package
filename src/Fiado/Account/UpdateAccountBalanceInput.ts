@@ -6,11 +6,11 @@ export type UpdateAccountBalanceInput = {
   countryId: string;
   accountId: string;
   tableName: TableName;
-  currentBalance?: operationObject;
-  balanceLock?: operationObject;
+  currentBalance?: AccountBalanceOperationObject;
+  balanceLock?: AccountBalanceOperationObject;
 }
 
-type operationObject = {
+export type AccountBalanceOperationObject = {
     operation: Operation;
     amount: number;
 }
