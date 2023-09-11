@@ -1,5 +1,5 @@
 import { Address } from "../../Fiado/Address/Address";
-import { Sex } from "../../KYC/enums/Sex";
+import { SexEnum } from "../../General/enum/SexEnum";
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
 
 export interface CreateBankAccountUserInput {
@@ -14,5 +14,5 @@ export interface CreateBankAccountUserInput {
     password?: string,
     typeOfDocumentId: TypeOfDocument
     documentNumber: string,
-    sex:Sex
+    sex:SexEnum
 }
