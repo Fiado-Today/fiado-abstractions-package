@@ -72,6 +72,8 @@ import { OnboardingStepKeyEnum } from "./OnboardingStep/enums/OnboardingStepKeyE
 import { OnboardingStatusEnum } from "./OnboardingStep/enums/OnboardingStatusEnum";
 import { CreateRecipientInput } from "./BankAccount/Transfer/CreateRecipientInput";
 import { CreateRecipientOutput } from "./BankAccount/Transfer/CreateRecipientOutput";
+import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
+import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
 
 
 
@@ -148,6 +150,8 @@ export {
     OnboardingStepKeyEnum,
     OnboardingStatusEnum,
     GetPocketInput,
+    TypeOfDirectoryIdEnum,
+    UpdatePocketBalanceInput,
     CreateRecipientInput,
     CreateRecipientOutput,
 };
