@@ -1,4 +1,6 @@
-export interface CreateRecipientInput<T> {
+import {CountryIso2} from "../../General/enum/CountryIso2";
+
+export interface CreateRecipientInput {
     firstName: string,
     lastName: string,
     externalRecipientId: string,
@@ -11,6 +13,6 @@ export interface CreateRecipientInput<T> {
     postal: string,
     phoneNumber: string,
     email: string,
-    iso_code: string,
+    iso2: CountryIso2,
     currency: string
 }
