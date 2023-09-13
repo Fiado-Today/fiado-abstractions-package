@@ -74,6 +74,7 @@ import { CreateRecipientInput } from "./BankAccount/Transfer/CreateRecipientInpu
 import { CreateRecipientOutput } from "./BankAccount/Transfer/CreateRecipientOutput";
 import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
+import { AppEnum } from "./General/enum/AppEnum";
 
 
 
@@ -154,4 +155,5 @@ export {
     UpdatePocketBalanceInput,
     CreateRecipientInput,
     CreateRecipientOutput,
+    AppEnum
 };
