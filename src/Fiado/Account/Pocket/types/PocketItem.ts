@@ -3,7 +3,7 @@ import {ConversionAmount} from "./ConversionAmount";
 
 export type PocketItem = {
     id: string,
-    owner: string,
+    owner: boolean,
     pocketIsActive: boolean,
     beneficiaryDirectoryId: string,
     beneficiaryTypeOfDirectoryId: string,
