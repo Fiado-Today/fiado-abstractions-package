@@ -3,6 +3,6 @@ import {Country} from "../../../../General/enum/Country";
 
 export interface GetPocketInput {
     directoryId: string;
-    typeOfDirectoryId: TypeOfDirectoryIdEnum;
-    countryId: Country
+    typeOfDirectoryId?: TypeOfDirectoryIdEnum;
+    countryId?: Country;
 }
