@@ -70,6 +70,8 @@ import { OnboardingStep } from "./OnboardingStep/types/OnboardingStep";
 import { OnboardingStepStatusEnum } from "./OnboardingStep/enums/OnboardingStepStatusEnum";
 import { OnboardingStepKeyEnum } from "./OnboardingStep/enums/OnboardingStepKeyEnum";
 import { OnboardingStatusEnum } from "./OnboardingStep/enums/OnboardingStatusEnum";
+import { CreateRecipientInput } from "./BankAccount/Transfer/CreateRecipientInput";
+import { CreateRecipientOutput } from "./BankAccount/Transfer/CreateRecipientOutput";
 
 
 
@@ -146,5 +148,6 @@ export {
     OnboardingStepKeyEnum,
     OnboardingStatusEnum,
     GetPocketInput,
-    
+    CreateRecipientInput,
+    CreateRecipientOutput,
 };

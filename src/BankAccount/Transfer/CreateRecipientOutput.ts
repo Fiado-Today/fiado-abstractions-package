@@ -1,5 +1,3 @@
-import {BankAccountProviders} from "../enums/BankAccountProviders";
-
 export interface CreateRecipientOutput {
     id: number
     sender_user_id?: number;

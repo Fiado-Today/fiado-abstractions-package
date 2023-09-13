@@ -1,5 +1,3 @@
-import {BankAccountTypeEnum} from "../enums/BankAccountTypeEnum";
-
 export interface CreateRecipientInput {
     sender_user_id?: number;
     program_id?: number;
