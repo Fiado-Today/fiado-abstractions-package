@@ -78,6 +78,7 @@ import { AppEnum } from "./General/enum/AppEnum";
 import { UserScopeEnum } from "./General/enum/UserScopeEnum";
 import { UserProfileEnum } from "./General/enum/UserProfileEnum";
 import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
+import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 
 export {
     CreateBankAccountInput,
@@ -159,6 +160,7 @@ export {
     AppEnum,
     UserScopeEnum,
     UserProfileEnum,
-    CreateOnboardingInput
+    CreateOnboardingInput,
+    CreateAccountOutput
     
 };
