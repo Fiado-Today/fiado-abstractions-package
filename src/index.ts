@@ -80,6 +80,8 @@ import { UserProfileEnum } from "./General/enum/UserProfileEnum";
 import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
 import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
+import { GetOnboardingInput } from "./Onboarding/GetOnboardingInput";
+import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
 
 export {
     CreateBankAccountInput,
@@ -163,6 +165,8 @@ export {
     UserProfileEnum,
     CreateOnboardingInput,
     CreateAccountOutput,
-    CreateOnboardingOutput
+    CreateOnboardingOutput,
+    GetOnboardingInput,
+    GetOnboardingOutput
     
 };
