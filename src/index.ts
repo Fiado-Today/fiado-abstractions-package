@@ -77,6 +77,7 @@ import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocke
 import { AppEnum } from "./General/enum/AppEnum";
 import { UserScopeEnum } from "./General/enum/UserScopeEnum";
 import { UserProfileEnum } from "./General/enum/UserProfileEnum";
+import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
 
 export {
     CreateBankAccountInput,
@@ -157,6 +158,7 @@ export {
     CreateBankAccountRecipientOutput,
     AppEnum,
     UserScopeEnum,
-    UserProfileEnum
+    UserProfileEnum,
+    CreateOnboardingInput
     
 };
