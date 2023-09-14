@@ -70,8 +70,8 @@ import { OnboardingStep } from "./OnboardingStep/types/OnboardingStep";
 import { OnboardingStepStatusEnum } from "./OnboardingStep/enums/OnboardingStepStatusEnum";
 import { OnboardingStepKeyEnum } from "./OnboardingStep/enums/OnboardingStepKeyEnum";
 import { OnboardingStatusEnum } from "./OnboardingStep/enums/OnboardingStatusEnum";
-import { CreateRecipientInput } from "./BankAccount/Transfer/CreateRecipientInput";
-import { CreateRecipientOutput } from "./BankAccount/Transfer/CreateRecipientOutput";
+import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
+import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
 import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
 import { AppEnum } from "./General/enum/AppEnum";
@@ -153,7 +153,7 @@ export {
     GetPocketInput,
     TypeOfDirectoryIdEnum,
     UpdatePocketBalanceInput,
-    CreateRecipientInput,
-    CreateRecipientOutput,
+    CreateBankAccountRecipientInput,
+    CreateBankAccountRecipientOutput,
     AppEnum
 };

@@ -1,6 +1,6 @@
 import {CountryIso2} from "../../General/enum/CountryIso2";
 
-export interface CreateRecipientInput {
+export interface CreateBankAccountRecipientInput {
     firstName: string,
     lastName: string,
     externalRecipientId: string,
