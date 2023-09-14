@@ -75,8 +75,8 @@ import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateB
 import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
 import { AppEnum } from "./General/enum/AppEnum";
-import { Scopes } from "./BankAccount/enums/Scopes";
-
+import { UserScopeEnum } from "./General/enum/UserScopeEnum";
+import { UserProfileEnum } from "./General/enum/UserProfileEnum";
 
 export {
     CreateBankAccountInput,
@@ -156,5 +156,7 @@ export {
     CreateBankAccountRecipientInput,
     CreateBankAccountRecipientOutput,
     AppEnum,
-    Scopes
+    UserScopeEnum,
+    UserProfileEnum
+    
 };
