@@ -1,3 +1,4 @@
+import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
 import { UserProfileEnum } from "../General/enum/UserProfileEnum";
 import { UserScopeEnum } from "../General/enum/UserScopeEnum";
 
@@ -11,5 +12,6 @@ export interface GetOnboardingOutput {
     promotedToDirectory:boolean;
     scopes: Array<UserScopeEnum>;
     createDate:string
+    typeOfDirectoryId: TypeOfDirectoryIdEnum
 
 }
