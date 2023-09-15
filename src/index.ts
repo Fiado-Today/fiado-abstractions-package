@@ -81,8 +81,12 @@ import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateAccountInput } from "./Fiado/Account/CreateAccountInput";
 import { AccountBalanceOperationObject, UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
 import { UpdateAccountInput } from "./Fiado/Account/UpdateAccountInput";
-import { CreateOnboardingInput } from "./onboarding/CreateOnboardingInput";
-import { CreateOnboardingOutput } from "./onboarding/CreateOnboardingOutput";
+import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
+import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
+import { GetOnboardingInput } from "./Onboarding/GetOnboardingInput";
+import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
+import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
+import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 import { AddressOutput } from "./Fiado/Address/AddressOutput";
 import { Address } from "cluster";
 import { Account } from "./Fiado/Database/Account";
@@ -185,6 +189,12 @@ export {
     OnboardingStepStatusEnum,
     OnboardingStepKeyEnum,
     OnboardingStatusEnum,
+    CreateOnboardingInput,
+    CreateOnboardingOutput,
+    GetOnboardingInput,
+    GetOnboardingOutput,
+    UpdateOnboardingInput,
+    UpdateOnboardingOutput,
 
     //POCKET
     GetPocketInput,
@@ -203,8 +213,8 @@ export {
     AppEnum,
     UserScopeEnum,
     UserProfileEnum,
-    CreateOnboardingInput,
-    CreateOnboardingOutput,
+
+
 
     //COUNTRY
     CountryIso3,
