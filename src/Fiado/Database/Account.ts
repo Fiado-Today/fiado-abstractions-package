@@ -14,6 +14,7 @@ export interface Account {
     currentBalance: number,
     balanceLock: number,
     countryId: Country
+    createDate: string,
     lastUpdateDate: string,
     accountNumber?: string,
     routingNumber?: string,
