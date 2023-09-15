@@ -85,6 +85,8 @@ import { CreateOnboardingInput } from "./onboarding/CreateOnboardingInput";
 import { CreateOnboardingOutput } from "./onboarding/CreateOnboardingOutput";
 import { AddressOutput } from "./Fiado/Address/AddressOutput";
 import { Address } from "cluster";
+import { Account } from "./Fiado/Database/Account";
+import { AccountStatus } from "./Fiado/Account/enums/AccountStatus";
 
 export {
     //BANK ACCOUNT
@@ -102,6 +104,8 @@ export {
     CreateAccountOutput,
     UpdateAccountBalanceInput,
     UpdateAccountInput,
+    Account,
+    AccountStatus,
 
     //CARD
     ActivateBankAccountCardInput,
