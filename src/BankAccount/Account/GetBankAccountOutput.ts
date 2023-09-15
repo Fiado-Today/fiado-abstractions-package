@@ -1,6 +1,6 @@
 import {BankAccountTypeEnum} from "../enums/BankAccountTypeEnum";
 import {BankAccountStatus} from "../enums/BankAccountStatus";
-import {Address} from "../../Fiado/Address/Address";
+import {Address} from "../../Fiado/Address/AddressOutput";
 
 export interface GetBankAccountOutput {
     id: string,

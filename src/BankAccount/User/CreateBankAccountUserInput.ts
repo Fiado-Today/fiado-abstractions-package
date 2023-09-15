@@ -1,4 +1,4 @@
-import { Address } from "../../Fiado/Address/Address";
+import { Address } from "../../Fiado/Address/AddressOutput";
 import { SexEnum } from "../../General/enum/SexEnum";
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
 

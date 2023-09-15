@@ -2,7 +2,7 @@
 import { Country } from "../../General/enum/Country";
 import { Sex } from "../../KYC/enums/Sex";
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
-import { Address } from "../../Fiado/Address/Address";
+import { Address } from "../../Fiado/Address/AddressOutput";
 import { BankAccountUserStatus } from "../enums/BankAccountUserStatus";
 import { BankAccountUserType } from "../types/BankAccountUserType"
 

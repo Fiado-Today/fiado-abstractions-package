@@ -1,5 +1,5 @@
 
-import { Address } from "../../Fiado/Address/Address";
+import { Address } from "../../Fiado/Address/AddressOutput";
 import { BankAccountCardIssuing } from "../enums/BankAccountCardIssuing";
 import { BankAccountCardType } from "../types/BankAccountCardType";
 

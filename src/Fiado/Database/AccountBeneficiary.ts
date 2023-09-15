@@ -1,4 +1,4 @@
-import {Address} from "../Address/Address";
+import {Address} from "../Address/AddressOutput";
 import {TenantEnum} from "../../General/enum/TenantEnum";
 import {TypeOfDirectoryIdEnum} from "../../General/enum/TypeOfDirectoryIdEnum";
 

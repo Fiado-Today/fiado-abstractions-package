@@ -1,4 +1,4 @@
-import {Address} from "../../Fiado/Address/Address";
+import {Address} from "../../Fiado/Address/AddressOutput";
 
 export interface ReplaceBankAccountCardInput {
     externalCardId: string,

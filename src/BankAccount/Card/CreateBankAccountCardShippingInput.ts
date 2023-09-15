@@ -1,5 +1,5 @@
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
-import { Address } from "../../Fiado/Address/Address";
+import { Address } from "../../Fiado/Address/AddressOutput";
 
 export interface CreateBankAccountCardShippingInput {
     externalCardId?:string,
