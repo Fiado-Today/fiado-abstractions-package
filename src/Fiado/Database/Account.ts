@@ -6,8 +6,8 @@ import { AccountStatus } from "../Account/enums/AccountStatus";
 export interface Account {
     id: string,
     typeOfAccountId: null,
-    externalAccountId: string,
-    externalSubAccountId: string,
+    externalAccountId: string | null,
+    externalSubAccountId: string | null,
     provider: BankAccountProviders,
     directoryId: string,
     typeOfDirectoryId: string,

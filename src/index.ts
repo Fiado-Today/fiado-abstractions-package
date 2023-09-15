@@ -93,7 +93,7 @@ import { CountryIso3 } from "./General/enum/CountryIso3";
 import { Country } from "./General/enum/Country";
 import { CountryIso2 } from "./General/enum/CountryIso2";
 import { SexEnum } from "./General/enum/SexEnum";
-import { AccountOutput } from "./Fiado/Account/AccountOutput";
+import { AccountOutput } from "./core/account/dtos/AccountOutput";
 
 export {
     //BANK ACCOUNT
