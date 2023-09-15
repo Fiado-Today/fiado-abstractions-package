@@ -115,6 +115,8 @@ export {
     Account,
     AccountOutput,
     AccountStatus,
+    BankAccountProviders,
+
 
     //CARD
     ActivateBankAccountCardInput,
@@ -152,7 +154,6 @@ export {
     BankAccountCardStatus,
     BankAccountCardStatusDetail,
     BankAccountCreditOrDebit,
-    BankAccountProviders,
     BankAccountCardShippingStatus,
     BankAccountCardShippingStatusDetail,
     BankAccountStatus,
