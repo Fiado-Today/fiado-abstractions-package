@@ -79,7 +79,7 @@ import { UserScopeEnum } from "./General/enum/UserScopeEnum";
 import { UserProfileEnum } from "./General/enum/UserProfileEnum";
 import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateAccountInput } from "./Fiado/Account/CreateAccountInput";
-import { UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
+import { AccountBalanceOperationObject, UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
 import { UpdateAccountInput } from "./Fiado/Account/UpdateAccountInput";
 import { CreateOnboardingInput } from "./onboarding/CreateOnboardingInput";
 import { CreateOnboardingOutput } from "./onboarding/CreateOnboardingOutput";
@@ -87,6 +87,12 @@ import { AddressOutput } from "./Fiado/Address/AddressOutput";
 import { Address } from "cluster";
 import { Account } from "./Fiado/Database/Account";
 import { AccountStatus } from "./Fiado/Account/enums/AccountStatus";
+import { Beneficiary } from "./Fiado/Account/Beneficiary/types/Beneficiary";
+import { AccountBeneficiary } from "./Fiado/Database/AccountBeneficiary";
+import { CountryIso3 } from "./General/enum/CountryIso3";
+import { Country } from "./General/enum/Country";
+import { CountryIso2 } from "./General/enum/CountryIso2";
+import { SexEnum } from "./General/enum/SexEnum";
 
 export {
     //BANK ACCOUNT
@@ -103,6 +109,7 @@ export {
     CreateAccountInput,
     CreateAccountOutput,
     UpdateAccountBalanceInput,
+    AccountBalanceOperationObject,
     UpdateAccountInput,
     Account,
     AccountStatus,
@@ -162,6 +169,8 @@ export {
     GetBeneficiaryOutput,
     DeleteBeneficiaryInput,
     DeleteBeneficiaryOutput,
+    Beneficiary,
+    AccountBeneficiary,
 
     //ONBOARDING
     GetOnboardingStepInput,
@@ -192,6 +201,14 @@ export {
     UserScopeEnum,
     UserProfileEnum,
     CreateOnboardingInput,
-    CreateOnboardingOutput
+    CreateOnboardingOutput,
+
+    //COUNTRY
+    CountryIso3,
+    CountryIso2,
+    Country,
+
+    //PEOPLE
+    SexEnum,
 
 };
