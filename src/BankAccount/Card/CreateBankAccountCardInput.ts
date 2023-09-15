@@ -1,5 +1,5 @@
 
-import { Address } from "../../Fiado/Address/AddressOutput";
+import { AddressOutput } from "../../Fiado/Address/AddressOutput";
 import { BankAccountCardIssuing } from "../enums/BankAccountCardIssuing";
 import { BankAccountCardType } from "../types/BankAccountCardType";
 
@@ -9,7 +9,7 @@ export interface CreateBankAccountCardInput {
     cardType: BankAccountCardType,
     firstName: string,
     lastName: string,
-    address: Address,
+    address: AddressOutput,
     nominated:boolean,
     directoryId:string,
     typeOfDirectoryId:string,

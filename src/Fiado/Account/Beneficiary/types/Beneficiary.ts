@@ -1,9 +1,9 @@
-import {Address} from "../../../Address/AddressOutput";
+import {AddressOutput} from "../../../Address/AddressOutput";
 import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
 
 export type Beneficiary = {
     id: string,
-    address?: Address,
+    address?: AddressOutput,
     percentage: number,
     typeOfRelationshipId: string,
     fullName: string,

@@ -1,11 +1,11 @@
-import { Address } from "../../../Fiado/Address/AddressOutput";
+import { AddressOutput } from "../../../Fiado/Address/AddressOutput";
 
 export type CreateAccountInput = {
     directoryId: string;
     typeOfDirectoryId: string;
     countryId: string;
     phoneNumber: string;
-    address: Address;
+    address: AddressOutput;
     email: string;
     document: Document
 }

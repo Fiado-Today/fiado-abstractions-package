@@ -1,6 +1,6 @@
 import {BankAccountTypeEnum} from "../enums/BankAccountTypeEnum";
 import {BankAccountStatus} from "../enums/BankAccountStatus";
-import {Address} from "../../Fiado/Address/AddressOutput";
+import {AddressOutput} from "../../Fiado/Address/AddressOutput";
 
 export interface GetBankAccountOutput {
     id: string,
@@ -17,7 +17,7 @@ export interface GetBankAccountOutput {
     deletedDate: string,
     updatedBy: string,
     balance: number,
-    address: Address
+    address: AddressOutput,
     kybStatus?: string,
     statusName?: BankAccountStatus
 }

@@ -2,7 +2,7 @@
 import { BankAccountCardShippingStatus } from "../enums/BankAccountCardShippingStatus";
 import { BankAccountCardShippingStatusDetail } from "../enums/BankAccountCardShippingStatusDetail";
 import { BankAccountCardShippingType } from "../types/BankAccountCardShippingType";
-import { Address } from "../../Fiado/Address/AddressOutput";
+import { AddressOutput } from "../../Fiado/Address/AddressOutput";
 import { Courier } from "../../General/enum/Courier";
 
 export interface GetBankAccountShippingOutput {
@@ -15,7 +15,7 @@ export interface GetBankAccountShippingOutput {
     status:BankAccountCardShippingStatus,
     statusDetail:BankAccountCardShippingStatusDetail,
     type:BankAccountCardShippingType
-    shippingAddress:Address,
+    shippingAddress:AddressOutput,
     reciever:{
         name:string,
         lastName:string,

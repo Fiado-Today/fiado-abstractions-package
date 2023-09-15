@@ -1,6 +1,6 @@
 import { Country } from "../../General/enum/Country";
 import { IdentificationDocument } from "../../KYC/IdentificationDocument";
-import { Address } from "../Address/AddressOutput";
+import { AddressOutput } from "../Address/AddressOutput";
 
 
 export type CreateAccountInput = {
@@ -9,7 +9,7 @@ export type CreateAccountInput = {
     typeOfDirectoryId: string;
     countryId: Country;
     phoneNumber: string;
-    address: Address;
+    address: AddressOutput;
     email: string;
     document: IdentificationDocument;
 }

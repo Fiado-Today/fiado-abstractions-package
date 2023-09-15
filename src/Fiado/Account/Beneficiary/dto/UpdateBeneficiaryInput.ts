@@ -1,11 +1,11 @@
-import {Address} from "../../../Address/AddressOutput";
+import {AddressOutput} from "../../../Address/AddressOutput";
 import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
 
 export interface UpdateBeneficiaryInput {
     fullName?: string;
     typeOfRelationshipId?: string;
     percentage?: number;
-    address?: Address;
+    address?: AddressOutput;
 
 
     directoryId?: string;

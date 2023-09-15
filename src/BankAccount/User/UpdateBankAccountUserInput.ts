@@ -1,4 +1,4 @@
-import { Address } from "../../Fiado/Address/AddressOutput";
+import { AddressOutput } from "../../Fiado/Address/AddressOutput";
 import { Country } from "../../General/enum/Country";
 import { Sex } from "../../KYC/enums/Sex";
 import { TaxType } from "../../KYC/types/TaxType";
@@ -17,7 +17,7 @@ export interface UpdateBankAccountUserInput {
     status: BankAccountUserStatus,
     taxNumber?: string,
     taxType?: TaxType,
-    address?: Address,
+    address?: AddressOutput,
     dob?:string,
     nationality?:Country,
     createdDate?: string,
