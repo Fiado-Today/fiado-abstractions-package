@@ -82,6 +82,8 @@ import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
 import { GetOnboardingInput } from "./Onboarding/GetOnboardingInput";
 import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
+import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
+import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 
 export {
     CreateBankAccountInput,
@@ -167,6 +169,8 @@ export {
     CreateAccountOutput,
     CreateOnboardingOutput,
     GetOnboardingInput,
-    GetOnboardingOutput
+    GetOnboardingOutput,
+    UpdateOnboardingInput,
+    UpdateOnboardingOutput
     
 };
