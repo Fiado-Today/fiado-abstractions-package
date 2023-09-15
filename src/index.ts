@@ -98,6 +98,7 @@ import { Country } from "./General/enum/Country";
 import { CountryIso2 } from "./General/enum/CountryIso2";
 import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
+import { GetBankListInput } from "./Fiado/bank/bank/dto/GetBankListInput";
 
 export {
     //BANK ACCOUNT
@@ -223,5 +224,8 @@ export {
 
     //PEOPLE
     SexEnum,
+
+    //BANK
+    GetBankListInput,
 
 };
