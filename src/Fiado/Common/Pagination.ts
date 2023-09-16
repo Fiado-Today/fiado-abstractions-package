@@ -1,7 +1,7 @@
 export interface Pagination {
-    page?: number;
-    pageSize?: number;
-    nextPage?: number;
-    previousPage?: number;
-    lastPage?: number;
+    page: number;
+    pageSize: number;
+    nextPage: number|string|null;
+    previousPage: number|string|null;
+    lastPage: number|string|null;
 }

@@ -100,6 +100,25 @@ import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
 import { GetBankListInput } from "./Fiado/bank/bank/dto/GetBankListInput";
 import { GetBankListOutput } from "./Fiado/bank/bank/dto/GetBankListOutput";
+import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
+import { CreateDirectoryOutput } from "./Directory/CreateDIrectoryUserOutput";
+import { UpdateDirectoryInput } from "./Directory/UpdateDirectoryInput";
+import { UpdateDirectoryOutput } from "./Directory/UpdateDirectoryOutput";
+import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
+import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
+import { GetDirectoryListInput } from "./Directory/GetDirectoryListInput";
+import { GetDirectoryListOutput } from "./Directory/GetDirectoryListOutput";
+import { CreateDirectoryUserInput } from "./Directory/User/CreateDirectoryUserInput";
+import { CreateDirectoryUserOutput } from "./Directory/User/CreateDirectoryUserOutput";
+import { UpdateDirectoryUserInput } from "./Directory/User/UpdateDirectoryUserInput";
+import { UpdateDirectoryUserOutput } from "./Directory/User/UpdateDirectoryUserOutput";
+import { GetDirectoryUserInput } from "./Directory/User/GetDirectoryUserInput";
+import { GetDirectoryUserOutput } from "./Directory/User/GetDirectoryUserOutput";
+import { GetDirectoryUserListInput } from "./Directory/User/GetDirectoryUserListInput";
+import { GetDirectoryUserListOutput } from "./Directory/User/GetDirectoryUserListOutput";
+import { PaginationInput } from "./Fiado/Common/PaginationInput";
+import { DirectoryStatusEnum } from "./Directory/enums/DirectoryStatusEnum";
+
 
 export {
     //BANK ACCOUNT
@@ -211,12 +230,28 @@ export {
     Address,
 
     //DIRECTORY
+    DirectoryStatusEnum,
     TypeOfDirectoryIdEnum,
     AppEnum,
     UserScopeEnum,
     UserProfileEnum,
 
-
+    CreateDirectoryInput,
+    CreateDirectoryOutput,
+    UpdateDirectoryInput,
+    UpdateDirectoryOutput,
+    GetDirectoryInput,
+    GetDirectoryOutput,
+    GetDirectoryListInput,
+    GetDirectoryListOutput,
+    CreateDirectoryUserInput,
+    CreateDirectoryUserOutput,
+    UpdateDirectoryUserInput,
+    UpdateDirectoryUserOutput,
+    GetDirectoryUserInput,
+    GetDirectoryUserOutput,
+    GetDirectoryUserListInput,
+    GetDirectoryUserListOutput,
 
     //COUNTRY
     CountryIso3,
@@ -229,5 +264,10 @@ export {
     //BANK
     GetBankListInput,
     GetBankListOutput,
+
+
+    //COMMON
+    PaginationInput
+
 
 };
