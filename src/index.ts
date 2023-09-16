@@ -98,6 +98,8 @@ import { Country } from "./General/enum/Country";
 import { CountryIso2 } from "./General/enum/CountryIso2";
 import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
+import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
+import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
 
 export {
     //BANK ACCOUNT
@@ -209,12 +211,12 @@ export {
     Address,
 
     //DIRECTORY
+    GetDirectoryInput,
+    GetDirectoryOutput,
     TypeOfDirectoryIdEnum,
     AppEnum,
     UserScopeEnum,
     UserProfileEnum,
-
-
 
     //COUNTRY
     CountryIso3,
@@ -223,5 +225,7 @@ export {
 
     //PEOPLE
     SexEnum,
+
+
 
 };
