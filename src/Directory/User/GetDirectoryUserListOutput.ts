@@ -1,6 +1,6 @@
-import { GetDirectoryListInput } from "../GetDirectoryListInput";
+import { GetDirectoryListOutput } from "../GetDirectoryListOutput";
 
 
-export interface GetDirectoryUserListInput extends GetDirectoryListInput {
+export interface GetDirectoryUserListOutput extends GetDirectoryListOutput {
 
 }
