@@ -118,6 +118,7 @@ import { GetDirectoryUserListInput } from "./Directory/User/GetDirectoryUserList
 import { GetDirectoryUserListOutput } from "./Directory/User/GetDirectoryUserListOutput";
 import { PaginationInput } from "./Fiado/Common/PaginationInput";
 import { DirectoryStatusEnum } from "./Directory/enums/DirectoryStatusEnum";
+import { CreateDirectoryInputType } from "./Directory/types/CreateDirectoryInputType";
 
 
 export {
@@ -235,6 +236,8 @@ export {
     AppEnum,
     UserScopeEnum,
     UserProfileEnum,
+
+    CreateDirectoryInputType,
 
     CreateDirectoryInput,
     CreateDirectoryOutput,
