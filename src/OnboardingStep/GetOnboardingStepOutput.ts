@@ -1,9 +1,9 @@
+import { DirectoryStatusEnum } from "../Directory/enums/DirectoryStatusEnum";
 import { Country } from "../General/enum/Country";
-import { OnboardingStatus } from "./types/OnboardingStatus";
 import { OnboardingStep } from "./types/OnboardingStep";
 
 export interface GetOnboardingStepOutput {
-    status: OnboardingStatus;
+    status: DirectoryStatusEnum;
     observations: string;
     countryId: Country,
     onboardingStep: OnboardingStep[];
