@@ -1,3 +1,4 @@
+import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
 import { UserProfileEnum } from "../General/enum/UserProfileEnum";
 import { UserScopeEnum } from "../General/enum/UserScopeEnum";
 import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum";
@@ -11,4 +12,5 @@ export interface CreateDirectoryInput{
     scopes:UserScopeEnum[],
     peopleId:string|null,
     status: DirectoryStatusEnum
+    typeOfDirectoryId:TypeOfDirectoryIdEnum
 }
