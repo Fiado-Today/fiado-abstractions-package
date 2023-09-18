@@ -98,8 +98,8 @@ import { Country } from "./General/enum/Country";
 import { CountryIso2 } from "./General/enum/CountryIso2";
 import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
-import { GetBankListInput } from "./Fiado/bank/bank/dto/GetBankListInput";
-import { GetBankListOutput } from "./Fiado/bank/bank/dto/GetBankListOutput";
+import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
+import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
 import { CreateDirectoryOutput } from "./Directory/CreateDIrectoryUserOutput";
 import { UpdateDirectoryInput } from "./Directory/UpdateDirectoryInput";
@@ -122,6 +122,8 @@ import { CreateDirectoryInputType } from "./Directory/types/CreateDirectoryInput
 import { GetDirectoryInputType } from "./Directory/types/GetDirectoryInputType";
 import { GetDirectoryListInputType } from "./Directory/types/GetDirectoryListInputType";
 import { UpdateDirectoryInputType } from "./Directory/types/UpdateDirectoryInputType";
+import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
+import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 
 
 export {
@@ -276,7 +278,10 @@ export {
 
 
     //COMMON
-    PaginationInput
+    PaginationInput,
 
 
+    //BANKACCOUNT
+    GetBankAccountsListInput,
+    GetBankAccountsListOutput,
 };
