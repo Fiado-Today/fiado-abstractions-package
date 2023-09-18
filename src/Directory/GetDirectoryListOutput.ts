@@ -1,7 +1,8 @@
-import { Pagination } from "../Fiado/Common/Pagination"
+import { GetListBaseOutput } from "../Fiado/Common/GetListBaseOutput"
 import { GetDirectoryOutput } from "./GetDirectoryOutput"
 
-export interface GetDirectoryListOutput {
-    accounts: GetDirectoryOutput[]
-    pagination: Pagination
+export interface GetDirectoryListOutput extends GetListBaseOutput<GetDirectoryOutput> {
+    data: GetDirectoryOutput[]
 }
+
+

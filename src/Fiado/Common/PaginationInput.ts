@@ -1,4 +1,4 @@
 export interface PaginationInput{
-    pageSize?:number,
+    pageSize:number,
     pageNumber?:number|string,
 }

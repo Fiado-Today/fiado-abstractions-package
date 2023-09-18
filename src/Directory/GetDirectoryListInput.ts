@@ -1,12 +1,11 @@
-import { PaginationInput } from "../Fiado/Common/PaginationInput";
+import { GetListBaseInput } from "../Fiado/Common/GetListBaseInput";
 import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
 import { UserProfileEnum } from "../General/enum/UserProfileEnum";
 import { UserScopeEnum } from "../General/enum/UserScopeEnum";
 
-export interface GetDirectoryListInput {
+export interface GetDirectoryListInput extends GetListBaseInput {
     scopes?: UserScopeEnum[];
     ownerDirectoryId?: string;
     userProfile?: UserProfileEnum;
-    typeOfDirectoryId: TypeOfDirectoryIdEnum;
-    pagination?:PaginationInput
+    typeOfDirectoryId: TypeOfDirectoryIdEnum
 }

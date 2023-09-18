@@ -98,8 +98,8 @@ import { Country } from "./General/enum/Country";
 import { CountryIso2 } from "./General/enum/CountryIso2";
 import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
-import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
-import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
+// import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
+// import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
 import { CreateDirectoryOutput } from "./Directory/CreateDIrectoryUserOutput";
 import { UpdateDirectoryInput } from "./Directory/UpdateDirectoryInput";
@@ -122,8 +122,16 @@ import { CreateDirectoryInputType } from "./Directory/types/CreateDirectoryInput
 import { GetDirectoryInputType } from "./Directory/types/GetDirectoryInputType";
 import { GetDirectoryListInputType } from "./Directory/types/GetDirectoryListInputType";
 import { UpdateDirectoryInputType } from "./Directory/types/UpdateDirectoryInputType";
-import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
-import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
+// import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
+// import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
+import { GetAppVersionInput } from "./AppVersion/GetAppVersionInput";
+import { GetAppversionListInput } from "./AppVersion/GetAppVersionListInput";
+import { AppPlatform } from "./General/enum/AppPlatform";
+import { GetListBaseInput } from "./Fiado/Common/GetListBaseInput";
+import { GetListBaseOutput } from "./Fiado/Common/GetListBaseOutput";
+import { GetAppVersionOutput } from "./AppVersion/GetAppVersionOutput";
+import { GetAppversionListOutput } from "./AppVersion/GetAppVersionListOutput";
+import { AppVersion } from "./AppVersion/AppVersion";
 
 
 export {
@@ -223,6 +231,18 @@ export {
     UpdateOnboardingInput,
     UpdateOnboardingOutput,
 
+    //APPVERSION
+    AppVersion,
+    GetAppVersionInput,
+    GetAppVersionOutput,
+    GetAppversionListInput,
+    GetAppversionListOutput,
+    AppPlatform,
+
+    //LIST BASE
+    GetListBaseInput,
+    GetListBaseOutput,
+
     //POCKET
     GetPocketInput,
     UpdatePocketBalanceInput,
@@ -273,15 +293,14 @@ export {
     SexEnum,
 
     //BANK
-    GetBankListInput,
-    GetBankListOutput,
-
+    // GetBankListInput,
+    // GetBankListOutput,
 
     //COMMON
     PaginationInput,
 
 
     //BANKACCOUNT
-    GetBankAccountsListInput,
-    GetBankAccountsListOutput,
+    // GetBankAccountsListInput,
+    // GetBankAccountsListOutput,
 };
