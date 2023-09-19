@@ -4,7 +4,7 @@ import { UserProfileEnum } from "../General/enum/UserProfileEnum";
 import { UserScopeEnum } from "../General/enum/UserScopeEnum";
 
 export interface GetDirectoryListInput extends GetListBaseInput {
-    scopes?: UserScopeEnum[];
+    scope?: UserScopeEnum[];
     ownerDirectoryId?: string;
     userProfile?: UserProfileEnum;
     typeOfDirectoryId: TypeOfDirectoryIdEnum

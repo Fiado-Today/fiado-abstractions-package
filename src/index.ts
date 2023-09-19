@@ -61,15 +61,15 @@ import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateB
 import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
 import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
 import { GetPocketInput } from "./Fiado/Account/Pocket/dto/GetPocketInput";
-import { GetOnboardingStepInput } from "./OnboardingStep/GetOnboardingStepInput";
-import { GetOnboardingStepOutput } from "./OnboardingStep/GetOnboardingStepOutput";
-import { OnboardingStatus } from "./OnboardingStep/types/OnboardingStatus";
-import { OnboardingStepKey } from "./OnboardingStep/types/OnboardingStepKey";
-import { OnboardingStepStatus } from "./OnboardingStep/types/OnboardingStepStatus";
-import { OnboardingStep } from "./OnboardingStep/types/OnboardingStep";
-import { OnboardingStepStatusEnum } from "./OnboardingStep/enums/OnboardingStepStatusEnum";
-import { OnboardingStepKeyEnum } from "./OnboardingStep/enums/OnboardingStepKeyEnum";
-import { OnboardingStatusEnum } from "./OnboardingStep/enums/OnboardingStatusEnum";
+import { GetOnboardingStepInput } from "./Onboarding/GetOnboardingStepInput";
+import { GetOnboardingStepOutput } from "./Onboarding/GetOnboardingStepOutput";
+import { OnboardingStatus } from "./Onboarding/types/OnboardingStatus";
+import { OnboardingStepKey } from "./Onboarding/types/OnboardingStepKey";
+import { OnboardingStepStatus } from "./Onboarding/types/OnboardingStepStatus";
+import { OnboardingStep } from "./Onboarding/types/OnboardingStep";
+import { OnboardingStepStatusEnum } from "./Onboarding/enums/OnboardingStepStatusEnum";
+import { OnboardingStepKeyEnum } from "./Onboarding/enums/OnboardingStepKeyEnum";
+import { OnboardingStatusEnum } from "./Onboarding/enums/OnboardingStatusEnum";
 import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
 import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
 import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
@@ -125,13 +125,18 @@ import { UpdateDirectoryInputType } from "./Directory/types/UpdateDirectoryInput
 // import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
 // import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 import { GetAppVersionInput } from "./AppVersion/GetAppVersionInput";
-import { GetAppversionListInput } from "./AppVersion/GetAppVersionListInput";
+import { GetAppVersionListInput } from "./AppVersion/GetAppVersionListInput";
 import { AppPlatform } from "./General/enum/AppPlatform";
 import { GetListBaseInput } from "./Fiado/Common/GetListBaseInput";
 import { GetListBaseOutput } from "./Fiado/Common/GetListBaseOutput";
 import { GetAppVersionOutput } from "./AppVersion/GetAppVersionOutput";
-import { GetAppversionListOutput } from "./AppVersion/GetAppVersionListOutput";
-import { AppVersion } from "./AppVersion/AppVersion";
+import { GetAppVersionListOutput } from "./AppVersion/GetAppVersionListOutput";
+import { AppVersion } from "./Entities/AppVersion";
+import { EntityBase } from "./Entities/Base/EntityBase";
+import { EntityBaseWithDirectory } from "./Entities/Base/EntityBaseWithDirectory";
+import { Onboarding } from "./Entities/Onboarding";
+import { GetOnboardingListInput } from "./Onboarding/GetOnboardingListInput";
+import { GetOnboardingListOutput } from "./Onboarding/GetOnboardigListOutput";
 
 
 export {
@@ -215,6 +220,9 @@ export {
     AccountBeneficiary,
 
     //ONBOARDING
+    Onboarding,
+    GetOnboardingListInput,
+    GetOnboardingListOutput,
     GetOnboardingStepInput,
     GetOnboardingStepOutput,
     OnboardingStatus,
@@ -235,8 +243,8 @@ export {
     AppVersion,
     GetAppVersionInput,
     GetAppVersionOutput,
-    GetAppversionListInput,
-    GetAppversionListOutput,
+    GetAppVersionListInput,
+    GetAppVersionListOutput,
     AppPlatform,
 
     //LIST BASE
@@ -298,6 +306,8 @@ export {
 
     //COMMON
     PaginationInput,
+    EntityBase,
+    EntityBaseWithDirectory
 
 
     //BANKACCOUNT

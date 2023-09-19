@@ -9,7 +9,7 @@ export interface CreateDirectoryInput{
     password:string,
     userProfile:UserProfileEnum,
     ownerDirectoryId:string|null,
-    scopes:UserScopeEnum[],
+    scope:UserScopeEnum[],
     peopleId:string|null,
     status: DirectoryStatusEnum
     typeOfDirectoryId:TypeOfDirectoryIdEnum

@@ -1,17 +1,16 @@
+import { EntityBase } from "./Base/EntityBase";
 import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
 import { UserProfileEnum } from "../General/enum/UserProfileEnum";
 import { UserScopeEnum } from "../General/enum/UserScopeEnum";
 
-export interface GetOnboardingOutput {
-    id: string;
+export interface Onboarding extends EntityBase {
     referralDirectoryId: string|null,
     phoneNumber:string,
     referralCode:string|null,
+    myReferralCode:string,
     userProfile: UserProfileEnum,
-    otpCOnfirm:string|null,
+    otpConfirm:string|null,
     promotedToDirectory:boolean;
     scope: Array<UserScopeEnum>;
-    createDate:string
-    typeOfDirectoryId: TypeOfDirectoryIdEnum
-
+    typeOfDirectoryId:TypeOfDirectoryIdEnum;
 }

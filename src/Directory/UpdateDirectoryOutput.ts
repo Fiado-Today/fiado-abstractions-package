@@ -4,7 +4,7 @@ import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum";
 
 export interface UpdateDirectoryOutput {
     id: string,
-    scopes?: UserScopeEnum[],
+    scope?: UserScopeEnum[],
     userProfile?: UserProfileEnum,
     password?: boolean,
     ownerDirectoryId?: string,

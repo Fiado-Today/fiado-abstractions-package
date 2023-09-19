@@ -9,7 +9,7 @@ export interface GetDirectoryOutput {
     phoneNumber: string; 
     userProfile: UserProfileEnum;
     ownerDirectoryId: string|null;
-    scopes: UserScopeEnum[],
+    scope: UserScopeEnum[],
     peopleId: string|null;
     typeOfDirectoryId: TypeOfDirectoryIdEnum
     status: DirectoryStatusEnum

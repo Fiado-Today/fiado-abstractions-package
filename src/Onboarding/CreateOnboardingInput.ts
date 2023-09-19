@@ -10,6 +10,6 @@ export interface CreateOnboardingInput {
     userProfile: UserProfileEnum,
     otpCOnfirm:string|null,
     promotedToDirectory:boolean;
-    scopes: Array<UserScopeEnum>;
+    scope: Array<UserScopeEnum>;
     typeOfDirectoryId:TypeOfDirectoryIdEnum;
 }
