@@ -5,7 +5,7 @@ export interface GetBankAccountsListInput {
     directoryId?: string,
     typeOfDirectoryId?: string,
     alias?: string,
-    accountTypeId?: string,
+    accountTypeId?: number,
     accountHolderName?: string,
     bankId?: string
     default?: boolean
