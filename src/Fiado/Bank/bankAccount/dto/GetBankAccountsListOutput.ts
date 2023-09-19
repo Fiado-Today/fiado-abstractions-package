@@ -2,7 +2,7 @@ import {AccountType} from "../type/AccountType";
 export interface GetBankAccountsListOutput {
     id: string,
     countryId: string,
-    accountNumber: string,
+    accountNumber: string | null,
     bankId: string,
     alias: string | null,
     directoryId: string,
