@@ -1,6 +1,6 @@
-import { Country } from "../General/enum/Country";
-import { SexEnum } from "../General/enum/SexEnum";
-import { TypeOfDocument } from "./enums/TypeOfDocument";
+import { Country } from "../../General/enum/Country";
+import { SexEnum } from "../../General/enum/SexEnum";
+import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
 
 
 

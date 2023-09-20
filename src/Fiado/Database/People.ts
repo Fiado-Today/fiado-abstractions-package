@@ -1,5 +1,5 @@
 import { AppEnum } from "../../General/enum/AppEnum"
-import { IdentificationDocument } from "../../KYC/IdentificationDocument"
+import { IdentificationDocument } from "../Identity/IdentificationDocument"
 import { Sex } from "../../KYC/enums/Sex"
 
 export interface People {

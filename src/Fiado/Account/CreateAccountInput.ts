@@ -1,5 +1,5 @@
 import { Country } from "../../General/enum/Country";
-import { IdentificationDocument } from "../../KYC/IdentificationDocument";
+import { IdentificationDocument } from "../Identity/IdentificationDocument";
 import { AddressOutput } from "../Address/AddressOutput";
 
 

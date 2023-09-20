@@ -146,6 +146,7 @@ import { OnboardingStep } from "./onboarding/types/OnboardingStep";
 import { OnboardingStepKey } from "./onboarding/types/OnboardingStepKey";
 import { OnboardingStepStatus } from "./onboarding/types/OnboardingStepStatus";
 import { UpdatePeopleInput } from "./Fiado/Address/UpdatePeopleInput";
+import { IdentificationDocument } from "./Fiado/Identity/IdentificationDocument";
 
 
 export {
@@ -329,4 +330,5 @@ export {
     People,
     PeopleOut,
     UpdatePeopleInput,
+    IdentificationDocument
 };
