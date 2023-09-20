@@ -1,5 +1,5 @@
-import { OnboardingStepKey } from "./OnboardingStepKey";
-import { OnboardingStepStatus } from "./OnboardingStepStatus";
+import { OnboardingStepKey, OnboardingStepStatus } from "../..";
+
 
 export type OnboardingStep = {
     key: OnboardingStepKey;

@@ -1,3 +1,3 @@
-import { OnboardingStepKeyEnum } from "../enums/OnboardingStepKeyEnum";
+import { OnboardingStepKeyEnum } from "../..";
 
 export type OnboardingStepKey = OnboardingStepKeyEnum

@@ -61,15 +61,8 @@ import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateB
 import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
 import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
 import { GetPocketInput } from "./Fiado/Account/Pocket/dto/GetPocketInput";
-import { GetOnboardingStepInput } from "./Onboarding/GetOnboardingStepInput";
-import { GetOnboardingStepOutput } from "./Onboarding/GetOnboardingStepOutput";
-import { OnboardingStatus } from "./Onboarding/types/OnboardingStatus";
-import { OnboardingStepKey } from "./Onboarding/types/OnboardingStepKey";
-import { OnboardingStepStatus } from "./Onboarding/types/OnboardingStepStatus";
-import { OnboardingStep } from "./Onboarding/types/OnboardingStep";
-import { OnboardingStepStatusEnum } from "./Onboarding/enums/OnboardingStepStatusEnum";
-import { OnboardingStepKeyEnum } from "./Onboarding/enums/OnboardingStepKeyEnum";
-import { OnboardingStatusEnum } from "./Onboarding/enums/OnboardingStatusEnum";
+
+
 import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
 import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
 import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
@@ -81,12 +74,7 @@ import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateAccountInput } from "./Fiado/Account/CreateAccountInput";
 import { AccountBalanceOperationObject, UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
 import { UpdateAccountInput } from "./Fiado/Account/UpdateAccountInput";
-import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
-import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
-import { GetOnboardingInput } from "./Onboarding/GetOnboardingInput";
-import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
-import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
-import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
+
 import { AddressOutput } from "./Fiado/Address/AddressOutput";
 import { Address } from "cluster";
 import { Account } from "./Fiado/Database/Account";
@@ -135,10 +123,28 @@ import { AppVersion } from "./Entities/AppVersion";
 import { EntityBase } from "./Entities/Base/EntityBase";
 import { EntityBaseWithDirectory } from "./Entities/Base/EntityBaseWithDirectory";
 import { Onboarding } from "./Entities/Onboarding";
-import { GetOnboardingListInput } from "./Onboarding/GetOnboardingListInput";
-import { GetOnboardingListOutput } from "./Onboarding/GetOnboardigListOutput";
+
 import { Banks } from "./Fiado/Database/Banks";
 import {BankAccounts} from "./Fiado/Database/BankAccounts";
+import { People } from "./Fiado/Database/People";
+import { PeopleOut } from "./Fiado/Identity/PeopleOut";
+import { GetOnboardingListInput } from "./onboarding/GetOnboardingListInput";
+import { GetOnboardingListOutput } from "./onboarding/GetOnboardigListOutput";
+import { GetOnboardingStepInput } from "./onboarding/GetOnboardingStepInput";
+import { GetOnboardingStepOutput } from "./onboarding/GetOnboardingStepOutput";
+import { OnboardingStatus } from "./onboarding/types/OnboardingStatus";
+import { CreateOnboardingInput } from "./onboarding/CreateOnboardingInput";
+import { CreateOnboardingOutput } from "./onboarding/CreateOnboardingOutput";
+import { GetOnboardingInput } from "./onboarding/GetOnboardingInput";
+import { UpdateOnboardingInput } from "./onboarding/UpdateOnboardingInput";
+import { UpdateOnboardingOutput } from "./onboarding/UpdateOnboardingOutput";
+import { GetOnboardingOutput } from "./onboarding/GetOnboardingOutput";
+import { OnboardingStatusEnum } from "./onboarding/enums/OnboardingStatusEnum";
+import { OnboardingStepKeyEnum } from "./onboarding/enums/OnboardingStepKeyEnum";
+import { OnboardingStepStatusEnum } from "./onboarding/enums/OnboardingStepStatusEnum";
+import { OnboardingStep } from "./onboarding/types/OnboardingStep";
+import { OnboardingStepKey } from "./onboarding/types/OnboardingStepKey";
+import { OnboardingStepStatus } from "./onboarding/types/OnboardingStepStatus";
 
 
 export {
@@ -316,5 +322,9 @@ export {
     //BANKACCOUNT
     GetBankAccountsListInput,
     GetBankAccountsListOutput,
-    BankAccounts
+    BankAccounts,
+
+    //IDENTITY
+    People,
+    PeopleOut
 };

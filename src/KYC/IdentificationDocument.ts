@@ -1,19 +1,23 @@
+import { Country } from "../General/enum/Country";
 import { SexEnum } from "../General/enum/SexEnum";
 import { TypeOfDocument } from "./enums/TypeOfDocument";
 
 
 
 export type IdentificationDocument = {
-    countryOfBirth: string | null,
-    dob: string | null,
-    documentNumber: string | null,
-    documentType: TypeOfDocument,
+    frontImageName: string | null,
+    backImageName: string | null,
+
+    countryId: Country | null,
     expirationDate: string | null,
-    firstName: string | null,
+    issueDate: string | null,
+    lastNameFirst: string | null,
+    lastNameSecond: string | null,
+    names: string | null,
     fullName: string | null,
-    lastName: string | null,
-    middleName: string | null,
-    nationality: string | null,
-    secondLastName: string | null,
+    countryOfBirth: string | null,
+    dateOfBirth: string | null,
+    documentNumber: string | null,
+    typeOfDocument: TypeOfDocument,
     sex: SexEnum | null,
 }
