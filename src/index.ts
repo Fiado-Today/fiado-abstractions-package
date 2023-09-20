@@ -145,6 +145,7 @@ import { OnboardingStepStatusEnum } from "./onboarding/enums/OnboardingStepStatu
 import { OnboardingStep } from "./onboarding/types/OnboardingStep";
 import { OnboardingStepKey } from "./onboarding/types/OnboardingStepKey";
 import { OnboardingStepStatus } from "./onboarding/types/OnboardingStepStatus";
+import { UpdatePeopleInput } from "./Fiado/Address/UpdatePeopleInput";
 
 
 export {
@@ -326,5 +327,6 @@ export {
 
     //IDENTITY
     People,
-    PeopleOut
+    PeopleOut,
+    UpdatePeopleInput,
 };

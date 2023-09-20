@@ -29,7 +29,7 @@ export interface People {
 
     usSuffix: string | null
     usLastName: string | null
-    usNames: string[] | null
+    usNames: string | null
 
     passportNumber: string | null
     countryOfPassport: string | null
