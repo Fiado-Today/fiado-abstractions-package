@@ -1,6 +1,6 @@
 import { AddressOutput } from "../../Fiado/Address/AddressOutput";
 import {TenantEnum} from "../../General/enum/TenantEnum";
-import {TypeOfDirectoryIdEnum} from "../../General/enum/TypeOfDirectoryIdEnum";
+import {TypeOfDirectoryIdEnum} from "../../Directory/enums/TypeOfDirectoryIdEnum";
 
 export interface AccountBeneficiary {
     id: string,

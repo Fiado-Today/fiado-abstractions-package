@@ -1,5 +1,5 @@
 import {AddressOutput} from "../../../Address/AddressOutput";
-import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
+import {TypeOfDirectoryIdEnum} from "../../../../Directory/enums/TypeOfDirectoryIdEnum";
 
 export interface CreateBeneficiaryInput {
     fullName: string;

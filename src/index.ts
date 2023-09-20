@@ -72,11 +72,9 @@ import { OnboardingStepKeyEnum } from "./Onboarding/enums/OnboardingStepKeyEnum"
 import { OnboardingStatusEnum } from "./Onboarding/enums/OnboardingStatusEnum";
 import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
 import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
-import { TypeOfDirectoryIdEnum } from "./General/enum/TypeOfDirectoryIdEnum";
+import { TypeOfDirectoryIdEnum } from "./Directory/enums/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
-import { AppEnum } from "./General/enum/AppEnum";
-import { UserScopeEnum } from "./General/enum/UserScopeEnum";
-import { UserProfileEnum } from "./General/enum/UserProfileEnum";
+import { AppEnum } from "./Directory/enums/AppEnum";
 import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
 import { CreateAccountInput } from "./Fiado/Account/CreateAccountInput";
 import { AccountBalanceOperationObject, UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
@@ -100,28 +98,6 @@ import { SexEnum } from "./General/enum/SexEnum";
 import { AccountOutput } from "./Fiado/Account/AccountOutput";
 // import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
 // import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
-import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
-import { CreateDirectoryOutput } from "./Directory/CreateDIrectoryUserOutput";
-import { UpdateDirectoryInput } from "./Directory/UpdateDirectoryInput";
-import { UpdateDirectoryOutput } from "./Directory/UpdateDirectoryOutput";
-import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
-import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
-import { GetDirectoryListInput } from "./Directory/GetDirectoryListInput";
-import { GetDirectoryListOutput } from "./Directory/GetDirectoryListOutput";
-import { CreateDirectoryUserInput } from "./Directory/User/CreateDirectoryUserInput";
-import { CreateDirectoryUserOutput } from "./Directory/User/CreateDirectoryUserOutput";
-import { UpdateDirectoryUserInput } from "./Directory/User/UpdateDirectoryUserInput";
-import { UpdateDirectoryUserOutput } from "./Directory/User/UpdateDirectoryUserOutput";
-import { GetDirectoryUserInput } from "./Directory/User/GetDirectoryUserInput";
-import { GetDirectoryUserOutput } from "./Directory/User/GetDirectoryUserOutput";
-import { GetDirectoryUserListInput } from "./Directory/User/GetDirectoryUserListInput";
-import { GetDirectoryUserListOutput } from "./Directory/User/GetDirectoryUserListOutput";
-import { PaginationInput } from "./Fiado/Common/PaginationInput";
-import { DirectoryStatusEnum } from "./Directory/enums/DirectoryStatusEnum";
-import { CreateDirectoryInputType } from "./Directory/types/CreateDirectoryInputType";
-import { GetDirectoryInputType } from "./Directory/types/GetDirectoryInputType";
-import { GetDirectoryListInputType } from "./Directory/types/GetDirectoryListInputType";
-import { UpdateDirectoryInputType } from "./Directory/types/UpdateDirectoryInputType";
 // import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
 // import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 import { GetAppVersionInput } from "./AppVersion/GetAppVersionInput";
@@ -137,7 +113,10 @@ import { EntityBaseWithDirectory } from "./Entities/Base/EntityBaseWithDirectory
 import { Onboarding } from "./Entities/Onboarding";
 import { GetOnboardingListInput } from "./Onboarding/GetOnboardingListInput";
 import { GetOnboardingListOutput } from "./Onboarding/GetOnboardigListOutput";
-
+import {DirectoryProfileEnum} from "./Directory/enums/DirectoryProfileEnum";
+import { DirectoryScopeEnum } from "./Directory/enums/DirectoryScopeEnum";
+import { DirectoryStatusEnum } from "./Directory/enums/DirectoryStatusEnum";
+import { Directory } from "./Entities/Directory";
 
 export {
     //BANK ACCOUNT
@@ -264,33 +243,12 @@ export {
     Address,
 
     //DIRECTORY
-    DirectoryStatusEnum,
-    TypeOfDirectoryIdEnum,
     AppEnum,
-    UserScopeEnum,
-    UserProfileEnum,
-
-    CreateDirectoryInputType,
-    GetDirectoryInputType,
-    GetDirectoryListInputType,
-    UpdateDirectoryInputType,
-
-    CreateDirectoryInput,
-    CreateDirectoryOutput,
-    UpdateDirectoryInput,
-    UpdateDirectoryOutput,
-    GetDirectoryInput,
-    GetDirectoryOutput,
-    GetDirectoryListInput,
-    GetDirectoryListOutput,
-    CreateDirectoryUserInput,
-    CreateDirectoryUserOutput,
-    UpdateDirectoryUserInput,
-    UpdateDirectoryUserOutput,
-    GetDirectoryUserInput,
-    GetDirectoryUserOutput,
-    GetDirectoryUserListInput,
-    GetDirectoryUserListOutput,
+    DirectoryProfileEnum,
+    TypeOfDirectoryIdEnum,
+    DirectoryScopeEnum,
+    DirectoryStatusEnum,
+    Directory,
 
     //COUNTRY
     CountryIso3,
@@ -305,11 +263,9 @@ export {
     // GetBankListOutput,
 
     //COMMON
-    PaginationInput,
     EntityBase,
     EntityBaseWithDirectory
-
-
+    
     //BANKACCOUNT
     // GetBankAccountsListInput,
     // GetBankAccountsListOutput,
