@@ -1,3 +1,3 @@
 import { People } from "../Database/People";
 
-export type PeopleOut = Omit<People, 'createDate' | 'lastUpdateDate'>;
+export type PeopleOutput = Omit<People, 'createDate' | 'lastUpdateDate'>;

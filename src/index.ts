@@ -127,7 +127,7 @@ import { Onboarding } from "./Entities/Onboarding";
 import { Banks } from "./Fiado/Database/Banks";
 import {BankAccounts} from "./Fiado/Database/BankAccounts";
 import { People } from "./Fiado/Database/People";
-import { PeopleOut } from "./Fiado/Identity/PeopleOut";
+import { PeopleOutput } from "./Fiado/Identity/PeopleOut";
 import { GetOnboardingListInput } from "./onboarding/GetOnboardingListInput";
 import { GetOnboardingListOutput } from "./onboarding/GetOnboardigListOutput";
 import { GetOnboardingStepInput } from "./onboarding/GetOnboardingStepInput";
@@ -328,7 +328,7 @@ export {
 
     //IDENTITY
     People,
-    PeopleOut,
+    PeopleOutput,
     UpdatePeopleInput,
     IdentificationDocument
 };
