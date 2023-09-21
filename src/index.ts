@@ -68,7 +68,6 @@ import {AccountBalanceOperationObject, UpdateAccountBalanceInput} from "./Fiado/
 import {UpdateAccountInput} from "./Fiado/Account/UpdateAccountInput";
 
 import {AddressOutput} from "./Fiado/Address/AddressOutput";
-import {Address} from "cluster";
 import {Account} from "./Fiado/Database/Account";
 import {AccountStatus} from "./Fiado/Account/enums/AccountStatus";
 import {Beneficiary} from "./Fiado/Account/Beneficiary/types/Beneficiary";
@@ -122,6 +121,9 @@ import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
 import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
+import { Address } from "./Fiado/Database/Address";
+import { UpdateBackofficeExternalAccountOutput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountOutput";
+import { UpdateBackofficeExternalAccountInput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -270,4 +272,6 @@ export {
     // BACKOFFICE
     GetBackofficeAccountInput,
     GetBackofficeAccountOutput,
+    UpdateBackofficeExternalAccountInput,
+    UpdateBackofficeExternalAccountOutput,
 };
