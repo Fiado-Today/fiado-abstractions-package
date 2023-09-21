@@ -1,4 +1,4 @@
-import { AppEnum } from "../../General/enum/AppEnum"
+import { AppEnum } from "../../Directory/enums/AppEnum"
 import { IdentificationDocument } from "../Identity/IdentificationDocument"
 import { Sex } from "../../KYC/enums/Sex"
 

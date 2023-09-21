@@ -98,7 +98,7 @@ import { TypeOfDirectoryIdEnum } from "./Directory/enums/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
 import { AppEnum } from "./Directory/enums/AppEnum";
 
-import { OnboardingStepKey } from "./Onboarding/types/OnboardingStepKey";
+
 
 
 import {Banks} from "./Fiado/Database/Banks";
@@ -121,8 +121,7 @@ import { GetBankListInput } from "./Fiado/bank/bank/dto/GetBankListInput";
 import { GetBankListOutput } from "./Fiado/bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/bank/bankAccount/dto/GetBankAccountsListInput";
 import { GetBankAccountsListOutput } from "./Fiado/bank/bankAccount/dto/GetBankAccountsListOutput";
-import { GetOnboardingOutput } from "./onboarding/GetOnboardingOutput";
-
+import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -208,7 +207,6 @@ export {
     GetOnboardingListOutput,
     GetOnboardingInput,
     GetOnboardingOutput,
-    OnboardingStepKey,
 
     //APPVERSION
     AppVersion,
