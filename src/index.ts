@@ -117,10 +117,10 @@ import {GetBackofficeAccountInput} from "./Fiado/Account/Backoffice/GetBackoffic
 import {DirectoryProfileEnum} from "./Directory/enums/DirectoryProfileEnum";
 import { DirectoryScopeEnum } from "./Directory/enums/DirectoryScopeEnum";
 import { Directory } from "./Entities/Directory";
-import { GetBankListInput } from "./Fiado/bank/bank/dto/GetBankListInput";
-import { GetBankListOutput } from "./Fiado/bank/bank/dto/GetBankListOutput";
-import { GetBankAccountsListInput } from "./Fiado/bank/bankAccount/dto/GetBankAccountsListInput";
-import { GetBankAccountsListOutput } from "./Fiado/bank/bankAccount/dto/GetBankAccountsListOutput";
+import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
+import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
+import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
+import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
 export {
     //BANK ACCOUNT

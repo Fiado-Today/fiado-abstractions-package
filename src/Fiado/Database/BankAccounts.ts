@@ -1,4 +1,4 @@
-import {AccountType} from "../bank/bank/type/AccountType";
+import {AccountType} from "../Bank/bank/type/AccountType";
 export interface BankAccounts {
     "id": string,
     "accountHolderName": string,

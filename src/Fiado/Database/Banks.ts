@@ -1,5 +1,5 @@
-import { Currency } from "../bank/bank/type/Currency";
-import { AccountType } from "../bank/bank/type/AccountType";
+import { Currency } from "../Bank/bank/type/Currency";
+import { AccountType } from "../Bank/bank/type/AccountType";
 
 export interface Banks {
     id: string,
