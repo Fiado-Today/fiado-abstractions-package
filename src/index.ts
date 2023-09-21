@@ -124,6 +124,8 @@ import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
 import { Address } from "./Fiado/Database/Address";
 import { UpdateBackofficeExternalAccountOutput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountOutput";
 import { UpdateBackofficeExternalAccountInput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
+import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
+import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -241,6 +243,8 @@ export {
     DirectoryScopeEnum,
     DirectoryStatusEnum,
     Directory,
+    GetDirectoryInput,
+    GetDirectoryOutput,
 
     //COUNTRY
     CountryIso3,
