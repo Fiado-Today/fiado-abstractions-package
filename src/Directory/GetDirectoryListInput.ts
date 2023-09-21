@@ -1,11 +1,15 @@
 import { GetListBaseInput } from "../Fiado/Common/GetListBaseInput";
-import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
-import { UserProfileEnum } from "../General/enum/UserProfileEnum";
-import { UserScopeEnum } from "../General/enum/UserScopeEnum";
+import { DirectoryProfileEnum } from "./enums/DirectoryProfileEnum";
+import { DirectoryScopeEnum } from "./enums/DirectoryScopeEnum";
+import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum";
+import { TypeOfDirectoryIdEnum } from "./enums/TypeOfDirectoryIdEnum";
 
 export interface GetDirectoryListInput extends GetListBaseInput {
-    scope?: UserScopeEnum[];
-    ownerDirectoryId?: string;
-    userProfile?: UserProfileEnum;
-    typeOfDirectoryId: TypeOfDirectoryIdEnum
+    accountLevel: "1"| "2" | "3" | "4" 
+    categoryId?:string|null,
+    ownerDirectoryId?:string,
+    scope?: Array<DirectoryScopeEnum>
+    status?: DirectoryStatusEnum
+    userProfile?: DirectoryProfileEnum
+    typeOfDirectoryId:TypeOfDirectoryIdEnum
 }

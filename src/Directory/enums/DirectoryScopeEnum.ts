@@ -1,4 +1,4 @@
-export enum UserScopeEnum {
+export enum DirectoryScopeEnum {
     FIADO_MX = "fiado.mx",
     FIADO_US = "fiado.us",
     US_ONBOARDING_PROFILE = "fiado.on_us",

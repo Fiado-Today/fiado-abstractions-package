@@ -1,16 +1,19 @@
-import { TypeOfDirectoryIdEnum } from "../General/enum/TypeOfDirectoryIdEnum";
-import { UserProfileEnum } from "../General/enum/UserProfileEnum";
-import { UserScopeEnum } from "../General/enum/UserScopeEnum";
-import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum";
+import { DirectoryProfileEnum } from "./enums/DirectoryProfileEnum"
+import { DirectoryScopeEnum } from "./enums/DirectoryScopeEnum"
+import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum"
+import { TypeOfDirectoryIdEnum } from "./enums/TypeOfDirectoryIdEnum"
 
-export interface CreateDirectoryInput{
+export interface CreateDirectoryInput {
     id:string,
-    phoneNumber:string,
+    accountLevel: "1"| "2" | "3" | "4" 
+    categoryId:string|null,
+    identityId:string,
+    ownerDirectoryId:string,
     password:string,
-    userProfile:UserProfileEnum,
-    ownerDirectoryId:string|null,
-    scope:UserScopeEnum[],
-    peopleId:string|null,
+    peopleId:string,
+    phoneNuber:string,
+    scope: Array<DirectoryScopeEnum>
     status: DirectoryStatusEnum
-    typeOfDirectoryId:TypeOfDirectoryIdEnum
+    userProfile: DirectoryProfileEnum
+    typeOfDirectoryId: TypeOfDirectoryIdEnum
 }

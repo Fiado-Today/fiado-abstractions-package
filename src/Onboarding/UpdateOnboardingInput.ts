@@ -3,4 +3,7 @@ export interface UpdateOnboardingInput {
     referralDirectoryId?: string,
     referralCode?: string,
     promotedToDirectory?: boolean;
+    ownerDirectoryId?: string;
 }
+
+
