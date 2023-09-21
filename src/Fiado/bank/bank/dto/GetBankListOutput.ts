@@ -1,5 +1,5 @@
-import {AccountType} from "../type/AccountType";
 import {Currency} from "../type/Currency";
+import {AccountType} from "../type/AccountType";
 
 export interface GetBankListOutput {
     id: string,
