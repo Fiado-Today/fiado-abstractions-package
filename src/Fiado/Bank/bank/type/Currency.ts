@@ -1,4 +1,4 @@
 export interface Currency {
-    id?: number,
-    iso?: string
+    id?: number;
+    iso?: string;
 }

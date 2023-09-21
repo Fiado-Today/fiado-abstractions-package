@@ -1,4 +1,4 @@
 export interface GetBankListInput {
-    countryId?: string,
-    bankId?: string
+    countryId?: string;
+    bankId?: string;
 }
