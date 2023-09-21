@@ -9,6 +9,6 @@ export interface GetBankListOutput {
     sortNumber: number;
     currency: Currency;
     accountType: [AccountType];
-    iconUrl: string | null;
-    bankCode: string | null;
+    iconUrl: string;
+    bankCode: string;
 }
