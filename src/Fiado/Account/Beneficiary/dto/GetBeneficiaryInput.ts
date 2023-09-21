@@ -1,4 +1,4 @@
-import {TypeOfDirectoryIdEnum} from "../../../../General/enum/TypeOfDirectoryIdEnum";
+import {TypeOfDirectoryIdEnum} from "../../../../Directory/enums/TypeOfDirectoryIdEnum";
 
 export interface GetBeneficiaryInput {
     directoryId: string,
