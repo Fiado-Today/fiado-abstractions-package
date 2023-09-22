@@ -1,8 +1,9 @@
-import { DirectoryProfileEnum } from "../Directory/enums/DirectoryProfileEnum";
-import { DirectoryScopeEnum } from "../Directory/enums/DirectoryScopeEnum";
-import { DirectoryStatusEnum } from "../Directory/enums/DirectoryStatusEnum";
-import { TypeOfDirectoryIdEnum } from "../Directory/enums/TypeOfDirectoryIdEnum";
-import { EntityBase } from "./Base/EntityBase";
+
+import { DirectoryProfileEnum } from "../../Directory/enums/DirectoryProfileEnum";
+import { DirectoryScopeEnum } from "../../Directory/enums/DirectoryScopeEnum";
+import { DirectoryStatusEnum } from "../../Directory/enums/DirectoryStatusEnum";
+import { TypeOfDirectoryIdEnum } from "../../Directory/enums/TypeOfDirectoryIdEnum";
+import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface Directory extends EntityBase{
     accountLevel: "1"| "2" | "3" | "4" 

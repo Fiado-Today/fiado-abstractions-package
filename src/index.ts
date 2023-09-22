@@ -86,10 +86,10 @@ import {GetListBaseInput} from "./Fiado/Common/GetListBaseInput";
 import {GetListBaseOutput} from "./Fiado/Common/GetListBaseOutput";
 import {GetAppVersionOutput} from "./AppVersion/GetAppVersionOutput";
 import {GetAppVersionListOutput} from "./AppVersion/GetAppVersionListOutput";
-import {AppVersion} from "./Entities/AppVersion";
+import {AppVersion} from "./Fiado/Database/AppVersion";
 import {EntityBase} from "./Entities/Base/EntityBase";
 import {EntityBaseWithDirectory} from "./Entities/Base/EntityBaseWithDirectory";
-import {Onboarding} from "./Entities/Onboarding";
+import { Onboarding } from "./Fiado/Database/Onboarding";
 
 import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
 import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
@@ -97,15 +97,12 @@ import { TypeOfDirectoryIdEnum } from "./Directory/enums/TypeOfDirectoryIdEnum";
 import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
 import { AppEnum } from "./Directory/enums/AppEnum";
 
-
-
-
 import {Banks} from "./Fiado/Database/Banks";
 import {BankAccounts} from "./Fiado/Database/BankAccounts";
 import {People} from "./Fiado/Database/People";
 import {PeopleOutput} from "./Fiado/Identity/PeopleOut";
 import {GetOnboardingListInput} from "./Onboarding/GetOnboardingListInput";
-import {GetOnboardingListOutput} from "./Onboarding/GetOnboardigListOutput";
+import {GetOnboardingListOutput} from "./Onboarding/GetOnboardingListOutput";
 import {GetOnboardingInput} from "./Onboarding/GetOnboardingInput";
 
 import {IdentificationDocument} from "./Fiado/Identity/IdentificationDocument";
@@ -115,7 +112,7 @@ import {GetBackofficeAccountInput} from "./Fiado/Account/Backoffice/GetBackoffic
 
 import {DirectoryProfileEnum} from "./Directory/enums/DirectoryProfileEnum";
 import { DirectoryScopeEnum } from "./Directory/enums/DirectoryScopeEnum";
-import { Directory } from "./Entities/Directory";
+import { Directory } from "./Fiado/Database/Directory";
 import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
 import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
