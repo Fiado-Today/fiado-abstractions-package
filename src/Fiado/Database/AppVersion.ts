@@ -1,5 +1,5 @@
-import { AppPlatform } from "../General/enum/AppPlatform";
-import { EntityBase } from "./Base/EntityBase";
+import { AppPlatform } from "../../General/enum/AppPlatform";
+import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface AppVersion extends EntityBase {
     platform:AppPlatform,
