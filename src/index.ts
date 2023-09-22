@@ -126,6 +126,8 @@ import { UpdateBackofficeExternalAccountOutput } from "./Fiado/Account/Backoffic
 import { UpdateBackofficeExternalAccountInput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
 import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
 import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
+import { CreatePocketInput } from "./Fiado/Account/Pocket/dto/CreatePocketInput";
+import { CreatePocketOutput } from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -227,6 +229,8 @@ export {
     //POCKET
     GetPocketInput,
     UpdatePocketBalanceInput,
+    CreatePocketInput,
+    CreatePocketOutput,
 
     //TRANSFER ACH
     CreateBankAccountRecipientInput,
