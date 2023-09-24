@@ -125,6 +125,9 @@ import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
 import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
 import { CreatePocketInput } from "./Fiado/Account/Pocket/dto/CreatePocketInput";
 import { CreatePocketOutput } from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
+
+import { DatabaseIndex } from "./Fiado/Database/indexes/DatabaseIndex";
+
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -279,4 +282,8 @@ export {
     GetBackofficeAccountOutput,
     UpdateBackofficeExternalAccountInput,
     UpdateBackofficeExternalAccountOutput,
+
+
+    //Database
+    DatabaseIndex
 };
