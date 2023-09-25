@@ -126,7 +126,9 @@ import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
 import { CreatePocketInput } from "./Fiado/Account/Pocket/dto/CreatePocketInput";
 import { CreatePocketOutput } from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
 
-import { DatabaseIndex } from "./Fiado/Database/indexes/DatabaseIndex";
+import { DatabaseIndexType } from "./Fiado/Database/indexes/DatabaseIndexType";
+import { EntitiesEnum } from "./Fiado/Database/EntitiesEnum";
+import { IndexList } from "./Fiado/Database/indexes/IndexList";
 
 export {
     //BANK ACCOUNT
@@ -285,5 +287,7 @@ export {
 
 
     //Database
-    DatabaseIndex
+    DatabaseIndexType,
+    EntitiesEnum,
+    IndexList,
 };
