@@ -1,7 +1,7 @@
 import { EntitiesEnum } from "../EntitiesEnum";
-import { DatabaseIndexType } from "./DatabaseIndexType";
+import { DatabaseIndexListType } from "./DatabaseIndexListType";
 
-export const AppVersionIndexList:DatabaseIndexType= { 
+export const AppVersionIndexList:DatabaseIndexListType= { 
     VERSION:{
         schema: EntitiesEnum.APP_VERSION,
         required: [":#version"],

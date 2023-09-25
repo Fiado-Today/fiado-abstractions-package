@@ -127,8 +127,11 @@ import { CreatePocketInput } from "./Fiado/Account/Pocket/dto/CreatePocketInput"
 import { CreatePocketOutput } from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
 
 import { DatabaseIndexType } from "./Fiado/Database/indexes/DatabaseIndexType";
+import { DatabaseIndexListType } from "./Fiado/Database/indexes/DatabaseIndexListType";
 import { EntitiesEnum } from "./Fiado/Database/EntitiesEnum";
 import { IndexList } from "./Fiado/Database/indexes/IndexList";
+import { AppVersionIndexList } from "./Fiado/Database/indexes/AppVersionIndexList";
+
 
 export {
     //BANK ACCOUNT
@@ -217,6 +220,7 @@ export {
     GetOnboardingOutput,
 
     //APPVERSION
+    AppVersionIndexList,
     AppVersion,
     GetAppVersionInput,
     GetAppVersionOutput,
@@ -288,6 +292,7 @@ export {
 
     //Database
     DatabaseIndexType,
+    DatabaseIndexListType,
     EntitiesEnum,
     IndexList,
 };
