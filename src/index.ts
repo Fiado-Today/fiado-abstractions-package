@@ -112,7 +112,12 @@ import { GetBackofficeAccountInput } from "./Fiado/Account/Backoffice/GetBackoff
 
 import { DirectoryProfileEnum } from "./Directory/enums/DirectoryProfileEnum";
 import { DirectoryScopeEnum } from "./Directory/enums/DirectoryScopeEnum";
+import { GetDirectoryListInput } from "./Directory/GetDirectoryListInput";
+import { GetDirectoryListOutput } from "./Directory/GetDirectoryListOutput";
 import { Directory } from "./Fiado/Database/Directory";
+
+
+
 import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
 import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
@@ -136,6 +141,7 @@ import { PomeloPresentment } from "./Fiado/Database/PomeloPresentment"
 import { PomeloTransaction } from "./Fiado/Database/PomeloTransaction"
 import { CreatePomeloPresentmentInput } from "./PomeloPresentment/CreatePomeloPresentmentInput"
 import { CreatePomeloTransactionInput } from "./PomeloTransaction/CreatePomeloTransactionInput"
+
 
 export {
     //BANK ACCOUNT
@@ -259,6 +265,8 @@ export {
     Directory,
     GetDirectoryInput,
     GetDirectoryOutput,
+    GetDirectoryListInput,
+    GetDirectoryListOutput,
 
     //COUNTRY
     CountryIso3,

@@ -11,5 +11,7 @@ export interface GetDirectoryListInput extends GetListBaseInput {
     scope?: Array<DirectoryScopeEnum>
     status?: DirectoryStatusEnum
     userProfile?: DirectoryProfileEnum
-    typeOfDirectoryId:TypeOfDirectoryIdEnum
+    typeOfDirectoryId:TypeOfDirectoryIdEnum,
+    peopleId?:string,
+    phoneNumber?:string
 }
