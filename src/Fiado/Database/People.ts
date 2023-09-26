@@ -8,35 +8,48 @@ export interface People {
     createDate: string
     lastUpdateDate: AppEnum | null
 
-    creationMethod: string | null
-    operationId: string | null
-    curp: string | null
-    rfc: string | null
-    countryOfBirth: string | null
-    dateOfBirth: string | null
-    stateOfBirth: string | null
-    docSex: Sex | null
+    creationMethod: AppEnum | null
     indexName: string | null
-    internalEmail: string | null
-    occupation: string | null
-    photoOfpersonImageName: string | null
-    videoOfPersonImageName: string | null
     preferredName: string | null
-    preferredPronoun: string | null
-    aliasNames: string[] | null
-    SSN_ITIN: string | null
-    tenantId: string | null
 
     usSuffix: string | null
-    usLastName: string | null
+    usLastNames: string | null
     usNames: string | null
+
+    latNames: string | null
+    latLastNamePaternal: string | null
+    latLastNameMaternal: string | null
+    aliasNames: string[] | null
+    preferredPronoun: string | null
+
+    SSN_ITIN: string | null
+    rfc: string | null
+    curp: string | null
 
     passportNumber: string | null
     countryOfPassport: string | null
     documents: IdentificationDocument[] | null
 
+    
+    
+    countryOfBirth: string | null
+    dateOfBirth: string | null
+    stateOfBirth: string | null
+    nationalities: string[] | null
+    docSex: Sex | null
+    
+    internalEmail: string | null
+    occupation: string | null
+    operationId: string | null
+
+    tenantId: string | null
+    photoOfpersonImageName: string | null
+    videoOfPersonImageName: string | null
+
+
     usAccount: boolean | null
     magicNumber: string | null
+    
     documentVerified: boolean | null
     videoSelfieVerified: boolean | null
     facematchVerified: boolean | null
