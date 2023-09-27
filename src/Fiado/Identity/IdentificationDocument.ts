@@ -20,4 +20,5 @@ export type IdentificationDocument = {
     documentNumber: string | null,
     typeOfDocument: TypeOfDocument,
     sex: SexEnum | null,
+    verificationId: string | null,
 }

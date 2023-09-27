@@ -30,8 +30,6 @@ export interface People {
     countryOfPassport: string | null
     documents: IdentificationDocument[] | null
 
-    
-    
     countryOfBirth: string | null
     dateOfBirth: string | null
     stateOfBirth: string | null
@@ -46,10 +44,9 @@ export interface People {
     photoOfpersonImageName: string | null
     videoOfPersonImageName: string | null
 
-
     usAccount: boolean | null
     magicNumber: string | null
-    
+
     documentVerified: boolean | null
     videoSelfieVerified: boolean | null
     facematchVerified: boolean | null
@@ -76,3 +73,5 @@ export interface People {
     CRI_SendWish: boolean | null
     PER_SendWish: boolean | null
 }
+
+
