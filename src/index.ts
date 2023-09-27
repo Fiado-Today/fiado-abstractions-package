@@ -141,6 +141,8 @@ import { PomeloPresentment } from "./Fiado/Database/PomeloPresentment"
 import { PomeloTransaction } from "./Fiado/Database/PomeloTransaction"
 import { CreatePomeloPresentmentInput } from "./PomeloPresentment/CreatePomeloPresentmentInput"
 import { CreatePomeloTransactionInput } from "./PomeloTransaction/CreatePomeloTransactionInput"
+import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
+import { CreateDirectoryOutput } from "./Directory/CreateDirectoryOutput";
 
 
 export {
@@ -267,6 +269,9 @@ export {
     GetDirectoryOutput,
     GetDirectoryListInput,
     GetDirectoryListOutput,
+    CreateDirectoryInput,
+    CreateDirectoryOutput,
+    
 
     //COUNTRY
     CountryIso3,
