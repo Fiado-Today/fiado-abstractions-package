@@ -144,6 +144,10 @@ import { CreatePomeloTransactionInput } from "./PomeloTransaction/CreatePomeloTr
 import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
 import { CreateDirectoryOutput } from "./Directory/CreateDirectoryOutput";
 import { CreatePeopleInput } from "./Fiado/Identity/CreatePeopleInput";
+import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
+import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
+import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
+import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 
 
 export {
@@ -231,6 +235,10 @@ export {
     GetOnboardingListOutput,
     GetOnboardingInput,
     GetOnboardingOutput,
+    CreateOnboardingInput,
+    CreateOnboardingOutput,
+    UpdateOnboardingInput,
+    UpdateOnboardingOutput,
 
     //APPVERSION
     AppVersionIndexList,

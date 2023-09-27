@@ -1,5 +1,5 @@
 export enum EntitiesEnum {
     APP_VERSION =  "AppVersion",
-    ONBOARDING = "Onboarding",
+    ONBOARDING_USER = "OnboardingUser",
     DIRECTORY_USER = "DirectoryUser",
 }
