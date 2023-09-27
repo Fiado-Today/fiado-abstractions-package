@@ -143,6 +143,7 @@ import { CreatePomeloPresentmentInput } from "./PomeloPresentment/CreatePomeloPr
 import { CreatePomeloTransactionInput } from "./PomeloTransaction/CreatePomeloTransactionInput"
 import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
 import { CreateDirectoryOutput } from "./Directory/CreateDirectoryOutput";
+import { CreatePeopleInput } from "./Fiado/Identity/CreatePeopleInput";
 
 
 export {
@@ -298,6 +299,7 @@ export {
     People,
     PeopleOutput,
     UpdatePeopleInput,
+    CreatePeopleInput,
     IdentificationDocument,
 
     // BACKOFFICE
@@ -321,4 +323,7 @@ export {
     //PomeloTransaction
     PomeloTransaction,
     CreatePomeloTransactionInput
+
+
+
 };
