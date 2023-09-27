@@ -148,6 +148,7 @@ import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
 import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
 import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
 import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
+import { HttpMethodEnum } from "./General/enum/HttpMethodEnum";
 
 
 export {
@@ -289,6 +290,8 @@ export {
 
     //PEOPLE
     SexEnum,
+    HttpMethodEnum,
+
 
     //BANK
     GetBankListInput,
