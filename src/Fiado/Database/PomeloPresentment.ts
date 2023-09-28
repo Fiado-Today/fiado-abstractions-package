@@ -1,10 +1,7 @@
 import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface PomeloPresentment extends EntityBase {
-    id:string,
-    tenantId:string,
-    createDate:string,
-    updateDate:string,
+    id: string,
     publicId: string | null,
     transactionId: string | null,
     transactionDateTime: string | null,
