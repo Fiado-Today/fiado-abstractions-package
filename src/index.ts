@@ -149,7 +149,8 @@ import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
 import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
 import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 import { HttpMethodEnum } from "./General/enum/HttpMethodEnum";
-import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } from "./Fiado/MessageNotification/MessageNotification";
+import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } from "./Fiado/MessageNotification/MessageNotification"; 
+import { GetTransactionMessageListInput } from "./TransactionMessage/GetTransactionMessageListInput";
 
 
 export {
@@ -340,5 +341,9 @@ export {
     MessageTypeEnum, 
     NotificationPush, 
     channelType, 
-    notificationStatus
+    notificationStatus,
+
+    //TransactionMessage
+    GetTransactionMessageListInput
+    
 };
