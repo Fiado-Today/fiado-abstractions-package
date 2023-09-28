@@ -8,7 +8,7 @@ export interface CreateDirectoryInput {
     accountLevel: "1"| "2" | "3" | "4" 
     categoryId:string|null,
     identityId:string,
-    ownerDirectoryId:string,
+    ownerDirectoryId:string|null,
     password:string,
     peopleId:string,
     phoneNuber:string,
