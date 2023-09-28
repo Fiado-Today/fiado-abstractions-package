@@ -7,6 +7,7 @@ export interface UpdateOnboardingInput {
     referralCode?: string,
     promotedToDirectory?: boolean;
     ownerDirectoryId?: string;
+    otpConfirm?:string,
 }
 
 
