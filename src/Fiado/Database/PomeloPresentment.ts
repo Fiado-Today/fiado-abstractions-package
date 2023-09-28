@@ -38,4 +38,5 @@ export interface PomeloPresentment extends EntityBase {
     currentInstallment: string | null,
     documentName: string | null,
     procesDocumentDate: string | null,
+    atmFee: string | null,
 }
