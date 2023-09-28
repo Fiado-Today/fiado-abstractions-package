@@ -9,7 +9,7 @@ export interface UpdateDirectoryOutput {
     lastSession?:string|null,
     ownerDirectoryId?:string|null,
     password?:string,
-    phoneNuber?:string,
+    phoneNumber?:string,
     scope?: Array<DirectoryScopeEnum>
     status?: DirectoryStatusEnum
     userProfile?: DirectoryProfileEnum

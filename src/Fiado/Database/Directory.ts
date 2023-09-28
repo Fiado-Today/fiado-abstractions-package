@@ -13,7 +13,7 @@ export interface Directory extends EntityBase{
     ownerDirectoryId:string|null,
     password:string,
     peopleId:string,
-    phoneNuber:string,
+    phoneNumber:string,
     scope: Array<DirectoryScopeEnum>
     status: DirectoryStatusEnum
     userProfile: DirectoryProfileEnum

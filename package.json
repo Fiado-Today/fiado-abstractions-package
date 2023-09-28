@@ -1,6 +1,6 @@
 {
   "name": "@fiado/fiado-abstractions",
-  "version": "0.0.156",
+  "version": "0.0.157",
   "description": "",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
