@@ -38,4 +38,5 @@ export interface PomeloTransaction extends EntityBase {
     installmentsCreditType: string | null,
     documentName: string | null,
     procesDocumentDate: string | null,
+    atmFee: string | null,
 }
