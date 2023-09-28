@@ -149,6 +149,7 @@ import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
 import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
 import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 import { HttpMethodEnum } from "./General/enum/HttpMethodEnum";
+import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } from "./Fiado/MessageNotification/MessageNotification";
 
 
 export {
@@ -281,7 +282,7 @@ export {
     GetDirectoryListOutput,
     CreateDirectoryInput,
     CreateDirectoryOutput,
-    
+
 
     //COUNTRY
     CountryIso3,
@@ -333,8 +334,11 @@ export {
 
     //PomeloTransaction
     PomeloTransaction,
-    CreatePomeloTransactionInput
+    CreatePomeloTransactionInput,
 
-
-
+    //MessageNotification
+    MessageTypeEnum, 
+    NotificationPush, 
+    channelType, 
+    notificationStatus
 };
