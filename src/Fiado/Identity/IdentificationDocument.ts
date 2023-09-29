@@ -3,7 +3,6 @@ import { Sex } from "../../KYC/enums/Sex";
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
 
 
-
 export type IdentificationDocument = {
     frontImageName: string | null,
     backImageName: string | null,
@@ -22,4 +21,5 @@ export type IdentificationDocument = {
     sex: Sex | null,
     verificationId: string | null,
     curp: string | null,
+    status: string | null,
 }
