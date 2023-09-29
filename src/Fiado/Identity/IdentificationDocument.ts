@@ -21,4 +21,5 @@ export type IdentificationDocument = {
     typeOfDocument: TypeOfDocument,
     sex: Sex | null,
     verificationId: string | null,
+    curp: string | null,
 }
