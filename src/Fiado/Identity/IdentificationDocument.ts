@@ -1,5 +1,5 @@
 import { Country } from "../../General/enum/Country";
-import { SexEnum } from "../../General/enum/SexEnum";
+import { Sex } from "../../KYC/enums/Sex";
 import { TypeOfDocument } from "../../KYC/enums/TypeOfDocument";
 
 
@@ -19,6 +19,6 @@ export type IdentificationDocument = {
     dateOfBirth: string | null,
     documentNumber: string | null,
     typeOfDocument: TypeOfDocument,
-    sex: SexEnum | null,
+    sex: Sex | null,
     verificationId: string | null,
 }
