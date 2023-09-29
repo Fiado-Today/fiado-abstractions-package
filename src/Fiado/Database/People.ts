@@ -45,7 +45,7 @@ export interface People {
     videoOfPersonImageName: string | null
 
     usAccount: boolean | null
-    magicNumber: string | null
+    magicNumber: boolean | null
 
     documentVerified: boolean | null
     videoSelfieVerified: boolean | null
