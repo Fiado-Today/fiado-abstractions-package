@@ -33,7 +33,8 @@ export enum notificationStatus
     COMPLETED = "COMPLETED",
     REJECTED = "REJECTED",
     DELETED = "DELETED",
-    CREATED = "CREATED"
+    CREATED = "CREATED",
+    VALIDATED= "VALIDATED"
 }
 
 export enum TypeOfProductEnum{
