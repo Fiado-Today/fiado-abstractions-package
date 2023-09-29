@@ -5,6 +5,7 @@ import { Sex } from "../../KYC/enums/Sex"
 
 export interface CreatePeopleInput {
 
+    id: string
     creationMethod?: AppEnum | null
     preferredName?: string | null
     preferredPronoun?: string | null
