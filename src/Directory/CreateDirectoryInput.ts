@@ -5,7 +5,6 @@ import { TypeOfDirectoryIdEnum } from "./enums/TypeOfDirectoryIdEnum"
 
 export interface CreateDirectoryInput {
     id:string,
-    accountLevel: "1"| "2" | "3" | "4" 
     categoryId:string|null,
     identityId:string,
     ownerDirectoryId:string|null,
