@@ -6,7 +6,6 @@ import { TypeOfDirectoryIdEnum } from "../../Directory/enums/TypeOfDirectoryIdEn
 import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface Directory extends EntityBase{
-    accountLevel: "1"| "2" | "3" | "4" 
     categoryId:string|null,
     identityId:string|null,
     lastSession:string|null,
