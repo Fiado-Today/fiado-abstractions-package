@@ -3,27 +3,27 @@ import {TypeOfDirectoryIdEnum} from "../../Directory/enums/TypeOfDirectoryIdEnum
 
 export interface KycData {
     id: string;
-    "age-check": string | null;
-    "alteration-detection": string | null;
+    "age-check": any[] | null;
+    "alteration-detection": any[] | null;
     countryId: string;
     directoryId: string;
-    "document-reading": string | null;
+    "document-reading": any[] | null;
     documentNumber: string | null;
-    facematch: string | null;
-    liveness: string | null;
-    "mexican-curp-validation": string | null;
-    "mexican-ine-validation": string | null;
-    "mexican-pep-validation": string | null;
-    "premium-aml-watchlists-validation": string | null;
+    facematch: any[] | null;
+    liveness: any[] | null;
+    "mexican-curp-validation": any[] | null;
+    "mexican-ine-validation": any[] | null;
+    "mexican-pep-validation": any[] | null;
+    "premium-aml-watchlists-validation": any[] | null;
     "provider": KycProviderEnum;
-    "template-matching": string | null;
+    "template-matching": any[] | null;
     typeOfDirectoryId: TypeOfDirectoryIdEnum;
     updateDate: string;
-    verification_completed: string | null;
-    verification_expired: string | null;
-    verification_inputs_completed: string | null;
-    verification_started: string | null;
-    verification_updated: string | null;
+    verification_completed: any[] | null;
+    verification_expired: any[] | null;
+    verification_inputs_completed: any[] | null;
+    verification_started: any[] | null;
+    verification_updated: any[] | null;
     verificationId: string;
-    watchlists: string;
+    watchlists: any[] | null;
 }
