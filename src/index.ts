@@ -151,6 +151,8 @@ import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
 import { HttpMethodEnum } from "./General/enum/HttpMethodEnum";
 import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } from "./Fiado/MessageNotification/MessageNotification"; 
 import { GetTransactionMessageListInput } from "./TransactionMessage/GetTransactionMessageListInput";
+import { KycProviderEnum } from "./KYC/enums/KycProviderEnum";
+import { KycData } from "./Fiado/Database/KycData";
 
 
 export {
@@ -344,6 +346,9 @@ export {
     notificationStatus,
 
     //TransactionMessage
-    GetTransactionMessageListInput
-    
+    GetTransactionMessageListInput,
+
+    //KYC
+    KycProviderEnum,
+    KycData
 };
