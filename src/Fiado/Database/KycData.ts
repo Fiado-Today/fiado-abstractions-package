@@ -18,6 +18,7 @@ export interface KycData {
     "provider": KycProviderEnum;
     "template-matching": any[] | null;
     typeOfDirectoryId: TypeOfDirectoryIdEnum;
+    typeOfDocumentId: string;
     updateDate: string;
     verification_completed: any[] | null;
     verification_expired: any[] | null;
