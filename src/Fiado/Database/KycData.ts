@@ -26,5 +26,7 @@ export interface KycData {
     verification_started: any[] | null;
     verification_updated: any[] | null;
     verificationId: string;
+    createDate: string;
     watchlists: any[] | null;
+    unknownMessages: any[] | null;
 }
