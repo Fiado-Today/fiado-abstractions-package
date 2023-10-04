@@ -153,6 +153,7 @@ import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } fr
 import { GetTransactionMessageListInput } from "./TransactionMessage/GetTransactionMessageListInput";
 import { KycProviderEnum } from "./KYC/enums/KycProviderEnum";
 import { KycData } from "./Fiado/Database/KycData";
+import { IdentificationDocumentStatus } from "./Fiado/Identity/IdentificationDocumentStatus";
 
 
 export {
@@ -316,6 +317,7 @@ export {
     UpdatePeopleInput,
     CreatePeopleInput,
     IdentificationDocument,
+    IdentificationDocumentStatus,
 
     // BACKOFFICE
     GetBackofficeAccountInput,
