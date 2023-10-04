@@ -51,6 +51,8 @@ export interface People {
     USA_UploadDocument: boolean
     MEX_UploadDocument: boolean
     videoSelfieVerified: boolean
+    MEX_ValidDocument: boolean
+    USA_ValidDocument: boolean
     USA_FacematchVerified: boolean | null
     MEX_FacematchVerified: boolean | null
 
