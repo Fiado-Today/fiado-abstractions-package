@@ -25,8 +25,12 @@ export interface KycData {
     verification_inputs_completed: any[] | null;
     verification_started: any[] | null;
     verification_updated: any[] | null;
+    verification_postponed: any[] | null;
+    verification_signed: any[] | null;
     verificationId: string;
     createDate: string;
     watchlists: any[] | null;
+    "ip-validation": any[] | null;
+    "duplicate-user-detection": any[] | null;
     unknownMessages: any[] | null;
 }
