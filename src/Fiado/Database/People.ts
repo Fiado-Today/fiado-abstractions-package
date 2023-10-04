@@ -44,34 +44,38 @@ export interface People {
     photoOfpersonImageName: string | null
     videoOfPersonImageName: string | null
 
-    usAccount: boolean | null
-    magicNumber: boolean | null
+    USA_Account: boolean 
+    MEX_Account: boolean
+    magicNumber: boolean
 
-    documentVerified: boolean | null
-    videoSelfieVerified: boolean | null
-    facematchVerified: boolean | null
+    USA_UploadDocument: boolean
+    MEX_UploadDocument: boolean
+    videoSelfieVerified: boolean
+    USA_FacematchVerified: boolean | null
+    MEX_FacematchVerified: boolean | null
+
     fiadoListApproved: boolean | null
     ofacListApproved: boolean | null
     cnbvListApproved: boolean | null
-    hasOwner: boolean | null
+    hasOwner: boolean
     older18: boolean | null
 
-    USA_Address: boolean | null
-    MEX_Address: boolean | null
-    COL_Address: boolean | null
-    GTM_Address: boolean | null
-    HND_Address: boolean | null
-    CRI_Address: boolean | null
-    PER_Address: boolean | null
+    USA_Address: boolean
+    MEX_Address: boolean
+    COL_Address: boolean
+    GTM_Address: boolean
+    HND_Address: boolean
+    CRI_Address: boolean
+    PER_Address: boolean
 
-    MEX_ProofAddress: boolean | null
+    MEX_ProofAddress: boolean
 
-    MXN_SendWish: boolean | null
-    COL_SendWish: boolean | null
-    GTM_SendWish: boolean | null
-    HND_SendWish: boolean | null
-    CRI_SendWish: boolean | null
-    PER_SendWish: boolean | null
+    MXN_SendWish: boolean
+    COL_SendWish: boolean
+    GTM_SendWish: boolean
+    HND_SendWish: boolean
+    CRI_SendWish: boolean
+    PER_SendWish: boolean
 }
 
 
