@@ -33,4 +33,5 @@ export interface KycData {
     "ip-validation": any[] | null;
     "duplicate-user-detection": any[] | null;
     unknownMessages: any[] | null;
+    errorMessages: any[] | null;
 }
