@@ -154,6 +154,7 @@ import { GetTransactionMessageListInput } from "./TransactionMessage/GetTransact
 import { KycProviderEnum } from "./KYC/enums/KycProviderEnum";
 import { KycData } from "./Fiado/Database/KycData";
 import { IdentificationDocumentStatus } from "./Fiado/Identity/IdentificationDocumentStatus";
+import { UpdateIdentificatificationDocumentStatus } from "./Fiado/Identity/UpdateIdentificatificationDocumentStatus";
 
 
 export {
@@ -318,6 +319,7 @@ export {
     CreatePeopleInput,
     IdentificationDocument,
     IdentificationDocumentStatus,
+    UpdateIdentificatificationDocumentStatus,
 
     // BACKOFFICE
     GetBackofficeAccountInput,
