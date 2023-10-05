@@ -1,7 +1,7 @@
 import { PeopleStepEnum } from "./PeopleStepEnum";
 
 
-export type UpdatePeopleStep = {
+export type UpdatePeopleStepInput = {
     directoryId: string;
     step: PeopleStepEnum;
     value: boolean;
