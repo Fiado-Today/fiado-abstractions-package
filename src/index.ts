@@ -155,6 +155,7 @@ import { KycProviderEnum } from "./KYC/enums/KycProviderEnum";
 import { KycData } from "./Fiado/Database/KycData";
 import { IdentificationDocumentStatus } from "./Fiado/Identity/IdentificationDocumentStatus";
 import { UpdateIdentificatificationDocumentStatus } from "./Fiado/Identity/UpdateIdentificatificationDocumentStatus";
+import { PeopleStepEnum } from "./Fiado/Identity/PeopleStepEnum";
 
 
 export {
@@ -317,6 +318,7 @@ export {
     PeopleOutput,
     UpdatePeopleInput,
     CreatePeopleInput,
+    PeopleStepEnum,
     IdentificationDocument,
     IdentificationDocumentStatus,
     UpdateIdentificatificationDocumentStatus,
