@@ -1,6 +1,7 @@
 import { DirectoryProfileEnum } from "./enums/DirectoryProfileEnum"
 import { DirectoryScopeEnum } from "./enums/DirectoryScopeEnum"
 import { DirectoryStatusEnum } from "./enums/DirectoryStatusEnum"
+import { TypeOfDirectoryIdEnum } from "./enums/TypeOfDirectoryIdEnum"
 
 export interface CreateDirectoryInput {
     id:string,
@@ -12,4 +13,5 @@ export interface CreateDirectoryInput {
     scope: Array<DirectoryScopeEnum>
     status: DirectoryStatusEnum
     userProfile: DirectoryProfileEnum
+    typeOfDirectoryId: TypeOfDirectoryIdEnum
 }

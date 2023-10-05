@@ -6,7 +6,6 @@ import { TypeOfDirectoryIdEnum } from "../../Directory/enums/TypeOfDirectoryIdEn
 import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface Directory extends EntityBase{
-    categoryId:string|null,
     identityId:string|null,
     lastSession:string|null,
     ownerDirectoryId:string|null,
@@ -16,5 +15,4 @@ export interface Directory extends EntityBase{
     scope: Array<DirectoryScopeEnum>
     status: DirectoryStatusEnum
     userProfile: DirectoryProfileEnum
-    typeOfDirectoryId: TypeOfDirectoryIdEnum
 }
