@@ -59,6 +59,8 @@ export interface People {
     fiadoListApproved: boolean | null
     ofacListApproved: boolean | null
     cnbvListApproved: boolean | null
+    blackListApproved: boolean | null
+    whiteListApproved: boolean | null
     hasOwner: boolean
     older18: boolean | null
 
