@@ -38,6 +38,7 @@ export interface People {
     
     internalEmail: string | null
     occupation: string | null
+    incomeSource: string | null
     operationId: string | null
 
     tenantId: string | null
