@@ -1,5 +1,4 @@
 import { DirectoryProfileEnum } from "../../Directory/enums/DirectoryProfileEnum";
-import { TypeOfDirectoryIdEnum } from "../../Directory/enums/TypeOfDirectoryIdEnum";
 import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface Onboarding extends EntityBase {
@@ -8,6 +7,5 @@ export interface Onboarding extends EntityBase {
     referralCode:string|null,
     myReferralCode:string,
     userProfile: DirectoryProfileEnum,
-    otpConfirm:string|null,
     promotedToDirectory:boolean;
 }
