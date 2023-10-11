@@ -61,7 +61,7 @@ export interface People {
     ofacListApproved: boolean | null
     cnbvListApproved: boolean | null
     blackListApproved: boolean | null
-    whiteListApproved: boolean | null
+    whiteList: boolean | null
     hasOwner: boolean
     older18: boolean | null
 
