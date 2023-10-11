@@ -4,4 +4,5 @@ export interface UpdateOnboardingOutput {
     referralCode?: string,
     promotedToDirectory?: boolean;
     ownerDirectoryId?: string;
+    myReferralCode?: string;
 }
