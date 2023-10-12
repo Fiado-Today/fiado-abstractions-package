@@ -158,6 +158,14 @@ import { UpdateIdentificatificationDocumentStatus } from "./Fiado/Identity/Updat
 import { PeopleStepEnum } from "./Fiado/Identity/PeopleStepEnum";
 import { UpdatePeopleStepInput } from "./Fiado/Identity/UpdatePeopleStepInput";
 
+import { CreateCreditCardRequestInput } from "./CreditCardRequest/CreateCreditCardRequestInput";
+import { CreateCreditCardRequestOutput } from "./CreditCardRequest/CreateCreditCardRequestOutput";
+import { GetCreditCardRequestInput } from "./CreditCardRequest/GetCreditCardRequestInput";
+import { GetCreditCardRequestOutput } from "./CreditCardRequest/GetCreditCardRequestOutput";
+import { UpdateCreditCardRequestInput } from "./CreditCardRequest/UpdateCreditCardRequestInput";
+import { UpdateCreditCardRequestOutput } from "./CreditCardRequest/UpdateCreditCardRequestOutput";
+
+
 
 export {
     //BANK ACCOUNT
@@ -358,5 +366,13 @@ export {
 
     //KYC
     KycProviderEnum,
-    KycData
+    KycData,
+
+    //Credit card Request
+    CreateCreditCardRequestInput,
+    CreateCreditCardRequestOutput,
+    GetCreditCardRequestInput,  
+    GetCreditCardRequestOutput,
+    UpdateCreditCardRequestInput,
+    UpdateCreditCardRequestOutput
 };
