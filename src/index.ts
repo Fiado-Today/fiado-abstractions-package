@@ -164,8 +164,7 @@ import { GetCreditCardRequestInput } from "./CreditCardRequest/GetCreditCardRequ
 import { GetCreditCardRequestOutput } from "./CreditCardRequest/GetCreditCardRequestOutput";
 import { UpdateCreditCardRequestInput } from "./CreditCardRequest/UpdateCreditCardRequestInput";
 import { UpdateCreditCardRequestOutput } from "./CreditCardRequest/UpdateCreditCardRequestOutput";
-
-
+import { CreditCardRequestStatus } from "./CreditCardRequest/enums/CreditCardRequestStatus";
 
 export {
     //BANK ACCOUNT
@@ -374,5 +373,6 @@ export {
     GetCreditCardRequestInput,  
     GetCreditCardRequestOutput,
     UpdateCreditCardRequestInput,
-    UpdateCreditCardRequestOutput
+    UpdateCreditCardRequestOutput,
+    CreditCardRequestStatus
 };
