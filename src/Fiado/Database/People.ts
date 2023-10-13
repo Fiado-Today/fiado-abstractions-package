@@ -45,8 +45,12 @@ export interface People {
     photoOfpersonImageName: string | null
     videoOfPersonImageName: string | null
 
-    USA_Account: boolean 
-    MEX_Account: boolean
+    USA_DebitAccount: boolean 
+    MEX_DebitAccount: boolean
+
+    MEX_CreditClient: boolean
+    MEX_CreditAdditional: boolean
+
     magicNumber: boolean
 
     USA_UploadDocument: boolean
