@@ -123,7 +123,7 @@ import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
 import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
 import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
-import { Address } from "./Fiado/Database/Address";
+import { Address, Geometry, Place } from "./Fiado/Database/Address";
 import { UpdateBackofficeExternalAccountOutput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountOutput";
 import { UpdateBackofficeExternalAccountInput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
 import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
@@ -282,6 +282,8 @@ export {
     //ADDRESS
     AddressOutput,
     Address,
+    Place,
+    Geometry,
 
     //DIRECTORY
     AppEnum,
