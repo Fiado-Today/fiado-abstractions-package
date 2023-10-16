@@ -1,5 +1,5 @@
 export interface CreateCreditCardRequestInput {
     directoryId:string
-    ownerDirectoryId:string
+    phoneNumberOwner:string
     initiatedBy:string
 }
