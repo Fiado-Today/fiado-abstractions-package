@@ -17,7 +17,7 @@ export interface GetBankAccountOutput {
     deletedDate: string,
     updatedBy: string,
     balance: number,
-    address: AddressOutput,
+    address?: AddressOutput,
     kybStatus?: string,
     statusName?: BankAccountStatus
 }
