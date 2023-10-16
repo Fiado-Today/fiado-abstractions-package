@@ -85,6 +85,15 @@ export interface People {
     HND_SendWish: boolean
     CRI_SendWish: boolean
     PER_SendWish: boolean
+
+    USA_DebitAccountWish: boolean
+    MEX_DebitAccountWish: boolean
+
+    MEX_CreditAdditionalWish: boolean
+
+
+
+
 }
 
 

@@ -4,4 +4,6 @@ export interface CreateBankAccountUserOutput {
     externalUserId:string,
     externalAccountId?:string,
     provider:BankAccountProviders
+    accountNumber?:string,
+    routingNumber?:string,
 }
