@@ -24,6 +24,7 @@ export interface CreatePeopleInput {
     PER_SendWish?: boolean | null
     MEX_CreditAdditionalWish: boolean | null
     USA_DebitAccountWish: boolean
+    MEX_CreditClientWish: boolean
 
 }
 
