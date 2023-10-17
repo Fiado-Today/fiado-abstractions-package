@@ -22,6 +22,9 @@ export interface CreatePeopleInput {
     HND_SendWish?: boolean | null
     CRI_SendWish?: boolean | null
     PER_SendWish?: boolean | null
+    MEX_CreditAdditionalWish: boolean | null
+    USA_DebitAccountWish: boolean
+
 }
 
 
