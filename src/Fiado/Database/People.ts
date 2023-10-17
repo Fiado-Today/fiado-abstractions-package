@@ -90,6 +90,7 @@ export interface People {
     MEX_DebitAccountWish: boolean
 
     MEX_CreditAdditionalWish: boolean
+    MEX_CreditClientWish: boolean
 
 
 
