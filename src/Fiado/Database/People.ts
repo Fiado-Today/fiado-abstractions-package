@@ -79,7 +79,7 @@ export interface People {
 
     MEX_ProofAddress: boolean
 
-    MXN_SendWish: boolean
+    MEX_SendWish: boolean
     COL_SendWish: boolean
     GTM_SendWish: boolean
     HND_SendWish: boolean

@@ -16,7 +16,7 @@ export interface CreatePeopleInput {
     docSex?: Sex | null
     occupation?: string | null
 
-    MXN_SendWish?: boolean | null
+    MEX_SendWish?: boolean | null
     COL_SendWish?: boolean | null
     GTM_SendWish?: boolean | null
     HND_SendWish?: boolean | null
