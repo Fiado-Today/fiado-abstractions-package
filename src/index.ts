@@ -166,6 +166,17 @@ import { UpdateCreditCardRequestInput } from "./CreditCardRequest/UpdateCreditCa
 import { UpdateCreditCardRequestOutput } from "./CreditCardRequest/UpdateCreditCardRequestOutput";
 import { CreditCardRequestStatus } from "./CreditCardRequest/enums/CreditCardRequestStatus";
 
+
+import { CVContract } from "./Fiado/BlockchainDatabase/CVContract";
+import { CVContractsTemplate } from "./Fiado/BlockchainDatabase/CVContractsTemplate";
+import { CollectorTransaction } from "./Fiado/Database/CollectorTransaction";
+import { CreditContract } from "./Fiado/Database/CreditContract";
+import { InstrumentEnum } from "./Collector/enums/InstrumentEnum";
+import { CreditContractStatusEnum } from "./Collector/enums/CreditContractStatusEnum";
+import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput";
+import { GetcreditContractInput } from "./Collector/GetCreditContractInput";
+import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
+
 export {
     //BANK ACCOUNT
     CreateBankAccountInput,
@@ -376,5 +387,16 @@ export {
     GetCreditCardRequestOutput,
     UpdateCreditCardRequestInput,
     UpdateCreditCardRequestOutput,
-    CreditCardRequestStatus
+    CreditCardRequestStatus,
+
+    //Collector 
+    CVContract,
+    CVContractsTemplate,
+    CollectorTransaction,
+    CreditContract,
+    InstrumentEnum,
+    CreditContractStatusEnum,
+    CreateCreditContractInput,
+    GetcreditContractInput,
+    UpdateCreditContractInput
 };
