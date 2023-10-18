@@ -177,6 +177,7 @@ import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput
 import { GetcreditContractInput } from "./Collector/GetCreditContractInput";
 import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
 import { CreateCVContractsTemplate } from "./Collector/CreateCVContractsTemplate";
+import { ContractInfo } from "./Collector/entites/ContractInfo";
 
 export {
     //BANK ACCOUNT
@@ -400,5 +401,6 @@ export {
     CreateCreditContractInput,
     GetcreditContractInput,
     UpdateCreditContractInput,
-    CreateCVContractsTemplate
+    CreateCVContractsTemplate,
+    ContractInfo
 };
