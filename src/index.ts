@@ -174,7 +174,7 @@ import { CreditContract } from "./Fiado/Database/CreditContract";
 import { InstrumentEnum } from "./Collector/enums/InstrumentEnum";
 import { CreditContractStatusEnum } from "./Collector/enums/CreditContractStatusEnum";
 import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput";
-import { GetcreditContractInput } from "./Collector/GetCreditContractInput";
+import { GetCreditContractInput } from "./Collector/GetCreditContractInput";
 import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
 import { CreateCVContractsTemplate } from "./Collector/CreateCVContractsTemplate";
 import { ContractInfo } from "./Collector/entites/ContractInfo";
@@ -399,7 +399,7 @@ export {
     InstrumentEnum,
     CreditContractStatusEnum,
     CreateCreditContractInput,
-    GetcreditContractInput,
+    GetCreditContractInput,
     UpdateCreditContractInput,
     CreateCVContractsTemplate,
     ContractInfo

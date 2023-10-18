@@ -2,14 +2,14 @@ import { GetListBaseInput } from "../Fiado/Common/GetListBaseInput";
 import { CreditContractStatusEnum } from "./enums/CreditContractStatusEnum";
 import { InstrumentEnum } from "./enums/InstrumentEnum";
 
-export interface GetcreditContractInput extends GetListBaseInput{
+export interface GetCreditContractInput extends GetListBaseInput{
     status?: CreditContractStatusEnum;
     directoryId?:string,
     relatedTransaction?: string;
     creditNotional?: number;
     creditFee?: number;
     creditTax?: number;
-    creditTotal: number;
+    creditTotal?: number;
     instrument?: InstrumentEnum;
     amountBlocked?: number;
     relatedPocketId?: string;
