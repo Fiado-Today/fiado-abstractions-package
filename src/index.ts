@@ -176,6 +176,7 @@ import { CreditContractStatusEnum } from "./Collector/enums/CreditContractStatus
 import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput";
 import { GetcreditContractInput } from "./Collector/GetCreditContractInput";
 import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
+import { CreateCVContractsTemplate } from "./Collector/CreateCVContractsTemplate";
 
 export {
     //BANK ACCOUNT
@@ -398,5 +399,6 @@ export {
     CreditContractStatusEnum,
     CreateCreditContractInput,
     GetcreditContractInput,
-    UpdateCreditContractInput
+    UpdateCreditContractInput,
+    CreateCVContractsTemplate
 };
