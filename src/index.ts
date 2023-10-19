@@ -116,8 +116,6 @@ import { GetDirectoryListInput } from "./Directory/GetDirectoryListInput";
 import { GetDirectoryListOutput } from "./Directory/GetDirectoryListOutput";
 import { Directory } from "./Fiado/Database/Directory";
 
-
-
 import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
 import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
 import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
@@ -176,8 +174,11 @@ import { CreditContractStatusEnum } from "./Collector/enums/CreditContractStatus
 import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput";
 import { GetCreditContractInput } from "./Collector/GetCreditContractInput";
 import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
-import { CreateCVContractsTemplate } from "./Collector/CreateCVContractsTemplate";
+import { CreateCVContractTemplateInput } from "./Collector/CreateCVContractsTemplateInput";
 import { ContractInfo } from "./Collector/entites/ContractInfo";
+import {GetCVContractInput} from "./Collector/GetCVContractInput";
+import {UpdateCVContractInput} from "./Collector/UpdateCVContractInput";
+import {GetCollectorTransactionInput} from "./Collector/GetCollectorTransactionInput";
 
 export {
     //BANK ACCOUNT
@@ -401,6 +402,9 @@ export {
     CreateCreditContractInput,
     GetCreditContractInput,
     UpdateCreditContractInput,
-    CreateCVContractsTemplate,
-    ContractInfo
+    CreateCVContractTemplateInput,
+    ContractInfo,
+    GetCVContractInput,
+    UpdateCVContractInput,
+    GetCollectorTransactionInput
 };
