@@ -1,4 +1,5 @@
 import { AppVersionIndexList } from "./AppVersionIndexList";
+import { CreateCreditCardRequestIndexList } from "./CreditCardRequestIndexList";
 import { DirectoryUserIndexList } from "./DirectoryUserIndexList";
 import { OnboardingUserIndexList } from "./OnboardingUserIndexList";
 import { TransactionMessageIndexList } from "./TransactionMessageIndexList";
@@ -9,4 +10,5 @@ export const IndexList = {
     ONBOARDINGUSER_IX_PHONENUMBER: OnboardingUserIndexList.PHONENUMBER,
     TRANSACTIONMESSAGE_IX_DESTINATION: TransactionMessageIndexList.DESTINATION,
     TRANSACTIONMESSAGE_IX_DIRECTORYID_CREATEDATE: TransactionMessageIndexList.DIRECTORYID_CREATEDATE,
+    CREDIT_CARD_REQUEST: CreateCreditCardRequestIndexList.OWNER_DIRECTORY_ID
 }
