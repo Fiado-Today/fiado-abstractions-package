@@ -15,7 +15,7 @@ export interface CreditContract  extends EntityBase{
     relatedPocketId: string;
     cvContractId: string|null;
     cvDate: string|null;
-    cvAmount: string|null;
+    cvAmount: number|null;
     collectorId: string|null;
     collectorDate: string|null;
     collectorAmount: number|null;
