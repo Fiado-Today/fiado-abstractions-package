@@ -3,13 +3,13 @@ import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface CollectorTransaction extends EntityBase{
     transactionNumber:string,
-    relatedIDTern:string,
+    relatedExternalId:string,
     directoryUserId:string,
     contractInfo: ContractInfo[],
-    collectorExchange:number,
+    tcExecution:number,
+    tcCollector:number,
     sumCollectorAmountMXN:number,
     sumCollectorAmountUSD:number,
-    feeRate:number,
-    feeAmount:number,
-    netCollectorAmountUSD:number
+    availableBalance:boolean,
+    cobrado:boolean
 }
