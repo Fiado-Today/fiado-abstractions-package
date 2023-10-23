@@ -13,6 +13,6 @@ export interface CollectorTransaction extends EntityBase{
     sumCollectorAmountMXN:number,
     sumCollectorAmountUSD:number,
     availableBalance:boolean,
-    errorLog:string,
+    errorLog:string|null,
     cobrado:boolean
 }
