@@ -180,6 +180,7 @@ import {GetCVContractInput} from "./Collector/GetCVContractInput";
 import {UpdateCVContractInput} from "./Collector/UpdateCVContractInput";
 import {GetCollectorTransactionInput} from "./Collector/GetCollectorTransactionInput";
 import {UpdateCollectorTransactionInput} from "./Collector/UpdateCollectorTransactionInput";
+import { AccountUserOutput } from "./Fiado/Account/AccountUserOutput";
 
 export {
     //BANK ACCOUNT
@@ -200,6 +201,7 @@ export {
     UpdateAccountInput,
     Account,
     AccountOutput,
+    AccountUserOutput,
     AccountStatus,
     BankAccountProviders,
 
