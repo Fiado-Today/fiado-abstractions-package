@@ -1,11 +1,13 @@
 export interface UpdateCollectorTransactionInput {   
         id:string,
-        tcExecution? :number ,
-        tcCollector? : number,
-        sumCollectorAmountUSD?: number,
-        availableBalance? : boolean,
-        cobrado? : boolean,
         transactionNumber?:string,
-        relatedExternalId?:string
-
+        relatedExternalId?:string,
+        tcExecution?:number,
+        tcCobro?:number,
+        tcCollector?:number,
+        tcSpread?:number,
+        sumCollectorAmountUSD?:number,
+        availableBalance?:boolean,
+        errorLog?:string,
+        cobrado?:boolean
 }

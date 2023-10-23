@@ -7,9 +7,12 @@ export interface CollectorTransaction extends EntityBase{
     directoryUserId:string,
     contractInfo: ContractInfo[],
     tcExecution:number,
+    tcCobro:number,
     tcCollector:number,
+    tcSpread:number,
     sumCollectorAmountMXN:number,
     sumCollectorAmountUSD:number,
     availableBalance:boolean,
+    errorLog:string,
     cobrado:boolean
 }
