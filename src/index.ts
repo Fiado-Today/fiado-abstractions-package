@@ -179,6 +179,7 @@ import { ContractInfo } from "./Collector/entites/ContractInfo";
 import {GetCVContractInput} from "./Collector/GetCVContractInput";
 import {UpdateCVContractInput} from "./Collector/UpdateCVContractInput";
 import {GetCollectorTransactionInput} from "./Collector/GetCollectorTransactionInput";
+import {UpdateCollectorTransactionInput} from "./Collector/UpdateCollectorTransactionInput";
 
 export {
     //BANK ACCOUNT
@@ -406,5 +407,6 @@ export {
     ContractInfo,
     GetCVContractInput,
     UpdateCVContractInput,
-    GetCollectorTransactionInput
+    GetCollectorTransactionInput,
+    UpdateCollectorTransactionInput
 };
