@@ -1,3 +1,5 @@
+import { Country } from "../../General/enum/Country";
+
 export type Geometry = {
     point: [number, number];
 }
@@ -5,6 +7,7 @@ export type Geometry = {
 export type Place = {
     addressNumber: null | string;
     country: string;
+    countryId? : Country;
     geometry: Geometry;
     internalNumber: null | string;
     interpolated: boolean;
