@@ -12,7 +12,7 @@ export type Card = {
     createDate: string,
     updateDate: string,
     creditOrDebit: string,
-    directtoryId: string,
+    directoryId: string,
     expirationMonth: string,
     expirationYear: string,
     externalCardId: string,
