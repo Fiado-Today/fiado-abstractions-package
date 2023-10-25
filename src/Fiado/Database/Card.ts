@@ -35,4 +35,5 @@ export type Card = {
     tenantId: string,
     typeOfCardId: string,
     typeOfDirectoryId: string,
+    activationDate?: string | null,
 }
