@@ -5,7 +5,7 @@ export interface UpdateCreditContractInput {
     status?: CreditContractStatusEnum
     cvContractId?: string
     cvDate?: string
-    cvAmount?: string
+    cvAmount?: number
     collectorId?: string
     collectorDate?: string
     collectorAmount?: number
