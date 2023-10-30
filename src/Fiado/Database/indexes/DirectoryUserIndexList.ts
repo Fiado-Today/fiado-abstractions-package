@@ -8,5 +8,11 @@ export const DirectoryUserIndexList:DatabaseIndexListType= {
         required: [":#phoneNumber"],
         indexName: "phoneNumber-index",
         keyCondition: "#phoneNumber = :phoneNumber"
-    }
+    },
+    PEOPLE_ID: {
+        schema: EntitiesEnum.DIRECTORY_USER,
+        required: [":#peopleId"],
+        indexName: "peopleId-index",
+        keyCondition: "#peopleId = :peopleId"
+    },
 }

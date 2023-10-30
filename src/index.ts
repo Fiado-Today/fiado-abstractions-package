@@ -1,188 +1,197 @@
-import { CreateBankAccountInput } from "./BankAccount/Account/CreateBankAccountInput";
-import { CreateBankAccountOutput } from "./BankAccount/Account/CreateBankAccountOutput";
-import { UpdateBankAccountOutput } from "./BankAccount/Account/UpdateBankAccountOutput";
-import { UpdateBankAccountInput } from "./BankAccount/Account/UpdateBankAccountInput";
-import { ActivateBankAccountCardInput } from "./BankAccount/Card/ActivateBankAccountCardInput";
-import { ActivateBankAccountCardOutput } from "./BankAccount/Card/ActivateBankAccountCardOutput";
-import { CreateBankAccountCardInput } from "./BankAccount/Card/CreateBankAccountCardInput";
-import { CreateBankAccountCardOutput } from "./BankAccount/Card/CreateBankAccountCardOutput";
-import { CreateBankAccountCardShippingInput } from "./BankAccount/Card/CreateBankAccountCardShippingInput";
-import { CreateBankAccountCardShippingOutput } from "./BankAccount/Card/CreateBankAccountCardShippingOutput";
-import { GetBankAccountCardInput } from "./BankAccount/Card/GetBankAccountCardInput";
-import { GetBankAccountCardListInput } from "./BankAccount/Card/GetBankAccountCardListInput";
-import { GetBankAccountCardListOutput } from "./BankAccount/Card/GetBankAccountCardListOutput";
-import { GetBankAccountCardOutput } from "./BankAccount/Card/GetBankAccountCardOutput";
-import { GetBankAccountSensitiveInformationInput } from "./BankAccount/Card/GetBankAccountSensitiveInformationInput";
-import { GetBankAccountSensitiveInformationOutput } from "./BankAccount/Card/GetBankAccountSensitiveInformationOutput";
-import { GetBankAccountShippingInput } from "./BankAccount/Card/GetBankAccountShippingInput";
-import { GetBankAccountShippingListInput } from "./BankAccount/Card/GetBankAccountShippingListInput";
-import { GetBankAccountShippingListOutput } from "./BankAccount/Card/GetBankAccountShippingListOutput";
-import { GetBankAccountShippingOutput } from "./BankAccount/Card/GetBankAccountShippingOutput";
-import { UpdateBankAccountCardInput } from "./BankAccount/Card/UpdateBankAccountCardInput";
-import { UpdateBankAccountCardOutput } from "./BankAccount/Card/UpdateBankAccountCardOutput";
-import { CreateBankAccountUserInput } from "./BankAccount/User/CreateBankAccountUserInput";
-import { CreateBankAccountUserOutput } from "./BankAccount/User/CreateBankAccountUserOutput";
-import { GetBankAccountUserInput } from "./BankAccount/User/GetBankAccountUserInput";
-import { GetBankAccountUserListInput } from "./BankAccount/User/GetBankAccountUserListInput";
-import { GetBankAccountUserListOutput } from "./BankAccount/User/GetBankAccountUserListOutput";
-import { GetBankAccountUserOutput } from "./BankAccount/User/GetBankAccountUserOutput";
-import { UpdateBankAccountUserInput } from "./BankAccount/User/UpdateBankAccountUserInput";
-import { UpdateBankAccountUserOutput } from "./BankAccount/User/UpdateBankAccountUserOutput";
-import { BankAccountCardIssuing } from "./BankAccount/enums/BankAccountCardIssuing";
-import { BankAccountCardProvider } from "./BankAccount/enums/BankAccountCardProvider";
-import { BankAccountCardShippingStatus } from "./BankAccount/enums/BankAccountCardShippingStatus";
-import { BankAccountCardShippingStatusDetail } from "./BankAccount/enums/BankAccountCardShippingStatusDetail";
-import { BankAccountCardStatus } from "./BankAccount/enums/BankAccountCardStatus";
-import { BankAccountCardStatusDetail } from "./BankAccount/enums/BankAccountCardStatusDetail";
-import { BankAccountCreditOrDebit } from "./BankAccount/enums/BankAccountCreditOrDebit";
-import { BankAccountProviders } from "./BankAccount/enums/BankAccountProviders";
-import { BankAccountStatus } from "./BankAccount/enums/BankAccountStatus";
-import { BankAccountUserStatus } from "./BankAccount/enums/BankAccountUserStatus";
-import { BankAccountCardType } from "./BankAccount/types/BankAccountCardType";
-import { BankAccountCardShippingType } from "./BankAccount/types/BankAccountCardShippingType";
-import { BankAccountUserType } from "./BankAccount/types/BankAccountUserType";
-import { GetBankAccountInput } from "./BankAccount/Account/GetBankAccountInput";
-import { GetBankAccountListOutput } from "./BankAccount/Account/GetBankAccountListOutput";
-import { GetBankAccountListInput } from "./BankAccount/Account/GetBankAccountListInput";
-import { GetBankAccountOutput } from "./BankAccount/Account/GetBankAccountOutput";
-import { BankAccountTypeEnum } from "./BankAccount/enums/BankAccountTypeEnum";
-import { GetBankAccountTransactionListOutput } from "./BankAccount/Account/GetBankAccountTransactionListOutput";
-import { GetBankAccountTransactionListInput } from "./BankAccount/Account/GetBankAccountTransactionListInput";
-import { ReplaceBankAccountCardInput } from "./BankAccount/Card/ReplaceBankAccountCardInput";
-import { ReplaceBankAccountCardOutput } from "./BankAccount/Card/ReplaceBankAccountCardOutput";
-import { GetBankAccountCardTransactionListInput } from "./BankAccount/Card/GetBankAccountCardTransactionListInput";
-import { GetBankAccountCardTransactionListOutput } from "./BankAccount/Card/GetBankAccountCardTransactionListOutput";
-import { CreateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryInput";
-import { DeleteBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryOutput";
-import { DeleteBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryInput";
-import { GetBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryOutput";
-import { GetBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryInput";
-import { UpdateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryOutput";
-import { UpdateBeneficiaryInput } from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
-import { CreateBeneficiaryOutput } from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
-import { GetPocketInput } from "./Fiado/Account/Pocket/dto/GetPocketInput";
+import {CreateBankAccountInput} from "./BankAccount/Account/CreateBankAccountInput";
+import {CreateBankAccountOutput} from "./BankAccount/Account/CreateBankAccountOutput";
+import {UpdateBankAccountOutput} from "./BankAccount/Account/UpdateBankAccountOutput";
+import {UpdateBankAccountInput} from "./BankAccount/Account/UpdateBankAccountInput";
+import {ActivateBankAccountCardInput} from "./BankAccount/Card/ActivateBankAccountCardInput";
+import {ActivateBankAccountCardOutput} from "./BankAccount/Card/ActivateBankAccountCardOutput";
+import {CreateBankAccountCardInput} from "./BankAccount/Card/CreateBankAccountCardInput";
+import {CreateBankAccountCardOutput} from "./BankAccount/Card/CreateBankAccountCardOutput";
+import {CreateBankAccountCardShippingInput} from "./BankAccount/Card/CreateBankAccountCardShippingInput";
+import {CreateBankAccountCardShippingOutput} from "./BankAccount/Card/CreateBankAccountCardShippingOutput";
+import {GetBankAccountCardInput} from "./BankAccount/Card/GetBankAccountCardInput";
+import {GetBankAccountCardListInput} from "./BankAccount/Card/GetBankAccountCardListInput";
+import {GetBankAccountCardListOutput} from "./BankAccount/Card/GetBankAccountCardListOutput";
+import {GetBankAccountCardOutput} from "./BankAccount/Card/GetBankAccountCardOutput";
+import {GetBankAccountSensitiveInformationInput} from "./BankAccount/Card/GetBankAccountSensitiveInformationInput";
+import {GetBankAccountSensitiveInformationOutput} from "./BankAccount/Card/GetBankAccountSensitiveInformationOutput";
+import {GetBankAccountShippingInput} from "./BankAccount/Card/GetBankAccountShippingInput";
+import {GetBankAccountShippingListInput} from "./BankAccount/Card/GetBankAccountShippingListInput";
+import {GetBankAccountShippingListOutput} from "./BankAccount/Card/GetBankAccountShippingListOutput";
+import {GetBankAccountShippingOutput} from "./BankAccount/Card/GetBankAccountShippingOutput";
+import {UpdateBankAccountCardInput} from "./BankAccount/Card/UpdateBankAccountCardInput";
+import {UpdateBankAccountCardOutput} from "./BankAccount/Card/UpdateBankAccountCardOutput";
+import {CreateBankAccountUserInput} from "./BankAccount/User/CreateBankAccountUserInput";
+import {CreateBankAccountUserOutput} from "./BankAccount/User/CreateBankAccountUserOutput";
+import {GetBankAccountUserInput} from "./BankAccount/User/GetBankAccountUserInput";
+import {GetBankAccountUserListInput} from "./BankAccount/User/GetBankAccountUserListInput";
+import {GetBankAccountUserListOutput} from "./BankAccount/User/GetBankAccountUserListOutput";
+import {GetBankAccountUserOutput} from "./BankAccount/User/GetBankAccountUserOutput";
+import {UpdateBankAccountUserInput} from "./BankAccount/User/UpdateBankAccountUserInput";
+import {UpdateBankAccountUserOutput} from "./BankAccount/User/UpdateBankAccountUserOutput";
+import {BankAccountCardIssuing} from "./BankAccount/enums/BankAccountCardIssuing";
+import {BankAccountCardProvider} from "./BankAccount/enums/BankAccountCardProvider";
+import {BankAccountCardShippingStatus} from "./BankAccount/enums/BankAccountCardShippingStatus";
+import {BankAccountCardShippingStatusDetail} from "./BankAccount/enums/BankAccountCardShippingStatusDetail";
+import {BankAccountCardStatus} from "./BankAccount/enums/BankAccountCardStatus";
+import {BankAccountCardStatusDetail} from "./BankAccount/enums/BankAccountCardStatusDetail";
+import {BankAccountCreditOrDebit} from "./BankAccount/enums/BankAccountCreditOrDebit";
+import {BankAccountProviders} from "./BankAccount/enums/BankAccountProviders";
+import {BankAccountStatus} from "./BankAccount/enums/BankAccountStatus";
+import {BankAccountUserStatus} from "./BankAccount/enums/BankAccountUserStatus";
+import {BankAccountCardType} from "./BankAccount/types/BankAccountCardType";
+import {BankAccountCardShippingType} from "./BankAccount/types/BankAccountCardShippingType";
+import {BankAccountUserType} from "./BankAccount/types/BankAccountUserType";
+import {GetBankAccountInput} from "./BankAccount/Account/GetBankAccountInput";
+import {GetBankAccountListOutput} from "./BankAccount/Account/GetBankAccountListOutput";
+import {GetBankAccountListInput} from "./BankAccount/Account/GetBankAccountListInput";
+import {GetBankAccountOutput} from "./BankAccount/Account/GetBankAccountOutput";
+import {BankAccountTypeEnum} from "./BankAccount/enums/BankAccountTypeEnum";
+import {GetBankAccountTransactionListOutput} from "./BankAccount/Account/GetBankAccountTransactionListOutput";
+import {GetBankAccountTransactionListInput} from "./BankAccount/Account/GetBankAccountTransactionListInput";
+import {ReplaceBankAccountCardInput} from "./BankAccount/Card/ReplaceBankAccountCardInput";
+import {ReplaceBankAccountCardOutput} from "./BankAccount/Card/ReplaceBankAccountCardOutput";
+import {GetBankAccountCardTransactionListInput} from "./BankAccount/Card/GetBankAccountCardTransactionListInput";
+import {GetBankAccountCardTransactionListOutput} from "./BankAccount/Card/GetBankAccountCardTransactionListOutput";
+import {CreateBeneficiaryInput} from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryInput";
+import {DeleteBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryOutput";
+import {DeleteBeneficiaryInput} from "./Fiado/Account/Beneficiary/dto/DeleteBeneficiaryInput";
+import {GetBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryOutput";
+import {GetBeneficiaryInput} from "./Fiado/Account/Beneficiary/dto/GetBeneficiaryInput";
+import {UpdateBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryOutput";
+import {UpdateBeneficiaryInput} from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
+import {CreateBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
+import {GetPocketInput} from "./Fiado/Account/Pocket/dto/GetPocketInput";
 
-import { CreateAccountOutput } from "./Fiado/Account/CreateAccountOutput";
-import { CreateAccountInput } from "./Fiado/Account/CreateAccountInput";
-import { AccountBalanceOperationObject, UpdateAccountBalanceInput } from "./Fiado/Account/UpdateAccountBalanceInput";
-import { UpdateAccountInput } from "./Fiado/Account/UpdateAccountInput";
+import {CreateAccountOutput} from "./Fiado/Account/CreateAccountOutput";
+import {CreateAccountInput} from "./Fiado/Account/CreateAccountInput";
+import {AccountBalanceOperationObject, UpdateAccountBalanceInput} from "./Fiado/Account/UpdateAccountBalanceInput";
+import {UpdateAccountInput} from "./Fiado/Account/UpdateAccountInput";
 
-import { AddressOutput } from "./Fiado/Address/AddressOutput";
-import { Account } from "./Fiado/Database/Account";
-import { AccountStatus } from "./Fiado/Account/enums/AccountStatus";
-import { Beneficiary } from "./Fiado/Account/Beneficiary/types/Beneficiary";
-import { AccountBeneficiary } from "./Fiado/Database/AccountBeneficiary";
-import { CountryIso3 } from "./General/enum/CountryIso3";
-import { Country } from "./General/enum/Country";
-import { CountryIso2 } from "./General/enum/CountryIso2";
-import { SexEnum } from "./General/enum/SexEnum";
-import { AccountOutput } from "./Fiado/Account/AccountOutput";
+import {AddressOutput} from "./Fiado/Address/AddressOutput";
+import {Account} from "./Fiado/Database/Account";
+import {AccountStatus} from "./Fiado/Account/enums/AccountStatus";
+import {Beneficiary} from "./Fiado/Account/Beneficiary/types/Beneficiary";
+import {AccountBeneficiary} from "./Fiado/Database/AccountBeneficiary";
+import {CountryIso3} from "./General/enum/CountryIso3";
+import {Country} from "./General/enum/Country";
+import {CountryIso2} from "./General/enum/CountryIso2";
+import {SexEnum} from "./General/enum/SexEnum";
+import {AccountOutput} from "./Fiado/Account/AccountOutput";
 
-import { DirectoryStatusEnum } from "./Directory/enums/DirectoryStatusEnum";
-import { GetAppVersionInput } from "./AppVersion/GetAppVersionInput";
-import { GetAppVersionListInput } from "./AppVersion/GetAppVersionListInput";
-import { AppPlatform } from "./General/enum/AppPlatform";
-import { GetListBaseInput } from "./Fiado/Common/GetListBaseInput";
-import { GetListBaseOutput } from "./Fiado/Common/GetListBaseOutput";
-import { GetAppVersionOutput } from "./AppVersion/GetAppVersionOutput";
-import { GetAppVersionListOutput } from "./AppVersion/GetAppVersionListOutput";
-import { AppVersion } from "./Fiado/Database/AppVersion";
-import { EntityBase } from "./Entities/Base/EntityBase";
-import { EntityBaseWithDirectory } from "./Entities/Base/EntityBaseWithDirectory";
-import { Onboarding } from "./Fiado/Database/Onboarding";
+import {DirectoryStatusEnum} from "./Directory/enums/DirectoryStatusEnum";
+import {GetAppVersionInput} from "./AppVersion/GetAppVersionInput";
+import {GetAppVersionListInput} from "./AppVersion/GetAppVersionListInput";
+import {AppPlatform} from "./General/enum/AppPlatform";
+import {GetListBaseInput} from "./Fiado/Common/GetListBaseInput";
+import {GetListBaseOutput} from "./Fiado/Common/GetListBaseOutput";
+import {GetAppVersionOutput} from "./AppVersion/GetAppVersionOutput";
+import {GetAppVersionListOutput} from "./AppVersion/GetAppVersionListOutput";
+import {AppVersion} from "./Fiado/Database/AppVersion";
+import {EntityBase} from "./Entities/Base/EntityBase";
+import {EntityBaseWithDirectory} from "./Entities/Base/EntityBaseWithDirectory";
+import {Onboarding} from "./Fiado/Database/Onboarding";
 
-import { CreateBankAccountRecipientInput } from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
-import { CreateBankAccountRecipientOutput } from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
-import { TypeOfDirectoryIdEnum } from "./Directory/enums/TypeOfDirectoryIdEnum";
-import { UpdatePocketBalanceInput } from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
-import { AppEnum } from "./Directory/enums/AppEnum";
+import {CreateBankAccountRecipientInput} from "./BankAccount/Transfer/CreateBankAccountRecipientInput";
+import {CreateBankAccountRecipientOutput} from "./BankAccount/Transfer/CreateBankAccountRecipientOutput";
+import {TypeOfDirectoryIdEnum} from "./Directory/enums/TypeOfDirectoryIdEnum";
+import {UpdatePocketBalanceInput} from "./Fiado/Account/Pocket/dto/UpdatePocketBalanceInput";
+import {AppEnum} from "./Directory/enums/AppEnum";
 
-import { Banks } from "./Fiado/Database/Banks";
-import { BankAccounts } from "./Fiado/Database/BankAccounts";
-import { People } from "./Fiado/Database/People";
-import { PeopleOutput } from "./Fiado/Identity/PeopleOut";
-import { GetOnboardingListInput } from "./Onboarding/GetOnboardingListInput";
-import { GetOnboardingListOutput } from "./Onboarding/GetOnboardingListOutput";
-import { GetOnboardingInput } from "./Onboarding/GetOnboardingInput";
+import {Banks} from "./Fiado/Database/Banks";
+import {BankAccounts} from "./Fiado/Database/BankAccounts";
+import {People} from "./Fiado/Database/People";
+import {PeopleOutput} from "./Fiado/Identity/PeopleOut";
+import {GetOnboardingListInput} from "./Onboarding/GetOnboardingListInput";
+import {GetOnboardingListOutput} from "./Onboarding/GetOnboardingListOutput";
+import {GetOnboardingInput} from "./Onboarding/GetOnboardingInput";
 
-import { IdentificationDocument } from "./Fiado/Identity/IdentificationDocument";
-import { UpdatePeopleInput } from "./Fiado/Identity/UpdatePeopleInput";
-import { GetBackofficeAccountOutput } from "./Fiado/Account/Backoffice/GetBackofficeAccountOutput";
-import { GetBackofficeAccountInput } from "./Fiado/Account/Backoffice/GetBackofficeAccountInput";
+import {IdentificationDocument} from "./Fiado/Identity/IdentificationDocument";
+import {UpdatePeopleInput} from "./Fiado/Identity/UpdatePeopleInput";
+import {GetBackofficeAccountOutput} from "./Fiado/Account/Backoffice/GetBackofficeAccountOutput";
+import {GetBackofficeAccountInput} from "./Fiado/Account/Backoffice/GetBackofficeAccountInput";
 
-import { DirectoryProfileEnum } from "./Directory/enums/DirectoryProfileEnum";
-import { DirectoryScopeEnum } from "./Directory/enums/DirectoryScopeEnum";
-import { GetDirectoryListInput } from "./Directory/GetDirectoryListInput";
-import { GetDirectoryListOutput } from "./Directory/GetDirectoryListOutput";
-import { Directory } from "./Fiado/Database/Directory";
+import {DirectoryProfileEnum} from "./Directory/enums/DirectoryProfileEnum";
+import {DirectoryScopeEnum} from "./Directory/enums/DirectoryScopeEnum";
+import {GetDirectoryListInput} from "./Directory/GetDirectoryListInput";
+import {GetDirectoryListOutput} from "./Directory/GetDirectoryListOutput";
+import {Directory} from "./Fiado/Database/Directory";
 
-import { GetBankListInput } from "./Fiado/Bank/bank/dto/GetBankListInput";
-import { GetBankListOutput } from "./Fiado/Bank/bank/dto/GetBankListOutput";
-import { GetBankAccountsListInput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
-import { GetBankAccountsListOutput } from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
-import { GetOnboardingOutput } from "./Onboarding/GetOnboardingOutput";
-import { Address, Geometry, Place } from "./Fiado/Database/Address";
-import { UpdateBackofficeExternalAccountOutput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountOutput";
-import { UpdateBackofficeExternalAccountInput } from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
-import { GetDirectoryInput } from "./Directory/GetDirectoryInput";
-import { GetDirectoryOutput } from "./Directory/GetDirectoryOutput";
-import { CreatePocketInput } from "./Fiado/Account/Pocket/dto/CreatePocketInput";
-import { CreatePocketOutput } from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
+import {GetBankListInput} from "./Fiado/Bank/bank/dto/GetBankListInput";
+import {GetBankListOutput} from "./Fiado/Bank/bank/dto/GetBankListOutput";
+import {GetBankAccountsListInput} from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListInput";
+import {GetBankAccountsListOutput} from "./Fiado/Bank/bankAccount/dto/GetBankAccountsListOutput";
+import {GetOnboardingOutput} from "./Onboarding/GetOnboardingOutput";
+import {Address, Geometry, Place} from "./Fiado/Database/Address";
+import {UpdateBackofficeExternalAccountOutput} from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountOutput";
+import {UpdateBackofficeExternalAccountInput} from "./Fiado/Account/Backoffice/UpdateBackofficeExternalAccountInput";
+import {GetDirectoryInput} from "./Directory/GetDirectoryInput";
+import {GetDirectoryOutput} from "./Directory/GetDirectoryOutput";
+import {CreatePocketInput} from "./Fiado/Account/Pocket/dto/CreatePocketInput";
+import {CreatePocketOutput} from "./Fiado/Account/Pocket/dto/CreatePocketOutput";
 
-import { DatabaseIndexType } from "./Fiado/Database/indexes/DatabaseIndexType";
-import { DatabaseIndexListType } from "./Fiado/Database/indexes/DatabaseIndexListType";
-import { EntitiesEnum } from "./Fiado/Database/EntitiesEnum";
-import { IndexList } from "./Fiado/Database/indexes/IndexList";
-import { AppVersionIndexList } from "./Fiado/Database/indexes/AppVersionIndexList";
+import {DatabaseIndexType} from "./Fiado/Database/indexes/DatabaseIndexType";
+import {DatabaseIndexListType} from "./Fiado/Database/indexes/DatabaseIndexListType";
+import {EntitiesEnum} from "./Fiado/Database/EntitiesEnum";
+import {IndexList} from "./Fiado/Database/indexes/IndexList";
+import {AppVersionIndexList} from "./Fiado/Database/indexes/AppVersionIndexList";
 
-import { PomeloPresentment } from "./Fiado/Database/PomeloPresentment"
-import { PomeloTransaction } from "./Fiado/Database/PomeloTransaction"
-import { CreatePomeloPresentmentInput } from "./PomeloPresentment/CreatePomeloPresentmentInput"
-import { CreatePomeloTransactionInput } from "./PomeloTransaction/CreatePomeloTransactionInput"
-import { CreateDirectoryInput } from "./Directory/CreateDirectoryInput";
-import { CreateDirectoryOutput } from "./Directory/CreateDirectoryOutput";
-import { CreatePeopleInput } from "./Fiado/Identity/CreatePeopleInput";
-import { CreateOnboardingInput } from "./Onboarding/CreateOnboardingInput";
-import { CreateOnboardingOutput } from "./Onboarding/CreateOnboardingOutput";
-import { UpdateOnboardingInput } from "./Onboarding/UpdateOnboardingInput";
-import { UpdateOnboardingOutput } from "./Onboarding/UpdateOnboardingOutput";
-import { HttpMethodEnum } from "./General/enum/HttpMethodEnum";
-import { MessageTypeEnum, NotificationPush, channelType, notificationStatus } from "./Fiado/MessageNotification/MessageNotification"; 
-import { GetTransactionMessageListInput } from "./TransactionMessage/GetTransactionMessageListInput";
-import { KycProviderEnum } from "./KYC/enums/KycProviderEnum";
-import { KycData } from "./Fiado/Database/KycData";
-import { IdentificationDocumentStatus } from "./Fiado/Identity/IdentificationDocumentStatus";
-import { UpdateIdentificatificationDocumentStatus } from "./Fiado/Identity/UpdateIdentificatificationDocumentStatus";
-import { PeopleStepEnum } from "./Fiado/Identity/PeopleStepEnum";
-import { UpdatePeopleStepInput } from "./Fiado/Identity/UpdatePeopleStepInput";
+import {PomeloPresentment} from "./Fiado/Database/PomeloPresentment"
+import {PomeloTransaction} from "./Fiado/Database/PomeloTransaction"
+import {CreatePomeloPresentmentInput} from "./PomeloPresentment/CreatePomeloPresentmentInput"
+import {CreatePomeloTransactionInput} from "./PomeloTransaction/CreatePomeloTransactionInput"
+import {CreateDirectoryInput} from "./Directory/CreateDirectoryInput";
+import {CreateDirectoryOutput} from "./Directory/CreateDirectoryOutput";
+import {CreatePeopleInput} from "./Fiado/Identity/CreatePeopleInput";
+import {CreateOnboardingInput} from "./Onboarding/CreateOnboardingInput";
+import {CreateOnboardingOutput} from "./Onboarding/CreateOnboardingOutput";
+import {UpdateOnboardingInput} from "./Onboarding/UpdateOnboardingInput";
+import {UpdateOnboardingOutput} from "./Onboarding/UpdateOnboardingOutput";
+import {HttpMethodEnum} from "./General/enum/HttpMethodEnum";
+import {
+    MessageTypeEnum,
+    NotificationPush,
+    channelType,
+    notificationStatus
+} from "./Fiado/MessageNotification/MessageNotification";
+import {GetTransactionMessageListInput} from "./TransactionMessage/GetTransactionMessageListInput";
+import {KycProviderEnum} from "./KYC/enums/KycProviderEnum";
+import {KycData} from "./Fiado/Database/KycData";
+import {IdentificationDocumentStatus} from "./Fiado/Identity/IdentificationDocumentStatus";
+import {UpdateIdentificatificationDocumentStatus} from "./Fiado/Identity/UpdateIdentificatificationDocumentStatus";
+import {PeopleStepEnum} from "./Fiado/Identity/PeopleStepEnum";
+import {UpdatePeopleStepInput} from "./Fiado/Identity/UpdatePeopleStepInput";
 
-import { CreateCreditCardRequestInput } from "./CreditCardRequest/CreateCreditCardRequestInput";
-import { CreateCreditCardRequestOutput } from "./CreditCardRequest/CreateCreditCardRequestOutput";
-import { GetCreditCardRequestInput } from "./CreditCardRequest/GetCreditCardRequestInput";
-import { GetCreditCardRequestOutput } from "./CreditCardRequest/GetCreditCardRequestOutput";
-import { UpdateCreditCardRequestInput } from "./CreditCardRequest/UpdateCreditCardRequestInput";
-import { UpdateCreditCardRequestOutput } from "./CreditCardRequest/UpdateCreditCardRequestOutput";
-import { CreditCardRequestStatus } from "./CreditCardRequest/enums/CreditCardRequestStatus";
+import {CreateCreditCardRequestInput} from "./CreditCardRequest/CreateCreditCardRequestInput";
+import {CreateCreditCardRequestOutput} from "./CreditCardRequest/CreateCreditCardRequestOutput";
+import {GetCreditCardRequestInput} from "./CreditCardRequest/GetCreditCardRequestInput";
+import {GetCreditCardRequestOutput} from "./CreditCardRequest/GetCreditCardRequestOutput";
+import {UpdateCreditCardRequestInput} from "./CreditCardRequest/UpdateCreditCardRequestInput";
+import {UpdateCreditCardRequestOutput} from "./CreditCardRequest/UpdateCreditCardRequestOutput";
+import {CreditCardRequestStatus} from "./CreditCardRequest/enums/CreditCardRequestStatus";
 
 
-import { CVContract } from "./Fiado/BlockchainDatabase/CVContract";
-import { CVContractsTemplate } from "./Fiado/BlockchainDatabase/CVContractsTemplate";
-import { CollectorTransaction } from "./Fiado/Database/CollectorTransaction";
-import { CreditContract } from "./Fiado/Database/CreditContract";
-import { InstrumentEnum } from "./Collector/enums/InstrumentEnum";
-import { CreditContractStatusEnum } from "./Collector/enums/CreditContractStatusEnum";
-import { CreateCreditContractInput } from "./Collector/CreateCreditContractInput";
-import { GetCreditContractInput } from "./Collector/GetCreditContractInput";
-import { UpdateCreditContractInput } from "./Collector/UpdateCreditContractInput";
-import { CreateCVContractTemplateInput } from "./Collector/CreateCVContractsTemplateInput";
-import { ContractInfo } from "./Collector/entites/ContractInfo";
+import {CVContract} from "./Fiado/BlockchainDatabase/CVContract";
+import {CVContractsTemplate} from "./Fiado/BlockchainDatabase/CVContractsTemplate";
+import {CollectorTransaction} from "./Fiado/Database/CollectorTransaction";
+import {CreditContract} from "./Fiado/Database/CreditContract";
+import {InstrumentEnum} from "./Collector/enums/InstrumentEnum";
+import {CreditContractStatusEnum} from "./Collector/enums/CreditContractStatusEnum";
+import {CreateCreditContractInput} from "./Collector/CreateCreditContractInput";
+import {GetCreditContractInput} from "./Collector/GetCreditContractInput";
+import {UpdateCreditContractInput} from "./Collector/UpdateCreditContractInput";
+import {CreateCVContractTemplateInput} from "./Collector/CreateCVContractsTemplateInput";
+import {ContractInfo} from "./Collector/entites/ContractInfo";
 import {GetCVContractInput} from "./Collector/GetCVContractInput";
 import {UpdateCVContractInput} from "./Collector/UpdateCVContractInput";
 import {GetCollectorTransactionInput} from "./Collector/GetCollectorTransactionInput";
 import {UpdateCollectorTransactionInput} from "./Collector/UpdateCollectorTransactionInput";
-import { AccountUserOutput } from "./Fiado/Account/AccountUserOutput";
-import { Card } from "./Fiado/Database/Card";
-import { CardDto } from "./Fiado/Card/CardDto";
+import {AccountUserOutput} from "./Fiado/Account/AccountUserOutput";
+import {Card} from "./Fiado/Database/Card";
+import {CardDto} from "./Fiado/Card/CardDto";
+import {QrValueInput} from "./Directory/types/QrValueInput";
+import {QrTypeEnum} from "./Directory/enums/QrTypeEnum";
+import {QrOperationTypeEnum} from "./Directory/enums/QrOperationTypeEnum";
+import {QrEncryptionInput} from "./Directory/QrEncryptionInput";
 
 export {
     //BANK ACCOUNT
@@ -378,9 +387,9 @@ export {
     CreatePomeloTransactionInput,
 
     //MessageNotification
-    MessageTypeEnum, 
-    NotificationPush, 
-    channelType, 
+    MessageTypeEnum,
+    NotificationPush,
+    channelType,
     notificationStatus,
 
     //TransactionMessage
@@ -393,7 +402,7 @@ export {
     //Credit card Request
     CreateCreditCardRequestInput,
     CreateCreditCardRequestOutput,
-    GetCreditCardRequestInput,  
+    GetCreditCardRequestInput,
     GetCreditCardRequestOutput,
     UpdateCreditCardRequestInput,
     UpdateCreditCardRequestOutput,
@@ -414,5 +423,11 @@ export {
     GetCVContractInput,
     UpdateCVContractInput,
     GetCollectorTransactionInput,
-    UpdateCollectorTransactionInput
+    UpdateCollectorTransactionInput,
+
+    // DirectoryQr
+    QrEncryptionInput,
+    QrOperationTypeEnum,
+    QrTypeEnum,
+    QrValueInput
 };
