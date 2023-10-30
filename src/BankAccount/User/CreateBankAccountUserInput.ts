@@ -1,5 +1,6 @@
 import { AddressOutput } from "../../Fiado/Address/AddressOutput";
 import { SexEnum } from "../../General/enum/SexEnum";
+import { Sex } from "../../KYC/enums/Sex";
 
 export interface CreateBankAccountUserInput {
     directoryId: string,
@@ -12,5 +13,5 @@ export interface CreateBankAccountUserInput {
     dob: string,
     documentNumber: string,
     documentType?: string,
-    gender?: SexEnum,
+    gender?: Sex,
 }
