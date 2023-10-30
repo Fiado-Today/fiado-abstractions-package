@@ -192,6 +192,8 @@ import {QrValueInput} from "./Directory/types/QrValueInput";
 import {QrTypeEnum} from "./Directory/enums/QrTypeEnum";
 import {QrOperationTypeEnum} from "./Directory/enums/QrOperationTypeEnum";
 import {QrEncryptionInput} from "./Directory/QrEncryptionInput";
+import { InviteInput } from "./Directory/InviteInput";
+import { InviteOutput } from "./Directory/InviteOutput";
 
 export {
     //BANK ACCOUNT
@@ -429,5 +431,9 @@ export {
     QrEncryptionInput,
     QrOperationTypeEnum,
     QrTypeEnum,
-    QrValueInput
+    QrValueInput,
+
+    // DirectoryInvitation
+    InviteInput,
+    InviteOutput,
 };
