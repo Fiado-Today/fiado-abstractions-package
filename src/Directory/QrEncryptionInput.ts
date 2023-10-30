@@ -3,5 +3,5 @@ import {QrValueInput} from "./types/QrValueInput";
 
 export interface QrEncryptionInput {
     operationType: QrOperationTypeEnum;
-    vale: string | QrValueInput;
+    value: string | QrValueInput;
 }
