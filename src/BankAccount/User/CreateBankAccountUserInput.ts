@@ -11,6 +11,6 @@ export interface CreateBankAccountUserInput {
     email: string,
     dob: string,
     documentNumber: string,
-    documentType: string,
-    gender: SexEnum,
+    documentType?: string,
+    gender?: SexEnum,
 }
