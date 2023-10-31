@@ -93,6 +93,7 @@ export interface People {
     MEX_CreditClientWish: boolean
 
 
+    SSN_ITINRequired: boolean | null
 
 
 }
