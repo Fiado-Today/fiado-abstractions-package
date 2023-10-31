@@ -194,6 +194,8 @@ import {QrOperationTypeEnum} from "./Directory/enums/QrOperationTypeEnum";
 import {QrEncryptionInput} from "./Directory/QrEncryptionInput";
 import { InviteInput } from "./Directory/InviteInput";
 import { InviteOutput } from "./Directory/InviteOutput";
+import { CardBalance } from "./Fiado/Database/CardBalance";
+import { CardBalanceDto } from "./Fiado/Card/CardBalanceDto";
 
 export {
     //BANK ACCOUNT
@@ -221,6 +223,8 @@ export {
     //CARD
     Card,
     CardDto,
+    CardBalance,
+    CardBalanceDto,
     ActivateBankAccountCardInput,
     ActivateBankAccountCardOutput,
     CreateBankAccountCardInput,
