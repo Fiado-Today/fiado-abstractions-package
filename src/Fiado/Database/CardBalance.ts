@@ -10,10 +10,10 @@ export type CardBalance = {
     expensesAmount: number,
     ownerDirectoryId: string,
     ownerTypeOfDirectoryId: string,
-    phisicalCardId: string,
+    phisicalCardId: string | null,
     settledBalance: number,
     tenantId: string,
     typeOfDirectoryId: string,
-    virtualCardId: string,
+    virtualCardId: string | null,
     updatedDate: string,
 }
