@@ -196,6 +196,7 @@ import { InviteInput } from "./Directory/InviteInput";
 import { InviteOutput } from "./Directory/InviteOutput";
 import { CardBalance } from "./Fiado/Database/CardBalance";
 import { CardBalanceDto } from "./Fiado/Card/CardBalanceDto";
+import { UpdateCardBalanceInput } from "./Fiado/Card/UpdateCardBalanceInput";
 
 export {
     //BANK ACCOUNT
@@ -225,6 +226,7 @@ export {
     CardDto,
     CardBalance,
     CardBalanceDto,
+    UpdateCardBalanceInput,
     ActivateBankAccountCardInput,
     ActivateBankAccountCardOutput,
     CreateBankAccountCardInput,
