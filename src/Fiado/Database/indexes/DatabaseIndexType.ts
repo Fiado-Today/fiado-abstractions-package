@@ -1,9 +1,8 @@
 import { EntitiesEnum } from "../EntitiesEnum"
 
 export type DatabaseIndexType = {
-        schema: EntitiesEnum,
+        schema: string| EntitiesEnum,
         required: string[],
         indexName: string,
         keyCondition: string
-}
-
+    }

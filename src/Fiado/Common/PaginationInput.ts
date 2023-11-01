@@ -1,13 +1,7 @@
-import { EntitiesEnum } from "../Database/EntitiesEnum"
-import { IndexList } from "../Database/indexes/IndexList"
+import { DatabaseIndexType } from "../Database/indexes/DatabaseIndexType"
 
 export interface PaginationInput{
     pageSize?:number,
     pageNumber?:number|string,
-    index?:{
-        schema: string| EntitiesEnum,
-        required: string[],
-        indexName: string,
-        keyCondition: string
-    }
+    index?:DatabaseIndexType
 }
