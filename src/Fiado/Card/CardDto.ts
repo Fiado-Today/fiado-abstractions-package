@@ -6,6 +6,7 @@ export type CardDto = {
     mii: string,
     pan: string,
     cvc: string,
+    pin?: string,
     typeOfCardId: string,
     creditOrDebit: string,
     expirationMonth: string,
