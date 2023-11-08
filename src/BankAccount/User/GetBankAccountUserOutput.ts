@@ -25,6 +25,6 @@ export interface GetBankAccountUserOutput {
     updatedDate?: string,
     deletedDate?: string,
     updatedBy?: string,
-    accountIds?: string[],
+    accountIds?: number[],
 
 }
