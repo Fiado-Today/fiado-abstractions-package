@@ -199,6 +199,12 @@ import { CardBalanceDto } from "./Fiado/Card/CardBalanceDto";
 import { UpdateCardBalanceInput } from "./Fiado/Card/UpdateCardBalanceInput";
 import { GetAccountInput } from "./Fiado/Account/GetAccountInput";
 import { UpdateCardInput } from "./Fiado/Card/UpdateCardInput";
+import { P2PContactUser } from "./Fiado/Database/P2PContactUser";
+import { P2PTransactionCounterUser } from "./Fiado/Database/P2PTransactionCounterUser";
+import { CreateP2PContactInput } from "./P2PContact/CreateP2PContactInput";
+import { CreateP2PTransactionCounterInput } from "./P2PContact/CreateP2PTransactionCounterInput";
+import { GetP2PContactInput } from "./P2PContact/GetP2PContactInput";
+import { GetP2PTransactionCounterInput } from "./P2PContact/GetP2PTransactionCounterInput";
 
 export {
     //BANK ACCOUNT
@@ -446,4 +452,14 @@ export {
     // DirectoryInvitation
     InviteInput,
     InviteOutput,
+
+    //P2PContacts
+    P2PContactUser,
+    P2PTransactionCounterUser,
+    CreateP2PContactInput,
+    CreateP2PTransactionCounterInput,
+    GetP2PContactInput,
+    GetP2PTransactionCounterInput
+    
+
 };

@@ -7,4 +7,6 @@ export enum EntitiesEnum {
     CREDIT_CONTRACT = "CreditContract",
     CV_CONTRACT = "CVContract",
     COLLECTOR_TRANSACTION = "CollectorTransaction",
+    P2P_CONTACT_USER = "P2PContactUser",
+    P2P_TRANSACTION_USER = "P2PTransactionCounterUser",
 }
