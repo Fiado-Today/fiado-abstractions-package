@@ -8,6 +8,7 @@ export interface UpdateOnboardingInput {
     promotedToDirectory?: boolean;
     ownerDirectoryId?: string;
     myReferralCode?: string;
+    phoneNumber?: string;
 }
 
 
