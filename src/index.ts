@@ -205,6 +205,8 @@ import { CreateP2PContactInput } from "./P2PContact/CreateP2PContactInput";
 import { CreateP2PTransactionCounterInput } from "./P2PContact/CreateP2PTransactionCounterInput";
 import { GetP2PContactInput } from "./P2PContact/GetP2PContactInput";
 import { GetP2PTransactionCounterInput } from "./P2PContact/GetP2PTransactionCounterInput";
+import { GetUserListInput } from "./Fiado/Directory/GetUserListInput";
+import { GetUserListOutputItem } from "./Fiado/Directory/GetUserListOutputItem";
 
 export {
     //BANK ACCOUNT
@@ -459,7 +461,11 @@ export {
     CreateP2PContactInput,
     CreateP2PTransactionCounterInput,
     GetP2PContactInput,
-    GetP2PTransactionCounterInput
+    GetP2PTransactionCounterInput,
+
+    // Backoffice
+    GetUserListOutputItem,
+    GetUserListInput,
     
 
 };
