@@ -207,6 +207,9 @@ import { GetP2PContactInput } from "./P2PContact/GetP2PContactInput";
 import { GetP2PTransactionCounterInput } from "./P2PContact/GetP2PTransactionCounterInput";
 import { GetUserListInput } from "./Fiado/Directory/GetUserListInput";
 import { GetUserListOutputItem } from "./Fiado/Directory/GetUserListOutputItem";
+import { BackofficeUploadFileTypeEnum } from "./General/enum/BackofficeUploadFileTypeEnum";
+import { BackofficeUploadFile } from "./Fiado/Directory/BackofficeUploadFile";
+import { ChangePhoneNumberInput } from "./Fiado/Directory/ChangePhoneNumberInput";
 
 export {
     //BANK ACCOUNT
@@ -466,6 +469,7 @@ export {
     // Backoffice
     GetUserListOutputItem,
     GetUserListInput,
-    
-
+    ChangePhoneNumberInput,
+    BackofficeUploadFile,
+    BackofficeUploadFileTypeEnum
 };
