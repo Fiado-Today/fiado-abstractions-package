@@ -3,13 +3,14 @@ import { ContractInfo } from "../../Collector/entites/ContractInfo";
 export interface CVContract {
     id:string,
     createDate: string,
-    cvContractVersion: string,
     contractInfo: ContractInfo[],
-    executionExchange: number,
     discountRate: number,
-    sumCVAmountMXN: number,
+    executionExchange: number,    
+    currencyId: string,
+    sumCVAmount: number,
+    netCVAmount: number,
     sumCVAmountUSD: number,
-    netCVAmountMXN: number,
     netCVAmountUSD: number,
     approved: boolean
+    cvContractVersion: string
 }

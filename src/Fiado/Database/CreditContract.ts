@@ -5,8 +5,10 @@ import { EntityBase } from "../../Entities/Base/EntityBase";
 export interface CreditContract  extends EntityBase{
     status: CreditContractStatusEnum;
     directoryId:string,
+    peopleId:string,
     paymentDate: string;
     relatedTransaction: string;
+    currencyId:string,
     creditNotional: number;
     creditFee: number;
     creditTax: number;
@@ -16,10 +18,10 @@ export interface CreditContract  extends EntityBase{
     relatedPocketId: string;
     cvContractId: string|null;
     cvDate: string|null;
-    cvAmount: number;
+    cvAmountUSD: number;
     collectorId: string|null;
     collectorDate: string|null;
-    collectorAmount: number;
+    collectorAmountUSD: number;
     profit: number;
     inBuro: boolean|null;
     inPLD: boolean|null;
