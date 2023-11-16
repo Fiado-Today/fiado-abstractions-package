@@ -210,6 +210,9 @@ import { GetUserListOutputItem } from "./Fiado/Directory/GetUserListOutputItem";
 import { BackofficeUploadFileTypeEnum } from "./General/enum/BackofficeUploadFileTypeEnum";
 import { BackofficeUploadFile } from "./Fiado/Directory/BackofficeUploadFile";
 import { ChangePhoneNumberInput } from "./Fiado/Directory/ChangePhoneNumberInput";
+import { CognitoChangePhoneNumberInput } from "./Fiado/Cognito/CognitoChangePhoneNumberInput";
+import { CognitoGetUserOutput } from "./Fiado/Cognito/CognitoGetUserOutput";
+import { CognitoGetUserInput } from "./Fiado/Cognito/CognitoGetUserInput";
 
 export {
     //BANK ACCOUNT
@@ -471,5 +474,8 @@ export {
     GetUserListInput,
     ChangePhoneNumberInput,
     BackofficeUploadFile,
-    BackofficeUploadFileTypeEnum
+    BackofficeUploadFileTypeEnum,
+    CognitoGetUserInput,
+    CognitoGetUserOutput,
+    CognitoChangePhoneNumberInput
 };
