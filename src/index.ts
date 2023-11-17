@@ -192,27 +192,30 @@ import {QrValueInput} from "./Directory/types/QrValueInput";
 import {QrTypeEnum} from "./Directory/enums/QrTypeEnum";
 import {QrOperationTypeEnum} from "./Directory/enums/QrOperationTypeEnum";
 import {QrEncryptionInput} from "./Directory/QrEncryptionInput";
-import { InviteInput } from "./Directory/InviteInput";
-import { InviteOutput } from "./Directory/InviteOutput";
-import { CardBalance } from "./Fiado/Database/CardBalance";
-import { CardBalanceDto } from "./Fiado/Card/CardBalanceDto";
-import { UpdateCardBalanceInput } from "./Fiado/Card/UpdateCardBalanceInput";
-import { GetAccountInput } from "./Fiado/Account/GetAccountInput";
-import { UpdateCardInput } from "./Fiado/Card/UpdateCardInput";
-import { P2PContactUser } from "./Fiado/Database/P2PContactUser";
-import { P2PTransactionCounterUser } from "./Fiado/Database/P2PTransactionCounterUser";
-import { CreateP2PContactInput } from "./P2PContact/CreateP2PContactInput";
-import { CreateP2PTransactionCounterInput } from "./P2PContact/CreateP2PTransactionCounterInput";
-import { GetP2PContactInput } from "./P2PContact/GetP2PContactInput";
-import { GetP2PTransactionCounterInput } from "./P2PContact/GetP2PTransactionCounterInput";
-import { GetUserListInput } from "./Fiado/Directory/GetUserListInput";
-import { GetUserListOutputItem } from "./Fiado/Directory/GetUserListOutputItem";
-import { BackofficeUploadFileTypeEnum } from "./General/enum/BackofficeUploadFileTypeEnum";
-import { BackofficeUploadFile } from "./Fiado/Directory/BackofficeUploadFile";
-import { ChangePhoneNumberInput } from "./Fiado/Directory/ChangePhoneNumberInput";
-import { CognitoChangePhoneNumberInput } from "./Fiado/Cognito/CognitoChangePhoneNumberInput";
-import { CognitoGetUserOutput } from "./Fiado/Cognito/CognitoGetUserOutput";
-import { CognitoGetUserInput } from "./Fiado/Cognito/CognitoGetUserInput";
+import {InviteInput} from "./Directory/InviteInput";
+import {InviteOutput} from "./Directory/InviteOutput";
+import {CardBalance} from "./Fiado/Database/CardBalance";
+import {CardBalanceDto} from "./Fiado/Card/CardBalanceDto";
+import {UpdateCardBalanceInput} from "./Fiado/Card/UpdateCardBalanceInput";
+import {GetAccountInput} from "./Fiado/Account/GetAccountInput";
+import {UpdateCardInput} from "./Fiado/Card/UpdateCardInput";
+import {P2PContactUser} from "./Fiado/Database/P2PContactUser";
+import {P2PTransactionCounterUser} from "./Fiado/Database/P2PTransactionCounterUser";
+import {CreateP2PContactInput} from "./P2PContact/CreateP2PContactInput";
+import {CreateP2PTransactionCounterInput} from "./P2PContact/CreateP2PTransactionCounterInput";
+import {GetP2PContactInput} from "./P2PContact/GetP2PContactInput";
+import {GetP2PTransactionCounterInput} from "./P2PContact/GetP2PTransactionCounterInput";
+import {GetUserListInput} from "./Fiado/Directory/GetUserListInput";
+import {GetUserListOutputItem} from "./Fiado/Directory/GetUserListOutputItem";
+import {BackofficeUploadFileTypeEnum} from "./General/enum/BackofficeUploadFileTypeEnum";
+import {BackofficeUploadFile} from "./Fiado/Directory/BackofficeUploadFile";
+import {ChangePhoneNumberInput} from "./Fiado/Directory/ChangePhoneNumberInput";
+import {CognitoChangePhoneNumberInput} from "./Fiado/Cognito/CognitoChangePhoneNumberInput";
+import {CognitoGetUserOutput} from "./Fiado/Cognito/CognitoGetUserOutput";
+import {CognitoGetUserInput} from "./Fiado/Cognito/CognitoGetUserInput";
+import {SaveDocumentInput} from "./Fiado/S3/SaveDocumentInput";
+import {SaveDocumentFiles} from "./Fiado/S3/SaveDocumentFiles";
+import {S3File} from "./Fiado/S3/S3File";
 
 export {
     //BANK ACCOUNT
@@ -477,5 +480,10 @@ export {
     BackofficeUploadFileTypeEnum,
     CognitoGetUserInput,
     CognitoGetUserOutput,
-    CognitoChangePhoneNumberInput
+    CognitoChangePhoneNumberInput,
+
+    // S3
+    SaveDocumentInput,
+    SaveDocumentFiles,
+    S3File
 };
