@@ -4,5 +4,5 @@ export interface CognitoChangePhoneNumberInput {
     phoneNumberVerified: boolean;
     email: string | null;
     emailVerified: string;
-    userType: string;
+    typeOfDirectoryId: string;
 }
