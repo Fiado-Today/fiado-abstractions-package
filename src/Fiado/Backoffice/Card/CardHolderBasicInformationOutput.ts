@@ -1,4 +1,4 @@
-import {Address} from "../../../../bin/Fiado/Address/Address";
+import { Address } from "../../Database/Address";
 
 export interface AccountNumberInformation {
     accountNumber: string;
