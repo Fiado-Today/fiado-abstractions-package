@@ -8,7 +8,7 @@ export type Card = {
     id: string,
     accountId: string,
     activationValue: string,
-    address: Address,
+    address: Address | null,
     shippingAddress?: Address | null,
     countryId: Country,
     createDate: string,
