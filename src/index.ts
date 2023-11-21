@@ -61,6 +61,7 @@ import {UpdateBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/UpdateBen
 import {UpdateBeneficiaryInput} from "./Fiado/Account/Beneficiary/dto/UpdateBeneficiaryInput";
 import {CreateBeneficiaryOutput} from "./Fiado/Account/Beneficiary/dto/CreateBeneficiaryOutput";
 import {GetPocketInput} from "./Fiado/Account/Pocket/dto/GetPocketInput";
+import {GetPocketV2Input} from "./Fiado/Account/Pocket/dto/GetPocketV2Input";
 
 import {CreateAccountOutput} from "./Fiado/Account/CreateAccountOutput";
 import {CreateAccountInput} from "./Fiado/Account/CreateAccountInput";
@@ -337,6 +338,7 @@ export {
 
     //POCKET
     GetPocketInput,
+    GetPocketV2Input,
     UpdatePocketBalanceInput,
     CreatePocketInput,
     CreatePocketOutput,

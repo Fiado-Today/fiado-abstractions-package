@@ -9,4 +9,5 @@ export enum EntitiesEnum {
     COLLECTOR_TRANSACTION = "CollectorTransaction",
     P2P_CONTACT_USER = "P2PContactUser",
     P2P_TRANSACTION_USER = "P2PTransactionCounterUser",
+    POCKET="Pocket",
 }
