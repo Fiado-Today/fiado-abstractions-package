@@ -9,6 +9,8 @@ export interface CardHolderAccountInformation {
     accounts: AccountNumberInformation[]
 }
 export interface CardHolderBasicInformationOutput {
+    directoryId: string;
+    peopleId: string;
     usNames: string | null;
     usLastNames: string | null;
     latNames: string | null;

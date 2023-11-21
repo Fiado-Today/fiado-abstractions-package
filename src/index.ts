@@ -216,7 +216,12 @@ import {CognitoGetUserInput} from "./Fiado/Cognito/CognitoGetUserInput";
 import {SaveDocumentInput} from "./Fiado/S3/SaveDocumentInput";
 import {SaveDocumentFiles} from "./Fiado/S3/SaveDocumentFiles";
 import {S3File} from "./Fiado/S3/S3File";
-import { AccountNumberInformation, CardHolderAccountInformation, CardHolderBasicInformationOutput } from "./Fiado/Backoffice/Card/CardHolderBasicInformationOutput";
+import {
+    AccountNumberInformation,
+    CardHolderAccountInformation,
+    CardHolderBasicInformationOutput
+} from "./Fiado/Backoffice/Card/CardHolderBasicInformationOutput";
+import {CardInformationItem, CardInformationOutput} from "./Fiado/Backoffice/Card/CardInformationOutput";
 import { CardDeliveryEnum } from "./Fiado/Card/CardDeliveryEnum";
 
 export {
@@ -487,6 +492,8 @@ export {
     CardHolderBasicInformationOutput,
     CardHolderAccountInformation,
     AccountNumberInformation,
+    CardInformationItem,
+    CardInformationOutput,
 
     // S3
     SaveDocumentInput,
