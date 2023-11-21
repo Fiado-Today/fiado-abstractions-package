@@ -17,6 +17,7 @@ export type Card = {
     expirationMonth: string,
     expirationYear: string,
     externalCardId: string,
+    externalShippingId?: string | null,
     holder?: {
         name: string,
         lastName: string
