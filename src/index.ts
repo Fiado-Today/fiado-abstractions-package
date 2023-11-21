@@ -216,6 +216,7 @@ import {CognitoGetUserInput} from "./Fiado/Cognito/CognitoGetUserInput";
 import {SaveDocumentInput} from "./Fiado/S3/SaveDocumentInput";
 import {SaveDocumentFiles} from "./Fiado/S3/SaveDocumentFiles";
 import {S3File} from "./Fiado/S3/S3File";
+import { AccountNumberInformation, CardHolderAccountInformation, CardHolderBasicInformationOutput } from "./Fiado/Backoffice/Card/CardHolderBasicInformationOutput";
 
 export {
     //BANK ACCOUNT
@@ -481,6 +482,9 @@ export {
     CognitoGetUserInput,
     CognitoGetUserOutput,
     CognitoChangePhoneNumberInput,
+    CardHolderBasicInformationOutput,
+    CardHolderAccountInformation,
+    AccountNumberInformation,
 
     // S3
     SaveDocumentInput,
