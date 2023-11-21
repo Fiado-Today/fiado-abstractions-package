@@ -1,5 +1,6 @@
 import { BankAccountProviders } from "../../BankAccount/enums/BankAccountProviders";
 import { Country } from "../../General/enum/Country";
+import { CardDeliveryEnum } from "../Card/CardDeliveryEnum";
 import { Address } from "./Address";
 
 export type Card = {
@@ -18,7 +19,7 @@ export type Card = {
     expirationYear: string,
     externalCardId: string,
     externalShippingId?: string | null,
-    deliveryDate?: string | null,
+    delivery?: CardDeliveryEnum | null,
     holder?: {
         name: string,
         lastName: string
