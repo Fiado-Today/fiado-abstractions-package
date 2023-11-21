@@ -16,7 +16,7 @@ export interface CardHolderBasicInformationOutput {
     latLastNamePaternal: string | null;
     ternName: string | null;
     ternLastName: string | null;
-    externalUserId: string | null;
+    ternUserId: string | null;
     address: Address;
     accountInformation: CardHolderAccountInformation
 }
