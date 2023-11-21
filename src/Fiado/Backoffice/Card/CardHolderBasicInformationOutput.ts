@@ -17,6 +17,6 @@ export interface CardHolderBasicInformationOutput {
     ternName: string | null;
     ternLastName: string | null;
     ternUserId: string | null;
-    address: Address;
+    ternAddress: Address;
     accountInformation: CardHolderAccountInformation
 }
