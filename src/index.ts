@@ -228,6 +228,7 @@ import { ReplaceCardInput } from "./Fiado/Backoffice/Card/ReplaceCardInput";
 import {ExternalProviderCard, ExternalReplaceCardOutput } from "./Fiado/Backoffice/Card/ExternalReplaceCardOutput";
 import { CardReasonEnum } from "./Fiado/Backoffice/enums/CardReasonEnum";
 import { ExternalProviderEnum } from "./Fiado/Backoffice/enums/ExternalProviderEnum";
+import { ExternalReplaceCardInput } from "./Fiado/Backoffice/Card/ExternalReplaceCardInput";
 
 export {
     //BANK ACCOUNT
@@ -503,6 +504,7 @@ export {
     ReplaceCardInput,
     CardReasonEnum,
     ExternalReplaceCardOutput,
+    ExternalReplaceCardInput,
     ExternalProviderCard,
     ExternalProviderEnum,
 
