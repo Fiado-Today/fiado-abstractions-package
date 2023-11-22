@@ -11,8 +11,8 @@ export interface CreateBankAccountCardInput {
     lastName: string,
     address: AddressOutput,
     nominated:boolean,
-    directoryId:string,
-    typeOfDirectoryId:string,
+    directoryId?:string,
+    typeOfDirectoryId?:string,
     previousCardId?:string,
     issuing: BankAccountCardIssuing
 }
