@@ -15,7 +15,7 @@ export interface GetCreditContractInput extends GetListBaseInput{
     relatedPocketId?: string;
     cvContractId?: string|null;
     cvDate?: string|null;
-    cvAmount?: string|null;
+    cvAmountUSD?: string|null;
     collectorId?: string|null;
     collectorDate?: string|null;
     collectorAmount?: number|null;
