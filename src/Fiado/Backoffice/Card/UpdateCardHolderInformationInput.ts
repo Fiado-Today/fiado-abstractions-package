@@ -1,8 +1,8 @@
-import {Address} from "../../../../bin/Fiado/Address/Address";
+import {AddressOutput} from "../../Address/AddressOutput";
 
 export interface UpdateCardHolderInformationInput {
     directoryId: string;
     firstName: string;
     lastName: string;
-    address?: Address;
+    address?: AddressOutput;
 }
