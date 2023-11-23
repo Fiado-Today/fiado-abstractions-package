@@ -1,5 +1,5 @@
 export enum InstrumentEnum {
-    CREDIT_CARD = "Tarjeta de Credito",
+    CREDIT_CARD = "TdC",
     ATM = "ATM",
-    TRANSFER = "Transferencia"
+    TRANSFER = "TRF"
 }

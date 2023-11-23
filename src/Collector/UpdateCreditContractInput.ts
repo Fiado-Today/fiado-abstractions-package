@@ -8,7 +8,7 @@ export interface UpdateCreditContractInput {
     cvAmountUSD?: number
     collectorId?: string
     collectorDate?: string
-    collectorAmount?: number
+    collectorAmountUSD?: number
     profit?: number
     inBuro?: boolean
     inPLD?: boolean
