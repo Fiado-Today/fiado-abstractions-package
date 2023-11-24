@@ -1,6 +1,5 @@
 export interface UserContract {
     contractVersion: string;
-    contractNumber: string;
     creditNotional: number;
     creditTotal: number;
     createdDate: string;
