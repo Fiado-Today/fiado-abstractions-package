@@ -5,6 +5,7 @@ export interface UserContract {
     createdDate: string;
     paymentDate: string;
     creditContractId: string;
+    peopleId:string;
     names: string;
     firstLastName: string;
     secondLastName: string;
