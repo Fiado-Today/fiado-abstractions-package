@@ -10,6 +10,8 @@ export interface UpdateCardHolderInformationInput {
     ternName: string | null;
     ternLastName: string | null;
     dateOfBirth: string | null;
+    countryOfBirth: string | null;
+    curp: string | null;
     docSex: string | null;
     ssnItin: string | null;
     passportNumber: string | null;
