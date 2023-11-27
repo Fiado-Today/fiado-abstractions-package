@@ -19,6 +19,12 @@ export interface CardHolderBasicInformationOutput {
     ternName: string | null;
     ternLastName: string | null;
     ternUserId: string | null;
+    countryOfBirth: string | null;
+    curp: string | null;
+    dateOfBirth: string | null;
+    docSex: string | null;
+    ssnItin: string | null;
+    passportNumber: string | null;
     ternAddress: Address;
     accountInformation: CardHolderAccountInformation
 }
