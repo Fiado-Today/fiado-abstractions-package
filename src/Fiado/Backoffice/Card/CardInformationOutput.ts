@@ -4,6 +4,7 @@ export interface CardInformationItem {
     id: string;
     externalCardId: string;
     panLastDigits: string;
+    ternPanLastDigits: string;
     fiadoHolderName: string;
     externalHolderName: string;
     typeOfCardId: string;
