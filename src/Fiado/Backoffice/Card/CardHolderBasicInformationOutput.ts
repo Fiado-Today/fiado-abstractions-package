@@ -1,4 +1,4 @@
-import { Address } from "../../Database/Address";
+import {AddressOutput} from "../../Address/AddressOutput";
 
 export interface AccountNumberInformation {
     accountNumber: string;
@@ -25,6 +25,7 @@ export interface CardHolderBasicInformationOutput {
     docSex: string | null;
     ssnItin: string | null;
     passportNumber: string | null;
-    ternAddress: Address;
+    address: AddressOutput;
+    ternAddress: AddressOutput;
     accountInformation: CardHolderAccountInformation
 }
