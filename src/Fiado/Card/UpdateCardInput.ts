@@ -4,6 +4,7 @@ export type UpdateCardInput = {
 
     expirationMonth?: string,
     expirationYear?: string,
+    externalCardId?: string,
     holder?: {
         name: string,
         lastName: string
