@@ -31,4 +31,5 @@ export interface GetBankAccountCardOutput {
     address?: AddressOutput,
     status: BankAccountCardStatus,
     statusDetail?: BankAccountCardStatusDetail,
+    createDate: string;
 }
