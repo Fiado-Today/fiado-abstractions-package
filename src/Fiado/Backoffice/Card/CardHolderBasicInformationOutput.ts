@@ -16,9 +16,9 @@ export interface CardHolderBasicInformationOutput {
     latNames: string | null;
     latLastNameMaternal: string | null;
     latLastNamePaternal: string | null;
-    ternName: string | null;
-    ternLastName: string | null;
-    ternUserId: string | null;
+    externalName: string | null;
+    externalLastName: string | null;
+    externalUserId: string | null;
     countryOfBirth: string | null;
     curp: string | null;
     dateOfBirth: string | null;
@@ -26,6 +26,6 @@ export interface CardHolderBasicInformationOutput {
     ssnItin: string | null;
     passportNumber: string | null;
     address: AddressOutput;
-    ternAddress: AddressOutput;
+    externalAddress: AddressOutput;
     accountInformation: CardHolderAccountInformation
 }
