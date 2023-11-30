@@ -6,4 +6,5 @@ export type UpdateAccountInput = {
     routingNumber?: string;
     externalAccountId?: string;
     externalSubAccountId?: string;
+    currentBalance? : number;
 }
