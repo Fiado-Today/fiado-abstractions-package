@@ -7,8 +7,8 @@ export interface UpdateCardHolderInformationInput {
     latNames: string | null;
     latLastNameMaternal: string | null;
     latLastNamePaternal: string | null;
-    ternName: string | null;
-    ternLastName: string | null;
+    externalName: string | null;
+    externalLastName: string | null;
     dateOfBirth: string | null;
     countryOfBirth: string | null;
     curp: string | null;
