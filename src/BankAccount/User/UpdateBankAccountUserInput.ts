@@ -14,7 +14,7 @@ export interface UpdateBankAccountUserInput {
     sex?: Sex,
     email?: string,
     phoneNumber?: string,
-    status: BankAccountUserStatus,
+    status?: BankAccountUserStatus,
     taxNumber?: string,
     taxType?: TaxType,
     address?: AddressOutput,
