@@ -12,5 +12,6 @@ export interface CVContract {
     sumCVAmountUSD: number,
     netCVAmountUSD: number,
     approved: boolean
-    cvContractVersion: string
+    cvContractVersion: string,
+    tenantId: string,
 }

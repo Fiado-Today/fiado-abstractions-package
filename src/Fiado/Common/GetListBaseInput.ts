@@ -5,4 +5,5 @@ export interface GetListBaseInput {
     createDate?: string,
     updateDate?: string,
     pagination?:PaginationInput
-}
+    tenantId?:string
+} 
