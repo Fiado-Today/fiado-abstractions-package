@@ -3,7 +3,7 @@ import { EntityBase } from "../../Entities/Base/EntityBase";
 
 export interface CollectorTransaction extends EntityBase{
     transactionNumber:string,
-    relatedExternalId:string,
+    relatedExternalId:string|null,
     directoryUserId:string,
     contractInfo: ContractInfo[],
     currencyId:string,
