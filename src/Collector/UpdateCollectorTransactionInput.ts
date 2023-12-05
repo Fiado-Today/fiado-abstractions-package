@@ -9,5 +9,6 @@ export interface UpdateCollectorTransactionInput {
         sumCollectorAmountUSD?:number,
         availableBalance?:boolean,
         errorLog?:string|null,
-        cobrado?:boolean
+        cobrado?:boolean,
+        updateDate?:string,
 }
