@@ -2,6 +2,7 @@ import {AddressOutput} from "../../Address/AddressOutput";
 
 export interface UpdateCardHolderInformationInput {
     directoryId: string;
+    indexName: string;
     usNames: string;
     usLastNames: string;
     latNames: string | null;

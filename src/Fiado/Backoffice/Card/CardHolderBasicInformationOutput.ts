@@ -11,6 +11,7 @@ export interface CardHolderAccountInformation {
 export interface CardHolderBasicInformationOutput {
     directoryId: string;
     peopleId: string;
+    indexName: string | null;
     usNames: string | null;
     usLastNames: string | null;
     latNames: string | null;
