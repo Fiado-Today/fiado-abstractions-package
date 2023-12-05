@@ -8,6 +8,6 @@ export interface UpdateCollectorTransactionInput {
         tcSpread?:number,
         sumCollectorAmountUSD?:number,
         availableBalance?:boolean,
-        errorLog?:string,
+        errorLog?:string|null,
         cobrado?:boolean
 }
