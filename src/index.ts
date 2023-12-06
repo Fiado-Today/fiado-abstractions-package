@@ -231,6 +231,8 @@ import { ExternalProviderEnum } from "./Fiado/Backoffice/enums/ExternalProviderE
 import { ExternalReplaceCardInput } from "./Fiado/Backoffice/Card/ExternalReplaceCardInput";
 import { UpdateCardHolderInformationInput } from "./Fiado/Backoffice/Card/UpdateCardHolderInformationInput";
 import { UserContract } from "./Collector/UserContract";
+import { Trx } from "./Fiado/Database/Trx";
+import { TrxOutput } from "./Fiado/Transaction/TrxOutput";
 
 export {
     //BANK ACCOUNT
@@ -515,5 +517,10 @@ export {
     // S3
     SaveDocumentInput,
     SaveDocumentFiles,
-    S3File
+    S3File,
+
+    //Transaction
+    Trx,
+    TrxOutput,
+
 };
