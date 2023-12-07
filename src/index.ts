@@ -233,6 +233,7 @@ import { UpdateCardHolderInformationInput } from "./Fiado/Backoffice/Card/Update
 import { UserContract } from "./Collector/UserContract";
 import { Trx } from "./Fiado/Database/Trx";
 import { TrxOutput } from "./Fiado/Transaction/TrxOutput";
+import { TypeOfDocument as TypeOfDocumentDB } from "./Fiado/Database/TypeOfDocument";
 import { TrxTypeEnum } from "./Fiado/Transaction/TrxTypeEnum";
 
 export {
@@ -411,6 +412,7 @@ export {
     IdentificationDocument,
     IdentificationDocumentStatus,
     UpdateIdentificatificationDocumentStatus,
+    TypeOfDocumentDB,
 
     // BACKOFFICE
     GetBackofficeAccountInput,
