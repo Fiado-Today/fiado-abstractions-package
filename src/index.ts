@@ -235,6 +235,8 @@ import { Trx } from "./Fiado/Database/Trx";
 import { TrxOutput } from "./Fiado/Transaction/TrxOutput";
 import { TypeOfDocument as TypeOfDocumentDB } from "./Fiado/Database/TypeOfDocument";
 import { TrxTypeEnum } from "./Fiado/Transaction/TrxTypeEnum";
+import { GetOnboardingByDateInput } from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateInput";
+import { AccountIndexList } from "./Fiado/Database/indexes/AccountIndexList";
 
 export {
     //BANK ACCOUNT
@@ -516,6 +518,8 @@ export {
     ExternalProviderCard,
     ExternalProviderEnum,
     UpdateCardHolderInformationInput,
+    GetOnboardingByDateInput,
+    AccountIndexList,
 
     // S3
     SaveDocumentInput,

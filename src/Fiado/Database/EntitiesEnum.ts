@@ -1,5 +1,5 @@
 export enum EntitiesEnum {
-    APP_VERSION =  "AppVersion",
+    APP_VERSION = "AppVersion",
     ONBOARDING_USER = "OnboardingUser",
     DIRECTORY_USER = "DirectoryUser",
     TRANSACTION_MESSAGE = "TransactionMessage",
@@ -9,5 +9,6 @@ export enum EntitiesEnum {
     COLLECTOR_TRANSACTION = "CollectorTransaction",
     P2P_CONTACT_USER = "P2PContactUser",
     P2P_TRANSACTION_USER = "P2PTransactionCounterUser",
-    POCKET="Pocket",
+    POCKET = "Pocket",
+    ACCOUNT = "Account",
 }
