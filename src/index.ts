@@ -233,6 +233,7 @@ import { UpdateCardHolderInformationInput } from "./Fiado/Backoffice/Card/Update
 import { UserContract } from "./Collector/UserContract";
 import { Trx } from "./Fiado/Database/Trx";
 import { TrxOutput } from "./Fiado/Transaction/TrxOutput";
+import { TrxTypeEnum } from "./Fiado/Transaction/TrxTypeEnum";
 
 export {
     //BANK ACCOUNT
@@ -522,5 +523,6 @@ export {
     //Transaction
     Trx,
     TrxOutput,
+    TrxTypeEnum
 
 };
