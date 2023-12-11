@@ -1,4 +1,4 @@
-export interface UpdateReferralCodeInput {
+export interface UpdateShortCodeInput {
     id: string;
     newReferralCode: string;
 }

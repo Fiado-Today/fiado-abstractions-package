@@ -237,6 +237,8 @@ import { TypeOfDocument as TypeOfDocumentDB } from "./Fiado/Database/TypeOfDocum
 import { TrxTypeEnum } from "./Fiado/Transaction/TrxTypeEnum";
 import { GetOnboardingByDateRangeInput } from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeInput";
 import { AccountIndexList } from "./Fiado/Database/indexes/AccountIndexList";
+import { GetOnboardingByDateRangeOutput } from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeOutput";
+import { UpdateShortCodeInput } from "./Fiado/Backoffice/Onboarding/UpdateShortCodeInput";
 
 export {
     //BANK ACCOUNT
@@ -422,6 +424,8 @@ export {
     UpdateBackofficeExternalAccountInput,
     UpdateBackofficeExternalAccountOutput,
     GetAccountInput,
+    UpdateShortCodeInput,
+    GetOnboardingByDateRangeOutput,
 
 
     //Database
