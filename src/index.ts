@@ -223,22 +223,24 @@ import {
     CardHolderBasicInformationOutput
 } from "./Fiado/Backoffice/Card/CardHolderBasicInformationOutput";
 import {CardInformationItem, CardInformationOutput} from "./Fiado/Backoffice/Card/CardInformationOutput";
-import { CardDeliveryEnum } from "./Fiado/Card/CardDeliveryEnum";
-import { ReplaceCardInput } from "./Fiado/Backoffice/Card/ReplaceCardInput";
-import {ExternalProviderCard, ExternalReplaceCardOutput } from "./Fiado/Backoffice/Card/ExternalReplaceCardOutput";
-import { CardReasonEnum } from "./Fiado/Backoffice/enums/CardReasonEnum";
-import { ExternalProviderEnum } from "./Fiado/Backoffice/enums/ExternalProviderEnum";
-import { ExternalReplaceCardInput } from "./Fiado/Backoffice/Card/ExternalReplaceCardInput";
-import { UpdateCardHolderInformationInput } from "./Fiado/Backoffice/Card/UpdateCardHolderInformationInput";
-import { UserContract } from "./Collector/UserContract";
-import { Trx } from "./Fiado/Database/Trx";
-import { TrxOutput } from "./Fiado/Transaction/TrxOutput";
-import { TypeOfDocument as TypeOfDocumentDB } from "./Fiado/Database/TypeOfDocument";
-import { TrxTypeEnum } from "./Fiado/Transaction/TrxTypeEnum";
-import { GetOnboardingByDateRangeInput } from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeInput";
-import { AccountIndexList } from "./Fiado/Database/indexes/AccountIndexList";
-import { GetOnboardingByDateRangeOutput } from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeOutput";
-import { UpdateShortCodeInput } from "./Fiado/Backoffice/Onboarding/UpdateShortCodeInput";
+import {CardDeliveryEnum} from "./Fiado/Card/CardDeliveryEnum";
+import {ReplaceCardInput} from "./Fiado/Backoffice/Card/ReplaceCardInput";
+import {ExternalProviderCard, ExternalReplaceCardOutput} from "./Fiado/Backoffice/Card/ExternalReplaceCardOutput";
+import {CardReasonEnum} from "./Fiado/Backoffice/enums/CardReasonEnum";
+import {ExternalProviderEnum} from "./Fiado/Backoffice/enums/ExternalProviderEnum";
+import {ExternalReplaceCardInput} from "./Fiado/Backoffice/Card/ExternalReplaceCardInput";
+import {UpdateCardHolderInformationInput} from "./Fiado/Backoffice/Card/UpdateCardHolderInformationInput";
+import {UserContract} from "./Collector/UserContract";
+import {Trx} from "./Fiado/Database/Trx";
+import {TrxOutput} from "./Fiado/Transaction/TrxOutput";
+import {TypeOfDocument as TypeOfDocumentDB} from "./Fiado/Database/TypeOfDocument";
+import {TrxTypeEnum} from "./Fiado/Transaction/TrxTypeEnum";
+import {GetOnboardingByDateRangeInput} from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeInput";
+import {AccountIndexList} from "./Fiado/Database/indexes/AccountIndexList";
+import {GetOnboardingByDateRangeOutput} from "./Fiado/Backoffice/Onboarding/GetOnboardingByDateRangeOutput";
+import {UpdateShortCodeInput} from "./Fiado/Backoffice/Onboarding/UpdateShortCodeInput";
+import {UpdateReferralCodesListInput} from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesListInput";
+import {UpdateReferralCodesInput} from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesInput";
 
 export {
     //BANK ACCOUNT
@@ -426,6 +428,8 @@ export {
     GetAccountInput,
     UpdateShortCodeInput,
     GetOnboardingByDateRangeOutput,
+    UpdateReferralCodesInput,
+    UpdateReferralCodesListInput,
 
 
     //Database
