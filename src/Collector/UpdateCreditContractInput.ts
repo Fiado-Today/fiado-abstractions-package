@@ -10,6 +10,6 @@ export interface UpdateCreditContractInput {
     collectorDate?: string
     collectorAmountUSD?: number
     profit?: number
-    inBuro?: boolean
-    inPLD?: boolean
+    inBuro?: number
+    inPLD?: number
 }
