@@ -241,6 +241,7 @@ import {GetOnboardingByDateRangeOutput} from "./Fiado/Backoffice/Onboarding/GetO
 import {UpdateShortCodeInput} from "./Fiado/Backoffice/Onboarding/UpdateShortCodeInput";
 import {UpdateReferralCodesListInput} from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesListInput";
 import {UpdateReferralCodesInput} from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesInput";
+import { UpdateReferralCodesOutput } from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesOutput";
 
 export {
     //BANK ACCOUNT
@@ -430,7 +431,7 @@ export {
     GetOnboardingByDateRangeOutput,
     UpdateReferralCodesInput,
     UpdateReferralCodesListInput,
-
+    UpdateReferralCodesOutput,
 
     //Database
     DatabaseIndexType,
