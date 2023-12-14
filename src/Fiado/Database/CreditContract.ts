@@ -23,6 +23,6 @@ export interface CreditContract  extends EntityBase{
     collectorDate: string|null;
     collectorAmountUSD: number;
     profit: number;
-    inBuro: boolean|null;
-    inPLD: boolean|null;
+    inBuro: number;
+    inPLD: number;
 }
