@@ -22,6 +22,7 @@ export interface Trx {
     collectorData: CollectorData | null;
     credit: Credit | null;
     createDate: string;
+    relatedId: string | null;
 }
 
 export interface Credit {
