@@ -20,7 +20,7 @@ export interface GetCreditContractInput extends GetListBaseInput{
     collectorDate?: string|null;
     collectorAmount?: number|null;
     profit?: number|null;
-    inBuro?: number|null;
-    inPLD?: number|null;
+    inBuro?: number;
+    inPLD?: number;
 }
 
