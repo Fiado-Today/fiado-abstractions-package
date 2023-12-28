@@ -243,6 +243,8 @@ import {UpdateReferralCodesListInput} from "./Fiado/Backoffice/Onboarding/Update
 import {UpdateReferralCodesInput} from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesInput";
 import { UpdateReferralCodesOutput } from "./Fiado/Backoffice/Onboarding/UpdateReferralCodesOutput";
 import { KycVerificationMetadata, KycVerificationsQueueMessage } from "./Fiado/KycVerifications/KycVerificationsQueueMessage";
+import { formatBaseListInputFromQueryParameters } from "./General/FormatBaseListInputFromQueryParameters";
+import { formatQueryParameters } from "./General/FormatQueryParameters";
 
 export {
     //BANK ACCOUNT
@@ -543,5 +545,8 @@ export {
 
     //KYCVerifications
     KycVerificationsQueueMessage,
-    KycVerificationMetadata
+    KycVerificationMetadata,
+
+    formatBaseListInputFromQueryParameters,
+    formatQueryParameters
 };
