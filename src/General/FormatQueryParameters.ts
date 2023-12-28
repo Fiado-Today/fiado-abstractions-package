@@ -8,7 +8,10 @@ export const formatQueryParameters = (params: GetListBaseInput) => {
     if (params) {
         Object.keys(params).forEach((indexName: string): void => {
             if (indexName !== "pagination") {
-                queryParams.push(`${indexName}=${params[indexName as keyof GetListBaseInput]}`);
+                let param:any = params[indexName as keyof GetListBaseInput]
+                if(param !== undefined && param !== null){
+                    queryParams.push(`${indexName}=${encodeURIComponent(param)}`);
+                }
             }
         });
     }
@@ -16,19 +19,21 @@ export const formatQueryParameters = (params: GetListBaseInput) => {
     if(params.pagination){
         if(params.pagination.index){
             Object.keys(params.pagination.index).forEach((indexName: string): void => {
-                console.log(indexName);
                 if(params.pagination?.index){
-                    queryParams.push(`ix_${indexName}=${params.pagination?.index[indexName as keyof GetListBaseInput["pagination"]]}`)
+                    let param:any = params.pagination?.index[indexName as keyof GetListBaseInput["pagination"]]
+                    queryParams.push(`ix_${indexName}=${encodeURIComponent(param)}`)
                 }
             });
         }
 
         if(params.pagination.pageNumber){
-            queryParams.push(`pag_pageNumber=${params.pagination.pageNumber}`);
+            let param:any = params.pagination.pageNumber
+            queryParams.push(`pag_pageNumber=${encodeURIComponent(param)}`);
         }
 
         if(params.pagination.pageSize){
-            queryParams.push(`pag_pageSize=${params.pagination.pageSize}`);
+            let param:any = params.pagination.pageSize
+            queryParams.push(`pag_pageSize=${encodeURIComponent(param)}`);
         }
     }
  
