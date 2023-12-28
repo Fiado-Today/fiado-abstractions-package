@@ -245,6 +245,7 @@ import { UpdateReferralCodesOutput } from "./Fiado/Backoffice/Onboarding/UpdateR
 import { KycVerificationMetadata, KycVerificationsQueueMessage } from "./Fiado/KycVerifications/KycVerificationsQueueMessage";
 import { formatBaseListInputFromQueryParameters } from "./General/FormatBaseListInputFromQueryParameters";
 import { formatQueryParameters } from "./General/FormatQueryParameters";
+import { GetCardInput } from "./Fiado/Card/GetCardInput";
 
 export {
     //BANK ACCOUNT
@@ -320,6 +321,7 @@ export {
     BankAccountCardShippingType,
     BankAccountTypeEnum,
     BankAccountUserType,
+    GetCardInput,
 
     //BENEFICIARY
     CreateBeneficiaryInput,

@@ -11,4 +11,5 @@ export enum EntitiesEnum {
     P2P_TRANSACTION_USER = "P2PTransactionCounterUser",
     POCKET = "Pocket",
     ACCOUNT = "Account",
+    CARD = "Card"
 }
