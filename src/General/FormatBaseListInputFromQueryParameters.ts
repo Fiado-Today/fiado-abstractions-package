@@ -42,18 +42,12 @@ export const formatBaseListInputFromQueryParameters = (queryParams: any) => {
         paginationParams.forEach((key) => {
             if(key === 'pageSize'){
                 indexParamsObject.pagination[key] = parseInt(queryParams['pag_' + key]);
+            }else{
+                indexParamsObject.pagination[key] = queryParams['pag_' + key];
             }
             
-            if(key === 'pageNumber'){
-                indexParamsObject.pagination[key] = queryParams['pag_' + key];
-            }
-
-            if(key === 'scanIndexForward'){
-                indexParamsObject.pagination[key] = queryParams['pag_' + key];
-            }
         });
     }
-    
     return indexParamsObject;
 }
 
