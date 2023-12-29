@@ -27,7 +27,7 @@ export const formatQueryParameters = (params: GetListBaseInput) => {
         }
 
 
-        if(params.pagination.scanIndexForward){
+        if(params.pagination.scanIndexForward != undefined){
             let param:any = params.pagination.scanIndexForward
             queryParams.push(`pag_scanIndexForward=${encodeURIComponent(param)}`);
         }
