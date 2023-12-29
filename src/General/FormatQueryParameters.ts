@@ -29,7 +29,7 @@ export const formatQueryParameters = (params: GetListBaseInput) => {
 
         if(params.pagination.scanIndexForward){
             let param:any = params.pagination.scanIndexForward
-            queryParams.push(`pag_pageNumber=${encodeURIComponent(param)}`);
+            queryParams.push(`pag_scanIndexForward=${encodeURIComponent(param)}`);
         }
 
         if(params.pagination.pageNumber){
