@@ -246,6 +246,7 @@ import { KycVerificationMetadata, KycVerificationsQueueMessage } from "./Fiado/K
 import { formatBaseListInputFromQueryParameters } from "./General/FormatBaseListInputFromQueryParameters";
 import { formatQueryParameters } from "./General/FormatQueryParameters";
 import { GetCardInput } from "./Fiado/Card/GetCardInput";
+import { GetTransactionInput } from "./Fiado/Transaction/GetTransactionInput";
 
 export {
     //BANK ACCOUNT
@@ -452,6 +453,7 @@ export {
     //PomeloTransaction
     PomeloTransaction,
     CreatePomeloTransactionInput,
+    GetTransactionInput,
 
     //MessageNotification
     MessageTypeEnum,
