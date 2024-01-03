@@ -7,7 +7,9 @@ export enum KycVerificationStatus  {
 export interface KycVerifications {
     id: string;
     directoryId: string;
+    peopleId: string;
     metamapFlowId: string;
+    metamapFlowName: string;
     typeOfDocumentId: string;
     createDate: string;
     updateDate: string;
