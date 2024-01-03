@@ -1,3 +1,9 @@
+export enum KycVerificationStatus  {
+    SENT = "SENT",
+    IN_PROGRESS = "IN_PROGRESS",
+    COMPLETED = "COMPLETED",
+}
+
 export interface KycVerifications {
     id: string;
     directoryId: string;
@@ -5,6 +11,6 @@ export interface KycVerifications {
     typeOfDocumentId: string;
     createDate: string;
     updateDate: string;
-    verificationStatus: string;
+    verificationStatus: KycVerificationStatus;
     verificationResult: string;
 }

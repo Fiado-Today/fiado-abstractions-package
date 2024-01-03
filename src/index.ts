@@ -247,7 +247,7 @@ import { formatBaseListInputFromQueryParameters } from "./General/FormatBaseList
 import { formatQueryParameters } from "./General/FormatQueryParameters";
 import { GetCardInput } from "./Fiado/Card/GetCardInput";
 import { GetTransactionInput } from "./Fiado/Transaction/GetTransactionInput";
-import { KycVerifications } from "./Fiado/Database/KycVerifications";
+import { KycVerifications, KycVerificationStatus } from "./Fiado/Database/KycVerifications";
 
 export {
     //BANK ACCOUNT
@@ -445,7 +445,6 @@ export {
     DatabaseIndexListType,
     EntitiesEnum,
     IndexList,
-    KycVerifications,
 
 
     //PomeloPresentment
@@ -552,6 +551,8 @@ export {
     //KYCVerifications
     KycVerificationsQueueMessage,
     KycVerificationMetadata,
+    KycVerificationStatus,
+    KycVerifications,
 
     formatBaseListInputFromQueryParameters,
     formatQueryParameters
