@@ -1,4 +1,5 @@
 export enum KycVerificationStatus {
+    CREATED = "CREATED",
     SENT = "SENT",
     IN_PROGRESS = "IN_PROGRESS",
     COMPLETED = "COMPLETED",
