@@ -6,5 +6,6 @@ export type UpdatePeopleStepInput = {
     step: PeopleStepEnum;
     value: boolean;
     verificationId: string;
+    typeOfDocument?: string;
 
 }
