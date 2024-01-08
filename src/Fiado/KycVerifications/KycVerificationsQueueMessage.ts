@@ -12,4 +12,5 @@ export interface KycVerificationMetadata {
 }
 export interface KycVerificationsQueueMessage {
     metadata: KycVerificationMetadata;
+    documentUploaded: "DOCUMENT_PHOTO" | "VIDEO_SELFIE"
 }
