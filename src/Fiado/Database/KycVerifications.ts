@@ -1,4 +1,4 @@
-export enum KycVerificationStatus  {
+export enum KycVerificationStatus {
     SENT = "SENT",
     IN_PROGRESS = "IN_PROGRESS",
     COMPLETED = "COMPLETED",
@@ -15,4 +15,5 @@ export interface KycVerifications {
     updateDate: string;
     verificationStatus: KycVerificationStatus;
     verificationResult: string;
+    faceMatchResult: boolean | null;
 }
